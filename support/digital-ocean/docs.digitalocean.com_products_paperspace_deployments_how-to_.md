@@ -1,0 +1,181 @@
+---
+url: "https://docs.digitalocean.com/products/paperspace/deployments/how-to/"
+title: "Deployments How-Tos | DigitalOcean Documentation"
+---
+
+- [DigitalOcean \| Docs](https://docs.digitalocean.com/)
+
+- [Platform](https://docs.digitalocean.com/platform/)
+- [Products](https://docs.digitalocean.com/products/)
+- [Reference](https://docs.digitalocean.com/reference/)
+- [Support](https://docs.digitalocean.com/support/)
+- [Sign Up](https://cloud.digitalocean.com/registrations/new)
+
+- [Paperspace](https://docs.digitalocean.com/products/paperspace/)
+- [![](https://docs.digitalocean.com/images/icons/deployments.3b7f4d8d82c236b51d91c8becee94bb424055a671131be322532b5d1cd26cc20.svg)Deployments](https://docs.digitalocean.com/products/paperspace/deployments/)
+  - [Getting Started](https://docs.digitalocean.com/products/paperspace/deployments/getting-started/)
+    - [Quickstart](https://docs.digitalocean.com/products/paperspace/deployments/getting-started/quickstart/)
+    - [Deploy Model to Endpoint](https://docs.digitalocean.com/products/paperspace/deployments/getting-started/deploy-model-to-endpoint/)
+  - [How-Tos](https://docs.digitalocean.com/products/paperspace/deployments/how-to/)
+    - [Create Deployments](https://docs.digitalocean.com/products/paperspace/deployments/how-to/create-deployments/)
+    - [View Logs](https://docs.digitalocean.com/products/paperspace/deployments/how-to/view-deployment-logs/)
+    - [View Metrics](https://docs.digitalocean.com/products/paperspace/deployments/how-to/view-deployment-metrics/)
+    - [Delete Deployments](https://docs.digitalocean.com/products/paperspace/deployments/how-to/delete-deployments/)
+    - [Use Images](https://docs.digitalocean.com/products/paperspace/deployments/how-to/use-images/)
+    - [Use Integrations](https://docs.digitalocean.com/products/paperspace/deployments/how-to/use-integrations/)
+    - [Use Secrets](https://docs.digitalocean.com/products/paperspace/deployments/how-to/use-secrets/)
+    - [Use Custom Containers](https://docs.digitalocean.com/products/paperspace/deployments/how-to/manage-containers/)
+    - [Use GitHub Actions](https://docs.digitalocean.com/products/paperspace/deployments/how-to/use-github-action/)
+  - [Reference](https://docs.digitalocean.com/products/paperspace/deployments/reference/)
+    - [Paperspace API](https://docs.digitalocean.com/reference/paperspace/api-reference/)
+    - [Paperspace CLIprivate](https://docs.digitalocean.com/reference/paperspace/pspace/)
+    - [Gradient API, CLI, & SDK](https://docs.digitalocean.com/reference/paperspace/gradient/)
+    - [Deployment Spec](https://docs.digitalocean.com/products/paperspace/deployments/reference/deployment-spec/)
+    - [Autoscaling](https://docs.digitalocean.com/products/paperspace/deployments/reference/autoscaling/)
+    - [Endpoint Security](https://docs.digitalocean.com/products/paperspace/deployments/reference/endpoint-security/)
+    - [Health Checks](https://docs.digitalocean.com/products/paperspace/deployments/reference/health-checks/)
+  - [Concepts](https://docs.digitalocean.com/products/paperspace/deployments/concepts/)
+    - [Deployment Basics](https://docs.digitalocean.com/products/paperspace/deployments/concepts/deployment-basics/)
+  - [Details](https://docs.digitalocean.com/products/paperspace/deployments/details/)
+    - [Features](https://docs.digitalocean.com/products/paperspace/deployments/details/features/)
+    - [Pricing](https://docs.digitalocean.com/products/paperspace/deployments/details/pricing/)
+    - [Availability](https://docs.digitalocean.com/products/paperspace/deployments/details/availability/)
+    - [Limits](https://docs.digitalocean.com/products/paperspace/deployments/details/limits/)
+  - [Support](https://docs.digitalocean.com/products/paperspace/deployments/support/)
+
+- [Deployments](https://docs.digitalocean.com/products/paperspace/deployments/)
+- How-Tos
+
+[Give Feedback](https://ideas.digitalocean.com/documentation)
+
+# Deployments How-Tos
+
+Generated on 25 Nov 2025
+
+Paperspace Deployments are containers-as-a-service that allow you to run container images and serve machine learning models using a high-performance, low-latency service with a RESTful API.
+
+## Getting Started
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Create Deployments Using the Paperspace CLI
+
+Create Gradient Deployments, get started, and use advanced features.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to View Logs for Gradient Deployments
+
+Access real time and post-workload system logs for Gradient Deployments.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to View Metrics for Gradient Deployments
+
+Access CPU usage, RAM usage, and requests issued metrics for Gradient Deployments.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Delete Paperspace Deployments
+
+Delete a deployment to save on storage.
+
+## Configuration
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Use Container Images for Paperspace Deployments
+
+Choose a specific container image for a Deployment.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Use Paperspace Integrations
+
+Connect repositories and storage solutions to your deployment.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Use Secrets and Environment Variables in Gradient Deployments
+
+Use secrets in Gradient Deployments.
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Use Custom Containers in Gradient Deployments
+
+Use and manage custom containers in Gradient Deployments to define consistent, reproducible runtime environments for your applications and models.
+
+## CI/CD Workflow
+
+![](https://docs.digitalocean.com/images/icons/deployments.svg)
+
+How to Deploy Using GitHub Actions with Gradient Deployments
+
+A reference guide to using GitHub Actions with Gradient Deployments.
+
+In this article...
+
+[Deployments How-Tos](https://docs.digitalocean.com/products/paperspace/deployments/how-to/)
+
+##### Company
+
+- [About](https://www.digitalocean.com/about)
+- [Careers](https://www.digitalocean.com/careers)
+- [Blog](https://www.digitalocean.com/blog)
+
+##### Docs
+
+- [Docs Home](https://docs.digitalocean.com/)
+- [API Reference](https://docs.digitalocean.com/reference/api)
+- [CLI Reference](https://docs.digitalocean.com/reference/doctl)
+- [Release Notes](https://docs.digitalocean.com/release-notes)
+- [Trust Platform](https://www.digitalocean.com/trust)
+
+##### Community
+
+- [Tutorials](https://www.digitalocean.com/community/tutorials)
+- [Q&A](https://www.digitalocean.com/community/questions)
+- [Write for DOnations](https://www.digitalocean.com/community/pages/write-for-digitalocean)
+- [Currents Research](https://www.digitalocean.com/currents)
+- [Legal](https://www.digitalocean.com/legal)
+- [Code of Conduct](https://www.digitalocean.com/community/pages/code-of-conduct)
+
+##### Support
+
+- [Support Center](https://docs.digitalocean.com/support)
+- [Report Abuse](https://www.digitalocean.com/company/contact/abuse)
+
+* * *
+
+Cookie Preferences
+
+© 2025 DigitalOcean, LLC. All rights reserved
+
+### We can't find any results for your search.
+
+Try using different keywords or simplifying your search terms.
+
+Loading...
+
+## Product Docs
+
+### We can't find any results for your search.
+
+Try using different keywords or simplifying your search terms.
+
+## Marketplace
+
+## DigitalOcean Blog
+
+## Community
+
+navigategoexit
+
+GenAI Agent - DigitalOcean
+
+![DigitalOcean Docs Agent](https://product-docs.nyc3.cdn.digitaloceanspaces.com/ai-agent-icon.svg)
+
+This site uses cookies and related technologies, as described in our [privacy policy](https://www.digitalocean.com/legal/privacy-policy/), for purposes that may include site operation, analytics, enhanced user experience, or advertising. You may choose to consent to our use of these technologies, or manage your own preferences. Please visit our [cookie policy](https://www.digitalocean.com/legal/cookie-policy) for more information.
+
+Agree & ProceedDecline AllManage Choices

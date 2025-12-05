@@ -16,6 +16,7 @@ Platform support, troubleshooting guides, and integration documentation.
 #### Platforms & Infrastructure  
 - **`support/vercel/`** - Vercel deployment and hosting documentation (946 files)
 - **`support/supabase/`** - Supabase database and backend documentation (1,682 files)
+- **`support/digital-ocean/`** - DigitalOcean cloud infrastructure documentation (3,812 files)
 - **`support/cpanel/`** - cPanel hosting management documentation (2 files)
 - **`support/node.js/`** - Node.js development documentation (15 files)
 
@@ -44,6 +45,7 @@ This repository contains comprehensive documentation for troubleshooting, integr
 **Platform Documentation:**
 - [Vercel Deployment Guide](support/vercel/)
 - [Supabase Database Setup](support/supabase/)
+- [DigitalOcean Infrastructure](support/digital-ocean/)
 - [Node.js API Development](support/node.js/)
 
 **Business Applications:**
@@ -54,8 +56,8 @@ This repository contains comprehensive documentation for troubleshooting, integr
 - [GoHighLevel API](api/ghl-api/)
 - [ServiceTitan API](api/servicetitan/)
 
-## Total Files: 17,823 documentation files
-- Support Documentation: 16,504 files
+## Total Files: 21,635 documentation files
+- Support Documentation: 20,316 files
 - API Documentation: 1,326 files
 
 Last Updated: December 5, 2024

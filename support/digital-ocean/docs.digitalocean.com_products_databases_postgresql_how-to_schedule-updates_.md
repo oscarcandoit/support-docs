@@ -1,0 +1,269 @@
+---
+url: "https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/"
+title: "How to Schedule Automatic Software Updates for PostgreSQL Database Clusters | DigitalOcean Documentation"
+---
+
+- [DigitalOcean \| Docs](https://docs.digitalocean.com/)
+
+- [Platform](https://docs.digitalocean.com/platform/)
+- [Products](https://docs.digitalocean.com/products/)
+- [Reference](https://docs.digitalocean.com/reference/)
+- [Support](https://docs.digitalocean.com/support/)
+- [Sign Up](https://cloud.digitalocean.com/registrations/new)
+
+- [![](https://docs.digitalocean.com/images/icons/postgresql.855c43f1f82e98a24a05998729b39a9937438c7f77af3dc0c22da5a5739f5eb7.svg)PostgreSQL](https://docs.digitalocean.com/products/databases/postgresql/)
+- [Getting Started](https://docs.digitalocean.com/products/databases/postgresql/getting-started/)
+  - [Quickstart](https://docs.digitalocean.com/products/databases/postgresql/getting-started/quickstart/)
+- [How-Tos](https://docs.digitalocean.com/products/databases/postgresql/how-to/)
+  - [Create PostgreSQL Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/create/)
+  - [Connect to PostgreSQL Cluster](https://docs.digitalocean.com/products/databases/postgresql/how-to/connect/)
+  - [Resize Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/resize/)
+  - [Import Databases](https://docs.digitalocean.com/products/databases/postgresql/how-to/import-databases/)
+  - [Secure PostgreSQL Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/secure/)
+  - [Migrate External Databases](https://docs.digitalocean.com/products/databases/postgresql/how-to/migrate/)
+  - [Schedule Automatic Updates](https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/)
+  - [Manage Users and Databases](https://docs.digitalocean.com/products/databases/postgresql/how-to/manage-users-and-databases/)
+  - [Modify User Privileges](https://docs.digitalocean.com/products/databases/postgresql/how-to/modify-user-privileges/)
+  - [Monitor PostgreSQL Performance](https://docs.digitalocean.com/products/databases/postgresql/how-to/monitor-databases/)
+  - [Add Standby Nodes](https://docs.digitalocean.com/products/databases/postgresql/how-to/add-standby-nodes/)
+  - [Add Read-Only Nodes](https://docs.digitalocean.com/products/databases/postgresql/how-to/add-read-only-nodes/)
+  - [Manage Connection Pools](https://docs.digitalocean.com/products/databases/postgresql/how-to/manage-connection-pools/)
+  - [Monitor Cluster Performance](https://docs.digitalocean.com/products/databases/postgresql/how-to/monitor-clusters/)
+  - [Set Up Monitoring Alerts](https://docs.digitalocean.com/products/databases/postgresql/how-to/set-up-alerts/)
+  - [Relocate Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/relocate/)
+  - [Fork Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/fork-clusters/)
+  - [Forward Logs](https://docs.digitalocean.com/products/databases/postgresql/how-to/forward-logs/)
+  - [Restore from Backups](https://docs.digitalocean.com/products/databases/postgresql/how-to/restore-from-backups/)
+  - [Destroy Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/destroy/)
+  - [Tag Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/tag/)
+  - [Upgrade PostgreSQL](https://docs.digitalocean.com/products/databases/postgresql/how-to/upgrade-version/)
+  - [Reconfigure Database Clusters](https://docs.digitalocean.com/products/databases/postgresql/how-to/reconfigure/)
+- [Reference](https://docs.digitalocean.com/products/databases/postgresql/reference/)
+  - [API Reference](https://docs.digitalocean.com/reference/api/digitalocean/#tag/Databases)
+  - [CLI Reference](https://docs.digitalocean.com/reference/doctl/reference/databases/)
+- [Concepts](https://docs.digitalocean.com/products/databases/postgresql/concepts/)
+  - [Best Practices](https://docs.digitalocean.com/products/databases/postgresql/concepts/best-practices/)
+  - [Migration Strategies](https://docs.digitalocean.com/products/databases/postgresql/concepts/migration-strategies/)
+  - [Shared Responsibility Model](https://docs.digitalocean.com/products/databases/postgresql/concepts/responsibility-model/)
+- [Details](https://docs.digitalocean.com/products/databases/postgresql/details/)
+  - [Features](https://docs.digitalocean.com/products/databases/postgresql/details/features/)
+  - [Pricing](https://docs.digitalocean.com/products/databases/postgresql/details/pricing/)
+  - [Availability](https://docs.digitalocean.com/products/databases/postgresql/details/availability/)
+  - [Limits](https://docs.digitalocean.com/products/databases/postgresql/details/limits/)
+  - [Supported Extensions](https://docs.digitalocean.com/products/databases/postgresql/details/supported-extensions/)
+  - [Cluster Notifications](https://docs.digitalocean.com/products/databases/postgresql/details/notifications/)
+  - [Service-Level Agreement](https://www.digitalocean.com/sla/databases)
+- [Support](https://docs.digitalocean.com/products/databases/postgresql/support/)
+
+- [How-Tos](https://docs.digitalocean.com/products/databases/postgresql/how-to/)
+- Schedule Automatic Updates
+
+[Give Feedback](https://ideas.digitalocean.com/documentation)
+
+# How to Schedule Automatic Software Updates for PostgreSQL Database Clusters
+
+Validated on 2 Aug 2019 • Last edited on 17 Jun 2025
+
+PostgreSQL is an open source, object-relational database built for extensibility, data integrity, and speed. Its concurrency support makes it fully ACID-compliant, and it supports dynamic loading and catalog-driven operations to let users customize its data types, functions, and more.
+
+DigitalOcean fully manages database software updates for database clusters on your behalf. During the update process, we create a new cluster with OS-level or `db_engine` updates applied, replicate the existing cluster’s data, and then update DNS (which changes the cluster’s underlying IP address).
+
+There is no downtime associated with these updates, but there may be brief periods of latency during the maintenance window. Updates are necessary for security and stability, so you can’t disable them, but you can customize the maintenance window or manually initiate an available update.
+
+## Set a Maintenance Window Using the CLI
+
+How to Set a Maintenance Window Using the DigitalOcean CLI
+
+1. [Install `doctl`](https://docs.digitalocean.com/reference/doctl/how-to/install/), the official DigitalOcean CLI.
+2. [Create a personal access token](https://docs.digitalocean.com/reference/api/create-personal-access-token/) and save it for use with `doctl`.
+3. Use the token to grant `doctl` access to your DigitalOcean account.
+
+
+
+
+```shell
+doctl auth init
+```
+
+4. Finally, run `doctl databases maintenance-window update`. Basic usage looks like this, but you can [read the usage docs](https://docs.digitalocean.com/reference/doctl/reference/databases/maintenance-window/update/) for more details:
+
+
+
+
+```shell
+doctl databases maintenance-window update <database-cluster-id> [flags]
+```
+
+
+
+The following example updates the maintenance window for a database cluster with the ID `ca9f591d-f38h-5555-a0ef-1c02d1d1e35`:
+
+
+
+
+```shell
+doctl databases maintenance-window update ca9f591d-f38h-5555-a0ef-1c02d1d1e35 --day tuesday --hour 16:00
+```
+
+
+## Set a Maintenance Window Using the API
+
+How to Set a Maintenance Window Using the DigitalOcean API
+
+1. [Create a personal access token](https://docs.digitalocean.com/reference/api/create-personal-access-token/) and save it for use with the API.
+2. Send a PUT request to [`https://api.digitalocean.com/v2/databases/{database_cluster_uuid}/maintenance`](https://docs.digitalocean.com/reference/api/digitalocean//#operation/databases_update_maintenanceWindow).
+
+### cURL
+
+Using cURL:
+
+```shell
+curl -X PUT \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $DIGITALOCEAN_TOKEN" \
+  -d '{"day": "tuesday", "hour": "14:00"}' \
+  "https://api.digitalocean.com/v2/databases/9cc10173-e9ea-4176-9dbc-a4cee4c4ff30/maintenance"
+```
+
+### Go
+
+Using [Godo](https://github.com/digitalocean/godo), the official DigitalOcean API client for Go:
+
+```go
+import (
+    "context"
+    "os"
+
+    "github.com/digitalocean/godo"
+)
+
+func main() {
+    token := os.Getenv("DIGITALOCEAN_TOKEN")
+
+    client := godo.NewFromToken(token)
+    ctx := context.TODO()
+
+    maintenanceRequest := &godo.DatabaseUpdateMaintenanceRequest{
+        Day:  "thursday",
+        Hour: "16:00",
+    }
+
+    _, err := client.Databases.UpdateMaintenance(ctx, "88055188-9e54-4f21-ab11-8a918ed79ee2", maintenanceRequest)
+}
+```
+
+### Python
+
+Using [PyDo](https://github.com/digitalocean/pydo), the official DigitalOcean API client for Python:
+
+```python
+import os
+from pydo import Client
+
+client = Client(token=os.environ.get("DIGITALOCEAN_TOKEN"))
+
+req = {
+  "day": "tuesday",
+  "hour": "14:00"
+}
+
+update_resp = client.databases.update_maintenance_window(database_cluster_uuid="a7a8bas", body=req)
+```
+
+## Set a Maintenance Window Using the Control Panel
+
+Note
+The maintenance window for a cluster applies to its primary node and any standby nodes. Each read-only node has its own maintenance window that is independent of the cluster and other read-only nodes.
+
+You can view or edit a cluster or read-only node’s current maintenance window from its **Settings** page, in the **Maintenance Window** section.
+
+![Screenshot of cluster settings page](https://docs.digitalocean.com/screenshots/databases/generic-cluster-settings.a7c5acfcf3078021df22347b3d28813722197b6ddf68b6ade6f1487d3ff74feb.png)
+
+Software updates may begin at any time in the 4-hour period after the maintenance window’s start time. For example, a maintenance window defined for Sundays at 7 PM will have updates at any time between 7 PM and 11 PM.
+
+To change a cluster or read-only node’s maintenance window, click **Edit**.
+
+![Screenshot of maintenance scheduler window](https://docs.digitalocean.com/screenshots/databases/maintenance-window.be88476517219da1f64585dfbad9995547840fb6395c10053c9188a73c3fab19.png)
+
+Choose the day of the week and the start time for the 4-hour maintenance window, then click **Save**.
+
+## Update Manually
+
+When new updates are available, cluster and read-only node **Overview** pages have a banner with basic information on the update.
+
+![The maintenance banner on a database overview page](https://docs.digitalocean.com/screenshots/databases/maintenance-banner.c3ab284b8816b43d450ec53dd75a7f9a21a07d418c7e415842b4d99c60c9ccd0.png)
+
+Click **Update Now** to open the **Required maintenance** window. This window specifies when the updates will be automatically applied.
+
+![The Required maintenance window with the Start Maintenance button visible](https://docs.digitalocean.com/screenshots/databases/required-maintenance-window.73c5cc5b38656c51d4ba6fabf233ac1c610e42747e1fa86aa1747bb5b4440f69.png)
+
+If you want to initiate the update immediately ahead of the scheduled maintenance window, click the **Start Maintenance** button. To manually update read-only nodes, you need to repeat this process for each individual node.
+
+In this article...
+
+- [Set a Maintenance Window Using the CLI](https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/#set-a-maintenance-window-using-the-cli)
+- [Set a Maintenance Window Using the API](https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/#set-a-maintenance-window-using-the-api)
+- [Set a Maintenance Window Using the Control Panel](https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/#set-a-maintenance-window-using-the-control-panel)
+- [Update Manually](https://docs.digitalocean.com/products/databases/postgresql/how-to/schedule-updates/#update-manually)
+
+##### Company
+
+- [About](https://www.digitalocean.com/about)
+- [Careers](https://www.digitalocean.com/careers)
+- [Blog](https://www.digitalocean.com/blog)
+
+##### Docs
+
+- [Docs Home](https://docs.digitalocean.com/)
+- [API Reference](https://docs.digitalocean.com/reference/api)
+- [CLI Reference](https://docs.digitalocean.com/reference/doctl)
+- [Release Notes](https://docs.digitalocean.com/release-notes)
+- [Trust Platform](https://www.digitalocean.com/trust)
+
+##### Community
+
+- [Tutorials](https://www.digitalocean.com/community/tutorials)
+- [Q&A](https://www.digitalocean.com/community/questions)
+- [Write for DOnations](https://www.digitalocean.com/community/pages/write-for-digitalocean)
+- [Currents Research](https://www.digitalocean.com/currents)
+- [Legal](https://www.digitalocean.com/legal)
+- [Code of Conduct](https://www.digitalocean.com/community/pages/code-of-conduct)
+
+##### Support
+
+- [Support Center](https://docs.digitalocean.com/support)
+- [Report Abuse](https://www.digitalocean.com/company/contact/abuse)
+
+* * *
+
+Cookie Preferences
+
+© 2025 DigitalOcean, LLC. All rights reserved
+
+### We can't find any results for your search.
+
+Try using different keywords or simplifying your search terms.
+
+Loading...
+
+## Product Docs
+
+### We can't find any results for your search.
+
+Try using different keywords or simplifying your search terms.
+
+## Marketplace
+
+## DigitalOcean Blog
+
+## Community
+
+navigategoexit
+
+GenAI Agent - DigitalOcean
+
+![DigitalOcean Docs Agent](https://product-docs.nyc3.cdn.digitaloceanspaces.com/ai-agent-icon.svg)
+
+This site uses cookies and related technologies, as described in our [privacy policy](https://www.digitalocean.com/legal/privacy-policy/), for purposes that may include site operation, analytics, enhanced user experience, or advertising. You may choose to consent to our use of these technologies, or manage your own preferences. Please visit our [cookie policy](https://www.digitalocean.com/legal/cookie-policy) for more information.
+
+Agree & ProceedDecline AllManage Choices

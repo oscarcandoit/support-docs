@@ -1,0 +1,29 @@
+---
+url: "https://docs.digitalocean.com/products/kubernetes/how-to/set-up-autoscaling/load-generator.yaml"
+title: undefined
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: load-generator
+ labels:
+ app: load-generator
+spec:
+ replicas: 1
+ selector:
+ matchLabels:
+ app: load-generator
+ template:
+ metadata:
+ name: load-generator
+ labels:
+ app: load-generator
+ spec:
+ containers:
+ \- name: load-generator
+ image: busybox
+ command:
+ \- /bin/sh
+ \- -c
+ \- "while true; do wget -q -O- http://hello.default.svc.cluster.local; done"
