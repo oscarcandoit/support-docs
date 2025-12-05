@@ -1,0 +1,340 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel"
+title: " Troubleshoot and Fix Calendar Double Booking in HighLevel : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [Calendars & Appointments](https://help.gohighlevel.com/support/solutions/48000449585)
+4. [Troubleshooting Calendars](https://help.gohighlevel.com/support/solutions/folders/155000000689)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [Calendars & Appointments](https://help.gohighlevel.com/support/solutions/48000449585)
+   - [Troubleshooting Calendars](https://help.gohighlevel.com/support/solutions/folders/155000000689)
+6. Troubleshoot and Fix Calendar Double Booking in HighLevel
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# Troubleshoot and Fix Calendar Double Booking in HighLevel
+
+Modified on: Wed, 28 May, 2025 at 9:54 AM
+
+Double booking issue troubleshoot
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+[Double booking issue troubleshoot](https://www.loom.com/share/784d4d40d5bd4953b9f34edfffecbaaa?source=embed_watch_on_loom_cta "Double booking issue troubleshoot")
+
+13 min
+
+3.4K views
+
+17
+
+[Open video in Loom](https://www.loom.com/share/784d4d40d5bd4953b9f34edfffecbaaa?source=embed_watch_on_loom_cta "Open video in Loom")
+
+1.2×
+
+13 min⚡️16 min13 min11 min8 min 28 sec7 min 28 sec6 min 21 sec5 min 4 sec
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Unassigned calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Blocked Slot from another Google calendar
+
+2
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+How to set up team calendar to check for conflicts in multiple Google calendar: [https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview)
++1 other comment
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+When did you link to the Google calenar?
+
+2
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Appointment per slot &gt;1
++1 other comment
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Booked appointment (with contact) but marked as cancelled, invalid, no-show.
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Calendar availability marked as free/busy in Google calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+All day event, by default, is marked as free
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+What each sync option means: [https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options)
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Team calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+appointment per slot for each user
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+user calendar configuration
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Add another account for users calendar integration
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Team calendar view - will not show personal events for each users
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Screenshot of google calendar
+
+![](https://cdn.loom.com/sessions/thumbnails/784d4d40d5bd4953b9f34edfffecbaaa-00001.jpg)
+
+Your user agent does not support the HTML5 Video element.
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+[Double booking issue troubleshoot](https://www.loom.com/share/784d4d40d5bd4953b9f34edfffecbaaa?source=embed_watch_on_loom_cta "Double booking issue troubleshoot")
+
+13 min
+
+3.4K views
+
+17
+
+[Open video in Loom](https://www.loom.com/share/784d4d40d5bd4953b9f34edfffecbaaa?source=embed_watch_on_loom_cta "Open video in Loom")
+
+1.2×
+
+13 min⚡️16 min13 min11 min8 min 28 sec7 min 28 sec6 min 21 sec5 min 4 sec
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Unassigned calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Blocked Slot from another Google calendar
+
+2
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+How to set up team calendar to check for conflicts in multiple Google calendar: [https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview)
++1 other comment
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+When did you link to the Google calenar?
+
+2
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Appointment per slot &gt;1
++1 other comment
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Booked appointment (with contact) but marked as cancelled, invalid, no-show.
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Calendar availability marked as free/busy in Google calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+All day event, by default, is marked as free
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+What each sync option means: [https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options)
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Team calendar
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+appointment per slot for each user
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+user calendar configuration
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Add another account for users calendar integration
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Team calendar view - will not show personal events for each users
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+Screenshot of google calendar
+
+How to set up group calendar to check for conflicts in multiple Google calendar:
+
+[https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48001161037-highlevel-teams-calendar-overview)
+
+What each sync option means:
+
+[https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options](https://gohighlevelassist.freshdesk.com/support/solutions/articles/48000989188-calendar-sync-options)
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [Google Calendar Writer Access Error](https://help.gohighlevel.com/support/solutions/articles/48001064575-google-calendar-writer-access-error)
+- [How to Re-Integrate Google Calendar for a User](https://help.gohighlevel.com/support/solutions/articles/48001181302-how-to-re-integrate-google-calendar-for-a-user)
+- [Why Appointment Time Slots Are Missing on Your Calendar](https://help.gohighlevel.com/support/solutions/articles/48001181711-why-appointment-time-slots-are-missing-on-your-calendar)
+- [When {{appointment.start\_time}} or any other appointment custom values are not showing up](https://help.gohighlevel.com/support/solutions/articles/48001181948-when-appointment-start-time-or-any-other-appointment-custom-values-are-not-showing-up)
+- [Contact got reassigned to another user when booking an appointment in Group calendar](https://help.gohighlevel.com/support/solutions/articles/48001183358-contact-got-reassigned-to-another-user-when-booking-an-appointment-in-group-calendar)
+- [Troubleshoot and Fix Calendar Double Booking in HighLevel](https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel)
+
+## Related Articles
+
+- [Why Appointment Time Slots Are Missing on Your Calendar](https://help.gohighlevel.com/support/solutions/articles/48001181711-why-appointment-time-slots-are-missing-on-your-calendar)
+- [Creating Rooms in HighLevel](https://help.gohighlevel.com/support/solutions/articles/155000001474-creating-rooms-in-highlevel)
+- [Integrating Outlook with HighLevel Calendars](https://help.gohighlevel.com/support/solutions/articles/155000002371-integrating-outlook-with-highlevel-calendars)
+- [Integrating Google with HighLevel Calendars](https://help.gohighlevel.com/support/solutions/articles/155000002369-integrating-google-with-highlevel-calendars)
+- [Appointment Booking for Voice AI Agents in HighLevel](https://help.gohighlevel.com/support/solutions/articles/155000005293-appointment-booking-for-voice-ai-agents-in-highlevel)
+- [Getting Started - Setup A Booking Calendar](https://help.gohighlevel.com/support/solutions/articles/155000005061-getting-started-setup-a-booking-calendar)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/48001183861-troubleshoot-and-fix-calendar-double-booking-in-highlevel/hit)

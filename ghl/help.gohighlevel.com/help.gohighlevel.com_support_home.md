@@ -1,0 +1,118 @@
+---
+url: "https://help.gohighlevel.com/support/home"
+title: " Support : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/home#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+# Hi, how can we help you?
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+[![Getting Started w/ HighLevel](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155047379368/original/QkeGl7sy7gnFGK1M9MCaY-FUrTfS2rYKKg.png)\\
+\\
+Getting Started w/ HighLevel](https://help.gohighlevel.com/support/solutions/155000000204)
+
+[![Customer Support](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035746558/original/b5LHtq90_Xe2uoUaNosU3gUakT-MFkpbkw.png)\\
+\\
+Customer Support](https://help.gohighlevel.com/support/solutions/155000000145)
+
+[![Agency View](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035746559/original/zqsXi4AEFWX8typXWb0KFRRUbou2oJl1uA.png)\\
+\\
+Agency View](https://help.gohighlevel.com/support/solutions/155000000148)
+
+[![AI Employee](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035732983/original/LgwHu0xdqkff8bjDxVCnkHLIPeVT1VH59A.png)\\
+\\
+AI Employee](https://help.gohighlevel.com/support/solutions/155000000184)
+
+[![SaaS Configurator](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035746566/original/NFY3p297UmZhHVRI6pCg-fEAPi86wfekEA.png)\\
+\\
+SaaS Configurator](https://help.gohighlevel.com/support/solutions/48000453216)
+
+[![Phone System](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035733125/original/5fvs9uukxEkYoOSghA1OLUtILHEQKbZX_w.png)\\
+\\
+Phone System](https://help.gohighlevel.com/support/solutions/48000415161)
+
+[![Email](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035732273/original/l299zGrxQ5qQ9FZcu_1QdD6stFBF5ldlgQ.png)\\
+\\
+Email](https://help.gohighlevel.com/support/solutions/48000449563)
+
+[![Contacts](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155035732134/original/xAtkKIwnWpZuwGJmD8sXjW_-sWvc4zvT3w.png)\\
+\\
+Contacts](https://help.gohighlevel.com/support/solutions/155000000123)
+
+#### Most popular articles
+
+[View all articles](https://help.gohighlevel.com/support/solutions)
+
+[HighLevel API\\
+\\
+Modified on Fri, 31 Oct at 11:12 AM](https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api) [How to Set Up a Whitelabel Domain for the Desktop Web App\\
+\\
+Modified on Sat, 27 Sep at 12:14 AM](https://help.gohighlevel.com/support/solutions/articles/48000982207-how-to-set-up-a-whitelabel-domain-for-the-desktop-web-app) [Dedicated Email Sending Domains Overview & Setup\\
+\\
+Modified on Wed, 17 Sep at 8:32 AM](https://help.gohighlevel.com/support/solutions/articles/48001226115-dedicated-email-sending-domains-overview-setup) [24/7 Customer Support Options\\
+\\
+Modified on Mon, 2 Jun at 8:10 PM](https://help.gohighlevel.com/support/solutions/articles/155000000969-24-7-customer-support-options) [SaaS Mode - Full Setup Guide + FAQ\\
+\\
+Modified on Tue, 26 Aug at 2:10 PM](https://help.gohighlevel.com/support/solutions/articles/48001184920-saas-mode-full-setup-guide-faq) [How to set up Root Domain/Subdomain for your Funnels/Websites?\\
+\\
+Modified on Fri, 5 Sep at 9:43 AM](https://help.gohighlevel.com/support/solutions/articles/48001153720-how-to-set-up-root-domain-subdomain-for-your-funnels-websites-) [LC Phone Pricing & Billing Guide\\
+\\
+Modified on Tue, 4 Nov at 8:35 PM](https://help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-billing-guide) [List of Merge Fields\\
+\\
+Modified on Mon, 10 Nov at 9:49 PM](https://help.gohighlevel.com/support/solutions/articles/48001078171-list-of-merge-fields) [What is LC (Lead Connector) Phone System?\\
+\\
+Modified on Sun, 3 Aug at 4:42 PM](https://help.gohighlevel.com/support/solutions/articles/48001223546-what-is-lc-lead-connector-phone-system-) [LC - Phone Messaging Policy\\
+\\
+Modified on Wed, 10 Sep at 6:21 PM](https://help.gohighlevel.com/support/solutions/articles/48001213941-lc-phone-messaging-policy) [HighLevel Pricing Guide\\
+\\
+Modified on Wed, 15 Oct at 1:16 AM](https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide) [How do I find my Client's Location ID?\\
+\\
+Modified on Wed, 6 Aug at 3:26 AM](https://help.gohighlevel.com/support/solutions/articles/48001204848-how-do-i-find-my-client-s-location-id-)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+Marketplace Heap

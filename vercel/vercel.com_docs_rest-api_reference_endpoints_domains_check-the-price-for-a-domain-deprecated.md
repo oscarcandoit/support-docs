@@ -1,0 +1,362 @@
+---
+url: "https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated"
+title: "Check the price for a domain (deprecated) - Vercel API Docs"
+---
+
+[Skip to main content](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#content-area)
+
+[Vercel API Docs home page![light logo](https://mintcdn.com/vercel/fxKUJx-Oy_im1Iu0/logo/vercel-logotype-light.svg?fit=max&auto=format&n=fxKUJx-Oy_im1Iu0&q=85&s=e16d6302db6411b67d77ddc3810391e8)![dark logo](https://mintcdn.com/vercel/fxKUJx-Oy_im1Iu0/logo/vercel-logotype-dark.svg?fit=max&auto=format&n=fxKUJx-Oy_im1Iu0&q=85&s=ea47a9bb9db0106e05436a6578c50e9f)](https://vercel.com/docs/rest-api/reference)
+
+Search...
+
+Ctrl K
+
+- [Docs](https://vercel.com/docs)
+- [Help](https://vercel.com/help)
+
+Search...
+
+Navigation
+
+domains
+
+Check the price for a domain (deprecated)
+
+[Get Started](https://vercel.com/docs/rest-api/reference/welcome) [Endpoints](https://vercel.com/docs/rest-api/reference/endpoints/access-groups/reads-an-access-group)
+
+##### Endpoints
+
+- access-groups
+
+- artifacts
+
+- checks
+
+- projects
+
+- deployments
+
+- domains
+
+  - [POST\\
+    \\
+    Purchase a domain (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/purchase-a-domain-deprecated)
+  - [GET\\
+    \\
+    Check the price for a domain (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated)
+  - [GET\\
+    \\
+    Check a Domain Availability (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-a-domain-availability-deprecated)
+  - [GET\\
+    \\
+    Get domain transfer info (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/get-domain-transfer-info-deprecated)
+  - [GET\\
+    \\
+    Get a Domain's configuration](https://vercel.com/docs/rest-api/reference/endpoints/domains/get-a-domains-configuration)
+  - [GET\\
+    \\
+    Get Information for a Single Domain](https://vercel.com/docs/rest-api/reference/endpoints/domains/get-information-for-a-single-domain)
+  - [GET\\
+    \\
+    List all the domains](https://vercel.com/docs/rest-api/reference/endpoints/domains/list-all-the-domains)
+  - [POST\\
+    \\
+    Add an existing domain to the Vercel platform](https://vercel.com/docs/rest-api/reference/endpoints/domains/add-an-existing-domain-to-the-vercel-platform)
+  - [PATCH\\
+    \\
+    Update or move apex domain](https://vercel.com/docs/rest-api/reference/endpoints/domains/update-or-move-apex-domain)
+  - [DEL\\
+    \\
+    Remove a domain by name](https://vercel.com/docs/rest-api/reference/endpoints/domains/remove-a-domain-by-name)
+- dns
+
+- domains-registrar
+
+- logDrains
+
+- drains
+
+- edge-cache
+
+- edge-config
+
+- environment
+
+- user
+
+- integrations
+
+- marketplace
+
+- authentication
+
+- logs
+
+- projectMembers
+
+- connect
+
+- rolling-release
+
+- security
+
+- teams
+
+- webhooks
+
+- aliases
+
+- certs
+
+
+checkDomainPrice
+
+Typescript
+
+Copy
+
+Ask AI
+
+```
+import { Vercel } from "@vercel/sdk";
+
+const vercel = new Vercel({
+  bearerToken: "<YOUR_BEARER_TOKEN_HERE>",
+});
+
+async function run() {
+  const result = await vercel.domains.checkDomainPrice({
+    name: "example.com",
+    type: "new",
+    teamId: "team_1a2b3c4d5e6f7g8h9i0j1k2l",
+    slug: "my-team-url-slug",
+  });
+
+  console.log(result);
+}
+
+run();
+```
+
+200
+
+400
+
+401
+
+403
+
+404
+
+500
+
+Copy
+
+Ask AI
+
+```
+{
+  "price": 20,
+  "period": 1
+}
+```
+
+domains
+
+# Check the price for a domain (deprecated)
+
+Copy page
+
+This endpoint is deprecated and replaced with the endpoint [Get price data for a domain](https://vercel.com/docs/rest-api/reference/endpoints/domains-registrar/get-price-data-for-a-domain). Check the price to purchase a domain and how long a single purchase period is.
+
+Copy page
+
+GET
+
+/
+
+v4
+
+/
+
+domains
+
+/
+
+price
+
+checkDomainPrice
+
+Typescript
+
+Copy
+
+Ask AI
+
+```
+import { Vercel } from "@vercel/sdk";
+
+const vercel = new Vercel({
+  bearerToken: "<YOUR_BEARER_TOKEN_HERE>",
+});
+
+async function run() {
+  const result = await vercel.domains.checkDomainPrice({
+    name: "example.com",
+    type: "new",
+    teamId: "team_1a2b3c4d5e6f7g8h9i0j1k2l",
+    slug: "my-team-url-slug",
+  });
+
+  console.log(result);
+}
+
+run();
+```
+
+200
+
+400
+
+401
+
+403
+
+404
+
+500
+
+Copy
+
+Ask AI
+
+```
+{
+  "price": 20,
+  "period": 1
+}
+```
+
+#### Authorizations
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#authorization-authorization)
+
+Authorization
+
+string
+
+header
+
+required
+
+Default authentication mechanism
+
+#### Query Parameters
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#parameter-name)
+
+name
+
+string
+
+required
+
+The name of the domain for which the price needs to be checked.
+
+Example:
+
+`"example.com"`
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#parameter-type)
+
+type
+
+enum<string>
+
+In which status of the domain the price needs to be checked.
+
+Available options:
+
+`new`,
+
+`renewal`,
+
+`transfer`,
+
+`redemption`
+
+Example:
+
+`"new"`
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#parameter-team-id)
+
+teamId
+
+string
+
+The Team identifier to perform the request on behalf of.
+
+Example:
+
+`"team_1a2b3c4d5e6f7g8h9i0j1k2l"`
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#parameter-slug)
+
+slug
+
+string
+
+The Team slug to perform the request on behalf of.
+
+Example:
+
+`"my-team-url-slug"`
+
+#### Response
+
+200
+
+application/json
+
+Successful response which returns the price of the domain and the period.
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#response-price)
+
+price
+
+number
+
+required
+
+The domain price in USD.
+
+Example:
+
+`20`
+
+[​](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-the-price-for-a-domain-deprecated#response-period)
+
+period
+
+number
+
+required
+
+The number of years the domain could be held before paying again.
+
+Example:
+
+`1`
+
+[Purchase a domain (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/purchase-a-domain-deprecated) [Check a Domain Availability (deprecated)](https://vercel.com/docs/rest-api/reference/endpoints/domains/check-a-domain-availability-deprecated)
+
+Ctrl+I
+
+[x](https://x.com/vercel) [github](https://github.com/vercel) [linkedin](https://linkedin.com/company/vercel)
+
+[Powered by Mintlify](https://www.mintlify.com/?utm_campaign=poweredBy&utm_medium=referral&utm_source=vercel)
+
+Assistant
+
+Responses are generated using AI and may contain mistakes.

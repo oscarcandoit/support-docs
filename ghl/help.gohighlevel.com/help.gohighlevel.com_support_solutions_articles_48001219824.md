@@ -1,0 +1,231 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/48001219824"
+title: " Step-by-step guide to set up Mailgun : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/48001219824#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [Email](https://help.gohighlevel.com/support/solutions/48000449563)
+4. [MailGun](https://help.gohighlevel.com/support/solutions/folders/48000665892)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/48001219824#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [Email](https://help.gohighlevel.com/support/solutions/48000449563)
+   - [MailGun](https://help.gohighlevel.com/support/solutions/folders/48000665892)
+6. Step-by-step guide to set up Mailgun
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# Step-by-step guide to set up Mailgun
+
+Modified on: Tue, 23 Jul, 2024 at 1:39 PM
+
+Mailgun Step-by-step guide:
+
+**1\. Sign up for Mailgun here:**
+
+[https://signup.mailgun.com/new/signup](https://signup.mailgun.com/new/signup)
+
+**2\. Check your email inbox to verify the email address**
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535009/original/7tQRdPUgguqaYEpnIV2uS3kIQpMd7jZBZw.png?1659724083)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535045/original/kRGmwZtbq3-zkULjp6-Pg0J-7sTNMNHymQ.png?1659724108)
+
+**3\. Click Sending > Add New Domain**
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243535197/original/doBfy9jAqoxcOqD5LiuyQO9rnyVWfkkAeg.png?1659724186)
+
+**4\. If your domain is companyname.com, you can either set up the main domain or subdomain with Mailgun.**
+
+- Main domain:
+  - If you are adding the main domain, it should not be used with Gsuite, or any other email provider
+- Subdomain:
+  - To set up the subdomain with Mailgun, you can type **ANYTHING\_HERE**.companyname.com
+    - Examples:
+      - mg.companyname.com
+      - replies.companyname.com
+      - support.companyname.com
+- Please set up the domain or subdomain under US, **not EU**.
+- Click **Add domain**
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243536037/original/B5DZocdO2h64MlEDtfuFjER-U_0AO_NOEg.png?1659724559)
+
+**5\. Now log in to your DNS records based on where you get the domain and add the 5 DNS records.**
+
+- If you are not sure where you should add the DNS records
+- Step 1: lookup domain that we are trying to set up in [mxtoolbox](https://mxtoolbox.com/SuperTool.aspx)
+- Only put the domain here, **do not add http:// in front**
+
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243537503/original/VQuAatUlq58RsSVIlLqFfKJQsi1EtB2pjg.png?1659725181)
+
+Once you look up the domain, it should show what your DNS hosting provider is.
+
+- ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48243537328/original/O4VqrFqJo6APt8Z_bhPobo_S50QD230bQg.png?1659725095)
+- Step 2: check the bottom note it will say reported by e.g. [wordpress.com](https://wordpress.com/)
+
+- Now we could add the DNS records to the domain provider. We can google **wordpress DNS records** if you are not sure where to locate the DNS records area.
+
+
+Based on what your domain provider is, now we could add the DNS records according to the domain provider:
+
+If you don't find the domain provider on this list, you can refer to one of the articles above, which should be similar.
+
+[Mailgun Setup - GoDaddy Domain Setup](https://help.gohighlevel.com/en/support/solutions/articles/48000981678)
+
+[Mailgun Setup - Namecheap Domain Setup](https://help.gohighlevel.com/en/support/solutions/articles/48000981680)
+
+[Mailgun Setup - Siteground Domain Setup](https://help.gohighlevel.com/en/support/solutions/articles/48000981685)
+
+[MailGun Setup - HostGator Domain Setup](https://help.gohighlevel.com/en/support/solutions/articles/48000981679)
+
+[Mailgun Setup - Google Domains](https://help.gohighlevel.com/en/support/solutions/articles/48001155148)
+
+[Mailgun Setup - CloudFlare](https://help.gohighlevel.com/en/support/solutions/articles/48001064413)
+
+Once you add all the DNS records and verify, you can grab the [Mailgun API Key - Where to Find in Mailgun & Put in HighLevel](https://help.gohighlevel.com/en/support/solutions/articles/48000981682)
+
+Then we could send a test email to see if everything works! Click here to learn [How to send a test email in the Conversation](https://help.gohighlevel.com/en/support/solutions/articles/48001208887)
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [Mailgun - Overview](https://help.gohighlevel.com/support/solutions/articles/48000981677-mailgun-overview)
+- [Step-by-step guide to set up Mailgun](https://help.gohighlevel.com/support/solutions/articles/48001219824-step-by-step-guide-to-set-up-mailgun)
+- [Mailgun Setup - GoDaddy Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48000981678-mailgun-setup-godaddy-domain-setup)
+- [MailGun Setup - HostGator Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48000981679-mailgun-setup-hostgator-domain-setup)
+- [Mailgun Setup - Namecheap Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48000981680-mailgun-setup-namecheap-domain-setup)
+- [Mailgun Setup - CloudFlare Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48001064413-mailgun-setup-cloudflare-domain-setup)
+
+## Related Articles
+
+- [LC Email / Mailgun replies not working when using WIX as the domain provider](https://help.gohighlevel.com/support/solutions/articles/48001188738-lc-email-mailgun-replies-not-working-when-using-wix-as-the-domain-provider)
+- [Email Campaign Agent (Beta)](https://help.gohighlevel.com/support/solutions/articles/155000006670-email-campaign-agent-beta-)
+- [SaaS Mode - Full Setup Guide + FAQ](https://help.gohighlevel.com/support/solutions/articles/48001184920-saas-mode-full-setup-guide-faq)
+- [HighLevel Pricing Guide](https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide)
+- [Mailgun Setup - Google Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48001155148-mailgun-setup-google-domain-setup)
+- [MailGun Setup - HostGator Domain Setup](https://help.gohighlevel.com/support/solutions/articles/48000981679-mailgun-setup-hostgator-domain-setup)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/48001219824)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/48001219824-step-by-step-guide-to-set-up-mailgun/hit)

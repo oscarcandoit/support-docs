@@ -1,0 +1,215 @@
+{
+  "summary": {
+    "total_urls": 343,
+    "successful": 0,
+    "failed": 343,
+    "skipped": 0,
+    "success_rate": "0.00%",
+    "duration_seconds": "214.34",
+    "urls_per_second": "1.60"
+  },
+  "started_at": "2025-11-18T06:49:19.303Z",
+  "completed_at": "2025-11-18T06:52:53.648Z",
+  "errors": [
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000003495",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001200-ivr-triggers-and-actions-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002676",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001257-how-to-connect-a-domain-to-gohighlevel",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002677-creating-a-simple-workflow",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001089-what-is-gohighlevel-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000709-how-to-connect-facebook-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002683-workflow-best-practices",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001075-phone-system-settings",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000708-how-to-connect-google-my-business",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001098-funnels",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001082-reputation-management",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001184-how-to-create-a-calendar",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000771-how-to-use-custom-values-in-text-sms-email-and-voicemail",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000003014-what-happens-when-my-trial-expires-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001237-contact-phone-number-formatting",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000707-how-to-connect-stripe",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000003013-how-do-i-downgrade-my-account-to-starter-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001245-tag-and-untag-actions",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001093-campaigns",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001103-surveys",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001086-contacts",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001100-websites",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001095-opportunities",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000710-how-to-connect-google-ads",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001256-connecting-a-wordpress-site-as-a-subdomain",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001225-how-to-use-variables-and-custom-fields",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001104-social-planner",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001192-how-to-create-a-form",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002743-website-widget-settings",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001072-dashboard",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001087-settings-sub-account",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000000711-how-to-connect-facebook-ads",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001258-how-to-connect-a-godaddy-domain",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001168-how-to-send-a-test-email",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001088-settings-agency",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002719-conversations-mass-actions",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001097-calendar",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001188-creating-an-email-template",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001230-how-to-merge-duplicate-contacts-",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001091-workflows",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001101-membership-sites",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001185-how-to-add-calendar-to-funnel-or-website",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001096-automation-trigger-links",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000002687-contact-tags",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001167-how-to-send-a-manual-email",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001194-how-to-create-a-survey",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001208-how-to-create-a-membership-site",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001085-conversations",
+      "error": "this.firecrawl.scrape is not a function"
+    },
+    {
+      "url": "https://help.gohighlevel.com/support/solutions/articles/155000001187-how-to-create-an-email-campaign",
+      "error": "this.firecrawl.scrape is not a function"
+    }
+  ]
+}

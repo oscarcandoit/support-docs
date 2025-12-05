@@ -1,0 +1,228 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-"
+title: " How to send the Conversion data to Ad Manager? : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [Marketing](https://help.gohighlevel.com/support/solutions/48000449565)
+4. [Facebook Conversion API (CAPI)](https://help.gohighlevel.com/support/solutions/folders/155000001015)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [Marketing](https://help.gohighlevel.com/support/solutions/48000449565)
+   - [Facebook Conversion API (CAPI)](https://help.gohighlevel.com/support/solutions/folders/155000001015)
+6. How to send the Conversion data to Ad Manager?
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# How to send the Conversion data to Ad Manager?
+
+Modified on: Tue, 3 Dec, 2024 at 4:11 AM
+
+Conversion help is increasing more accuracy in targeting the perfect audience for your ads and help get better results and more lead conversion to improve better funnels for future. In this article, we will discuss on how to create a conversion pixel for better targeting.
+
+* * *
+
+## **TABLE OF CONTENTS**
+
+- [Where to find the option to create a conversion pixel?](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#Where-to-find-the-option-to-create-a-conversion-pixel?)
+- [What details are shown under 'Conversions' tab?](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#What-details-are-shown-under-'Conversions'-tab?)
+- [How to create a new conversion pixel?](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#How-to-create-a-new-conversion-pixel?)
+- [What are the uses of creating a conversion pixel?](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#What-are-the-uses-of-creating-a-conversion-pixel?)
+- [Important information on created conversion pixels](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-#Important-information-on-created-conversion-pixels)
+
+* * *
+
+## **Where to find the option to create a conversion pixel?**
+
+On the Ad Manager home page, you can go to Ad Manager settings by clicking the settings icon (highlighted in the screenshot below) which is represented by a gear symbol.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037626834/original/h0dyc4bj0yv4SRB6_6uSSZGkAUe6XkVMdQ.png?1733211399)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037627112/original/mKkHPZipxr7qhvPqNKPLr0sfmeGzubZfDw.png?1733211480)
+
+There are five tabs present under ad manager settings, namely '**Integrations**', ' **Pages**', ' **Conversions**', **'Audiences'** and **'Subscription'** with each having a specific function or the information they hold. We will be focusing on the **'Conversions'** tab.
+
+* * *
+
+## **What details are shown under 'Conversions' tab?**
+
+Under conversions tab, you can see all the pixels which are brought in from the connected Meta Ad account along with the one created under Ad Manager using the "Create new conversion pixel" button.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037629695/original/Nw3wemurDhQ8kxY_-JHdcj-Nix3ZYrgXtA.png?1733211852)
+
+* * *
+
+## **How to create a new conversion pixel?**
+
+On click of the Create new conversion pixel button, a dialog opens up asking you to name the pixel. The pixel ID and code are automatically generated by us for ease of use while creating workflows to send back CAPI events to Facebook.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155037630152/original/VJ4Ev0BbzZeezBUIElENO93U8lRxQZyR4A.png?1733212034)
+
+* * *
+
+## **What are the uses of creating a conversion pixel?**
+
+The conversion pixel is a critical tool for measuring, optimising, and improving the effectiveness of your online advertising efforts. It enables better tracking, retargeting, and understanding of customer behaviour, ultimately helping you improve your marketing ROI.
+
+A conversion pixel is a small piece of code placed on your website to track user actions and measure the success of advertising campaigns. Key uses include:
+
+1. **Tracking Conversions**: Measure specific actions like purchases, sign-ups, or form submissions.
+2. **Ad Optimisation**: Helps improve ad targeting.
+3. **Retargeting**: Allows you to show ads to users who have interacted with your site but didn't convert.
+4. **ROAS Measurement**: Tracks return on ad spend by connecting conversions to ads.
+5. **A/B Testing**: Helps compare ad variations and improve campaign performance.
+6. **Cross-Device Tracking**: Follows user actions across devices for better attribution.
+7. **Custom Events**: Tracks specific user actions like video views or content engagement.
+8. **Audience Segmentation**: Creates targeted audiences based on user behaviour.
+
+* * *
+
+## **Important information on created conversion pixels**
+
+After creating a conversion pixel, there are certain things which are automatically taken care by us and are enlisted as follows:
+
+1. The Pixel ID and code are automatically generated by us and the same will be used when sending back a CAPI event to Facebook while creating a workflow.
+2. User need not worry about the UTM parameters as they are automatically created by us and added to the pixel for effective tracking.
+3. The goal type: **Lead Event** is used to send the data from Facebook form lead moving from one stage to another in opportunity pipeline.
+4. The goal type: **Funnel Event** is used to send the data from form submissions, survey submissions, chat widget replies, number pool calls.
+5. When a pixel is created, it will show the goal type as Funnel Event which will change accordingly after a successful event is sent to Facebook using CAPI under workflows based on it being a funnel event or a lead event.
+6. A single conversion pixel can be used to send both funnel and lead events to Facebook without any hindrance.
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [How to send the Conversion data to Ad Manager?](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-)
+- [How to send a Meta Conversion API action for Ad Manager?](https://help.gohighlevel.com/support/solutions/articles/155000003691-how-to-send-a-meta-conversion-api-action-for-ad-manager-)
+
+## Related Articles
+
+- [How to send a Meta Conversion API action for Ad Manager?](https://help.gohighlevel.com/support/solutions/articles/155000003691-how-to-send-a-meta-conversion-api-action-for-ad-manager-)
+- [Statistics of Ad campaigns in Ad Manager](https://help.gohighlevel.com/support/solutions/articles/155000003631-statistics-of-ad-campaigns-in-ad-manager)
+- [Overview of Ad Manager](https://help.gohighlevel.com/support/solutions/articles/155000002433-overview-of-ad-manager)
+- [Facebook Conversions API Trigger in Workflows](https://help.gohighlevel.com/support/solutions/articles/48001185099-facebook-conversions-api-trigger-in-workflows)
+- [Workflow Action - Add To Google AdWords](https://help.gohighlevel.com/support/solutions/articles/155000003368-workflow-action-add-to-google-adwords)
+- [How to set up Facebook Ad Reporting](https://help.gohighlevel.com/support/solutions/articles/48001204042-how-to-set-up-facebook-ad-reporting)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/155000002478-how-to-send-the-conversion-data-to-ad-manager-/hit)

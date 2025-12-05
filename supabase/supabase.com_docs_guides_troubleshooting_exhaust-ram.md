@@ -1,0 +1,116 @@
+---
+url: "https://supabase.com/docs/guides/troubleshooting/exhaust-ram"
+title: "Supabase Docs | Troubleshooting | High RAM usage"
+---
+
+[![Supabase wordmark](https://supabase.com/docs/supabase-dark.svg)![Supabase wordmark](https://supabase.com/docs/supabase-light.svg)DOCS](https://supabase.com/docs)
+
+- [Start](https://supabase.com/docs/guides/getting-started)
+- Products
+- Build
+- Manage
+- Reference
+- Resources
+
+[![Supabase wordmark](https://supabase.com/docs/supabase-dark.svg)![Supabase wordmark](https://supabase.com/docs/supabase-light.svg)DOCS](https://supabase.com/docs)
+
+Search docs...
+
+K
+
+[Sign up](https://supabase.com/dashboard)
+
+[![Supabase wordmark](https://supabase.com/docs/supabase-dark.svg)![Supabase wordmark](https://supabase.com/docs/supabase-light.svg)DOCS](https://supabase.com/docs)
+
+- [Start](https://supabase.com/docs/guides/getting-started)
+- Products
+- Build
+- Manage
+- Reference
+- Resources
+
+[![Supabase wordmark](https://supabase.com/docs/supabase-dark.svg)![Supabase wordmark](https://supabase.com/docs/supabase-light.svg)DOCS](https://supabase.com/docs)
+
+Search docs...
+
+K
+
+[Sign up](https://supabase.com/dashboard)
+
+1. [Troubleshooting](https://supabase.com/docs/guides/troubleshooting)
+
+# High RAM usage
+
+Last edited: 11/18/2025
+
+* * *
+
+High memory usage doesn't necessarily mean that your instance is at risk. Memory that is used for caching and buffers improves data access speed. But if you notice less performance alongside high memory usage, your memory usage might be unhealthy.
+
+## Base memory usage [\#](https://supabase.com/docs/guides/troubleshooting/exhaust-ram\#base-memory-usage)
+
+You may observe elevated memory usage even when your database has little to no load. Supabase requires a wide range of services other than Postgres to operate, which can result in an elevated base memory usage. Especially on the smallest compute instance that comes with 1 GB of RAM, it is not unusual for your project to have a base memory usage of ~50%.
+
+## Issues with high memory usage [\#](https://supabase.com/docs/guides/troubleshooting/exhaust-ram\#issues-with-high-memory-usage)
+
+Every Supabase project runs in its own dedicated virtual machine. Your instance will have a different set of hardware provisioned depending on your [compute add-on](https://supabase.com/docs/guides/platform/compute-add-ons). Depending on your workload, your compute hardware may not be suitable and can result in high RAM usage.
+
+A good proxy for unhealthy memory usage is swap usage. If you run out of RAM, your system will offload memory to your disk's much slower swap partition. If your swap is above 70%, chances are high that your compute hardware is not suitable for your workload. Head over to your project's [Database Health](https://supabase.com/dashboard/project/_/observability/database) to see your swap usage.
+
+High RAM usage could come with a range of issues:
+
+- degraded performance overall when your instance has to use swap memory
+- the operating system may start killing processes as your system runs out of memory
+- in rare cases, your instance may become unresponsive
+
+## Monitor your RAM [\#](https://supabase.com/docs/guides/troubleshooting/exhaust-ram\#monitor-your-ram)
+
+To check your RAM usage on the Supabase Platform, head over to [Database Health in the Observability section](https://supabase.com/dashboard/project/_/observability/database).
+
+It is also possible to monitor your resources and set up alerts using Prometheus/Grafana. With Grafana you will be able to see how much of your RAM is used for caching and you can track other metrics such as your Swap usage. Read the [Metrics Guide](https://supabase.com/docs/guides/platform/metrics) to learn more.
+
+## Common reasons for high RAM usage [\#](https://supabase.com/docs/guides/troubleshooting/exhaust-ram\#common-reasons-for-high-ram-usage)
+
+Everything you do with your Supabase project requires memory in some form. Hence, there can be many reasons for high RAM usage. Here are some common ones:
+
+- **Query performance:** Queries that take a long time to complete (>1 second) could be using your RAM inefficiently. Check our guide on [examining query performance](https://supabase.com/docs/guides/platform/performance#examining-query-performance).
+- **Too many connections:** Every connection to your database consumes memory. You can check the number of active connections under [Database Roles](https://supabase.com/dashboard/project/_/database/roles) after you select your project. Read our guide on [too many open connections](https://supabase.com/docs/guides/platform/troubleshooting#too-many-open-connections).
+- **Extensions:** Some extensions such as `timescaledb` or `pg_cron` can use a lot of memory. It can also add up when you have too many extensions running. You can manage your database extensions in the dashboard under [Extensions](https://supabase.com/dashboard/project/_/database/extensions).
+
+## How to fix your memory issues [\#](https://supabase.com/docs/guides/troubleshooting/exhaust-ram\#how-to-fix-your-memory-issues)
+
+1. **Upgrade your compute:** You can get a Compute Add-on for your project. See your [upgrade options](https://supabase.com/dashboard/project/_/settings/compute-and-disk) by selecting your project.
+2. **Optimize performance:** Get more out of your instance's resources by optimizing your usage. Have a look at our [performance tuning guide](https://supabase.com/docs/guides/platform/performance#examining-query-performance) and our [production readiness guide](https://supabase.com/docs/guides/platform/going-into-prod#performance).
+
+## Metadata
+
+* * *
+
+### Products
+
+[Platform](https://supabase.com/docs/guides/troubleshooting?products=platform)
+
+* * *
+
+### Keywords
+
+[memory](https://supabase.com/docs/guides/troubleshooting?tags=memory) [RAM](https://supabase.com/docs/guides/troubleshooting?tags=RAM) [performance](https://supabase.com/docs/guides/troubleshooting?tags=performance)
+
+* * *
+
+### Is this helpful?
+
+NoYes
+
+- Need some help?
+[Contact support](https://supabase.com/support)
+- Latest product updates?
+[See Changelog](https://supabase.com/changelog)
+- Something's not right?
+[Check system status](https://status.supabase.com/)
+
+* * *
+
+[© Supabase Inc](https://supabase.com/)— [Contributing](https://github.com/supabase/supabase/blob/master/apps/docs/DEVELOPERS.md) [Author Styleguide](https://github.com/supabase/supabase/blob/master/apps/docs/CONTRIBUTING.md) [Open Source](https://supabase.com/open-source) [SupaSquad](https://supabase.com/supasquad) Privacy Settings
+
+[Twitter](https://twitter.com/supabase) [GitHub](https://github.com/supabase) [Discord](https://discord.supabase.com/) [Youtube](https://youtube.com/c/supabase)

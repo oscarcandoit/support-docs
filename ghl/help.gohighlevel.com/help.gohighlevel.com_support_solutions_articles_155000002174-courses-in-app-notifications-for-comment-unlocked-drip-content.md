@@ -1,0 +1,259 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content"
+title: " Courses: In-App Notifications for Comment, Unlocked & Drip Content : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [Memberships & Communities](https://help.gohighlevel.com/support/solutions/155000000006)
+4. [Membership/Courses Sites](https://help.gohighlevel.com/support/solutions/folders/48000671055)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [Memberships & Communities](https://help.gohighlevel.com/support/solutions/155000000006)
+   - [Membership/Courses Sites](https://help.gohighlevel.com/support/solutions/folders/48000671055)
+6. Courses: In-App Notifications for Comment, Unlocked &...
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# Courses: In-App Notifications for Comment, Unlocked & Drip Content
+
+Modified on: Tue, 19 Aug, 2025 at 4:54 AM
+
+How to Manage Comments in Memberships - YouTube
+
+[Photo image of HighLevel](https://www.youtube.com/channel/UCXFiV4qDX5ipE-DQcsm1j4g?embeds_referring_euri=https%3A%2F%2Fhelp.gohighlevel.com%2F)
+
+HighLevel
+
+82.2K subscribers
+
+[How to Manage Comments in Memberships](https://www.youtube.com/watch?v=594cGff8Ppk)
+
+HighLevel
+
+Search
+
+Watch later
+
+Share
+
+Copy link
+
+Info
+
+Shopping
+
+Tap to unmute
+
+If playback doesn't begin shortly, try restarting your device.
+
+More videos
+
+## More videos
+
+You're signed out
+
+Videos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.
+
+CancelConfirm
+
+Share
+
+Include playlist
+
+An error occurred while retrieving sharing information. Please try again later.
+
+[Watch on](https://www.youtube.com/watch?v=594cGff8Ppk&embeds_referring_euri=https%3A%2F%2Fhelp.gohighlevel.com%2F)
+
+0:00
+
+0:00 / 4:36
+•Live
+
+•
+
+Our latest update is designed to keep you more connected and engaged with your courses and the learning community. Here’s everything you need to know to make the most out of this new feature.
+
+**TABLE OF CONTENTS**
+
+- [Stay Connected with Comments](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#Stay-Connected-with-Comments)
+- [Unlocked Content Notifications](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#Unlocked-Content-Notifications)
+- [Timely Access to Drip Content](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#Timely-Access-to-Drip-Content)
+- [Enabling Instructor-Learner Interactions](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content#Enabling-Instructor-Learner-Interactions)
+
+* * *
+
+## Stay Connected with Comments
+
+### Receive Instant Notifications
+
+- Never miss a beat in your learning journey! You will now receive instant notifications whenever someone replies to one of your comments in a course that you're enrolled in. This ensures you're always in the loop and can participate in discussions promptly.
+
+### Facilitate Smoother Interactions
+
+- This feature is all about fostering a vibrant learning community. By keeping you informed of new replies on your comments, interactions within courses become more dynamic and engaging, enhancing your learning experience.
+
+
+## Unlocked Content Notifications
+
+### Never Miss Out on New Content
+
+- When a post or category that was previously locked becomes accessible, learners will receive a notification right away. This means you're always updated on the latest content available to you, ensuring you don't miss out on valuable learning opportunities.
+
+
+## Timely Access to Drip Content
+
+### Stay Informed on Content Releases
+
+- Drip content helps pace your learning, but waiting for it without knowing when it’ll be available can be frustrating. With Course Notifications, learners will be notified the moment new drip content is released in your courses, allowing you to access fresh materials right when they're available.
+
+
+## Enabling Instructor-Learner Interactions
+
+### Enhanced Communication with Instructors
+
+- A key part of learning is interaction with instructors, and this feature takes it to the next level. Instructors will now receive notifications for learner comments, making it easier for them to respond and engage. This fosters a better connection and communication flow between learners and instructors.
+
+Instructors will receive their notifications in
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [Add Membership Signups To Funnel Pages](https://help.gohighlevel.com/support/solutions/articles/48001143787-add-membership-signups-to-funnel-pages)
+- [Adding Closed Captions and Subtitles to your video courses](https://help.gohighlevel.com/support/solutions/articles/155000005182-adding-closed-captions-and-subtitles-to-your-video-courses)
+- [Checkout Orchestrator](https://help.gohighlevel.com/support/solutions/articles/155000006756-checkout-orchestrator)
+- [Courses Email Notification Preferences and Video Thumbnail Enhancements](https://help.gohighlevel.com/support/solutions/articles/155000005482-courses-email-notification-preferences-and-video-thumbnail-enhancements)
+- [Courses Mobile- How to Navigate the New Lessons & Courses UI](https://help.gohighlevel.com/support/solutions/articles/155000004048-courses-mobile-how-to-navigate-the-new-lessons-courses-ui)
+- [Courses: In-App Notifications for Comment, Unlocked & Drip Content](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content)
+
+## Related Articles
+
+- [Courses Email Notification Preferences and Video Thumbnail Enhancements](https://help.gohighlevel.com/support/solutions/articles/155000005482-courses-email-notification-preferences-and-video-thumbnail-enhancements)
+- [Calendar: Email, In-App, SMS & Whatsapp Appointment Notifications](https://help.gohighlevel.com/support/solutions/articles/155000003441-calendar-email-in-app-sms-whatsapp-appointment-notifications)
+- [Workflow Action - Internal Notification](https://help.gohighlevel.com/support/solutions/articles/155000003202-workflow-action-internal-notification)
+- [How to Ban Members and Report Content in Communities](https://help.gohighlevel.com/support/solutions/articles/155000002885-how-to-ban-members-and-report-content-in-communities)
+- [How to Use Community Tagging Feature](https://help.gohighlevel.com/support/solutions/articles/155000001051-how-to-use-community-tagging-feature)
+- [Social Planner: In-App Notification Banner for Disconnected Accounts](https://help.gohighlevel.com/support/solutions/articles/155000005535-social-planner-in-app-notification-banner-for-disconnected-accounts)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/155000002174-courses-in-app-notifications-for-comment-unlocked-drip-content/hit)

@@ -1,0 +1,371 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/155000006652"
+title: " AI Product Pricing Update : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/155000006652#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [AI Employee](https://help.gohighlevel.com/support/solutions/155000000184)
+4. [AI Employee](https://help.gohighlevel.com/support/solutions/folders/155000000941)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/155000006652#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [AI Employee](https://help.gohighlevel.com/support/solutions/155000000184)
+   - [AI Employee](https://help.gohighlevel.com/support/solutions/folders/155000000941)
+6. AI Product Pricing Update
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# AI Product Pricing Update
+
+Modified on: Tue, 14 Oct, 2025 at 8:22 AM
+
+```
+Effective Date: October 13, 2025
+
+HighLevel is pleased to announce an update to our AI product pricing structure, designed to offer greater flexibility and access to the latest, most advanced AI models in the market. This update introduces new consumption-based pricing for our AI Products, leveraging the power and cost-efficiency of cutting-edge models like Gemini, Claude and GPT.
+```
+
+* * *
+
+**TABLE OF CONTENTS**
+
+- [AI Employee Unlimited Plan](https://help.gohighlevel.com/support/solutions/articles/155000006652#AI-Employee-Unlimited-Plan)
+- [Conversation AI Pricing (Pay-Per-Use)](https://help.gohighlevel.com/support/solutions/articles/155000006652#Conversation-AI-Pricing-(Pay-Per-Use))
+- [Voice AI Pricing (Pay-Per-Use)](https://help.gohighlevel.com/support/solutions/articles/155000006652#Voice-AI-Pricing%C2%A0(Pay-Per-Use))
+  - [External Voice AI Models](https://help.gohighlevel.com/support/solutions/articles/155000006652#External-Voice-AI-Models)
+  - [Voice AI (LevelUp Promo Pricing)](https://help.gohighlevel.com/support/solutions/articles/155000006652#Voice-AI%C2%A0(LevelUp-Promo-Pricing))
+- [LevelUp Promotional Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#LevelUp-Promotional-Pricing)
+  - [Conversation AI - LevelUp Promo Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Conversation-AI---LevelUp-Promo-Pricing)
+  - [Voice AI - LevelUp Promo Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Voice-AI---LevelUp-Promo-Pricing)
+- [Agent Studio Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Agent-Studio-Pricing)
+  - [Agent Response Generation](https://help.gohighlevel.com/support/solutions/articles/155000006652#Agent-Response-Generation)
+  - [External APIs](https://help.gohighlevel.com/support/solutions/articles/155000006652#External-APIs)
+  - [Multimodal and Specialized Models](https://help.gohighlevel.com/support/solutions/articles/155000006652#Multimodal-and-Specialized-Models)
+- [Workflow AI Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Workflow-AI-Pricing)
+  - [Workflow - Actions](https://help.gohighlevel.com/support/solutions/articles/155000006652#Workflow---Actions)
+  - [Workflow - Builder](https://help.gohighlevel.com/support/solutions/articles/155000006652#Workflow---Builder)
+  - [Workflow - External Models](https://help.gohighlevel.com/support/solutions/articles/155000006652#Workflow---External-Models)
+- [Funnel & Website AI](https://help.gohighlevel.com/support/solutions/articles/155000006652#Funnel-&-Website-AI)
+- [Content AI Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Content-AI-Pricing)
+- [Reviews AI Pricing](https://help.gohighlevel.com/support/solutions/articles/155000006652#Reviews-AI-Pricing)
+
+* * *
+
+# **AI Employee Unlimited Plan**
+
+Users will continue to enjoy unlimited usage of the core AI Employee features for only $97/month!
+
+**Fair Use Policy:** Your use of Employee AI is subject to HighLevel's Terms of Service, including Excessive Use Restrictions. If HighLevel determines in its sole discretion that your usage is excessive, abusive, or negatively impacts our platform, we reserve the right to throttle, limit, require service upgrades, or terminate your access with or without notice.
+
+```
+Please Note: The Agent Studio, Voice AI Widget, and Voice AI Outbound services are not covered by the Unlimited plan. Usage of these services will be charged under the Pay-Per-Use plan described below.
+```
+
+* * *
+
+## **Conversation AI Pricing (** **Pay-Per-Use)**
+
+Conversation AI pricing is transitioning to token-based, with model token usage at API pricing. This change ensures you pay exactly for the tokens you use.
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| Provider | Model | Input Price / 1M Tokens | Output Price / 1M Tokens |
+| Google | Gemini 2.5 Pro | $1.25 (for ≤ 200k tokens) | $10.00 (for ≤ 200k tokens) |
+| Google | Gemini 2.5 Flash | $0.3 (Text/Image/Video) | $2.50 |
+| Anthropic | Claude 4 Sonnet | $3.00 | $15.00 |
+| Anthropic | Claude 3.5 Haiku | $0.80 | $4.00 |
+| OpenAI | GPT-4.1 | $2.00 | $8.00 |
+
+* * *
+
+## **Voice AI Pricing **(** **Pay-Per-Use)****
+
+Voice AI pricing is transitioning to fixed voice engine charges plus model token usage at API pricing. This change ensures you pay exactly for the tokens you use.
+
+|     |     |
+| --- | --- |
+| Component | Rate |
+| Voice engine | $0.06 / minute |
+| LLM Usage | Token Usage at API Pricing |
+| Total cost per minute (approx) | = Voice engine + LLM Usage |
+
+### **External Voice AI Models**
+
+If you choose to use an external AI model such as Google's Genimi, OpenAI's ChatGPT, or Anthropic's Claude, to power your HighLevel Voice AI, the pricing of the models are as follow:
+
+|     |     |     |
+| --- | --- | --- |
+| Provider | Model | Price of LLM Model/1M Tokens |
+| Google | Gemini 2.0 Flash | $0.10 |
+| Google | Gemini 2.0 Flash Lite | $0.075 |
+| Google | Gemini 2.5 Flash | $0.30 |
+| Google | Gemini 2.5 Flash Lite | $0.10 |
+| OpenAI | GPT 4o Mini | $0.15 |
+| OpenAI | GPT 4o | $2.50 |
+| OpenAI | GPT 4.1 Nano | $0.10 |
+| OpenAI | GPT 4.1 Mini | $0.40 |
+| OpenAI | GPT 4.1 | $2.00 |
+| OpenAI | GPT 5 Nano | $0.05 |
+| OpenAI | GPT 5 Mini | $0.25 |
+| OpenAI | GPT 5 | $1.25 |
+| Anthropic | Claude 4.5 Sonnet | $3 |
+| Anthropic | Claude 4.0 Sonnet | $3 |
+| Anthropic | Claude 3.7 Sonnet | $3 |
+| Anthropic | Claude 3.5 Haiku | $0.80 |
+
+* * *
+
+## **LevelUp Promotional Pricing**
+
+In light of HighLevel's yearly customer appreciation event, LevelUp, we are giving customers a special pricing on Conversation AI and Voice AI until December 31st 2025!
+
+### **Conversation AI - LevelUp Promo Pricing**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| Agent Type | Model Supported | General Pricing | Promo Pricing |
+| Prompt based bot | GPT 4.1<br>Claude 4 Sonnet<br>Claude 3.5 Haiku<br>Gemini 2.5 Pro<br>Gemini 2.5 Flash | Token usage at API Pricing | Max price $0.02/msg |
+| Flow Builder | GPT 4.1 | Token usage at API Pricing | Free |
+| Form builder | GPT 4.1 | Token usage at API Pricing | Max price $0.02/msg |
+
+### **Voice AI - LevelUp Promo Pricing**
+
+|     |     |     |
+| --- | --- | --- |
+| LLM | Voice Engine | LLM Prices |
+| Outbound Calls | Waived\* | Token usage at API Pricing |
+| Voice Widget | Waived\* | Token usage at API Pricing |
+| Inbound Calls | $0.06 | Token usage at API Pricing |
+
+* * *
+
+## **Agent Studio Pricing**
+
+Agent Studio, which include multimodal and specialized AI capabilities, will be charged at model token usage at API Pricing.
+
+### **Agent Response Generation**
+
+|     |     |     |     |
+| --- | --- | --- | --- |
+| Provider | Model | Input Price / M Tokens | Output Price / M Tokens |
+| OpenAI | GPT-5 | $1.25 | $10.00 |
+| OpenAI | GPT-5 Mini | $0.25 | $2.00 |
+| OpenAI | GPT-5 Nano | $0.05 | $0.40 |
+| OpenAI | GPT-4.1 | $2.00 | $8.00 |
+| OpenAI | GPT-4.1 Mini | $0.40 | $1.60 |
+| OpenAI | GPT-4.1 Nano | $0.10 | $0.40 |
+
+### **External APIs**
+
+|     |     |     |
+| --- | --- | --- |
+| Feature | Provider | Price |
+| Web Search | Tavily | $0.01/search |
+
+### **Multimodal and Specialized Models**
+
+_\\*\\* All prices are in USD. Prices for third-party models are subject to change by the respective provider (Google, Anthropic, OpenAI)_
+
+|     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- |
+| Content Type | Provider | Model | Quality | Size | Price/Unit | Unit |
+| Video | Gemini | Veo3 Fast |  | - | $0.15 | Second of Video |
+|  | Gemini | Veo3 |  |  | $0.40 | Second of Video |
+| Image | OpenAI | DALL-E 3 | Standard | 1024 x 1024 | $0.04 | Image Output |
+| 1024 x 1536 / 1536 x 1024 | $0.08 |
+|  |  |  | HD | 1024 x 1024 | $0.08 | Image Output |
+| 1024 x 1536 / 1536 x 1024 | $0.12 |
+| Text | OpenAI | gpt4.1 |  | - | $2.00 | 1M Tokens Input |
+|  |  |  |  | - | $8.00 | 1M Tokens Output |
+| Text | OpenAI | gpt5 mini |  | - | $0.25 | 1M Tokens Input |
+|  |  |  |  | - | $2.00 | 1M Tokens Output |
+| Speech | OpenAI LLM | gpt-4o-mini |  | - | $0.15 | 1M Token (Text) |
+| LLM+TTS |  | - | $0.60 | 1M Token (Text Output) |
+| OpenAI<br>TTS | gpt-4o-mini-tts |  | - | $12.00 | 1M Token (Audio Output) |
+
+* * *
+
+## **Workflow AI Pricing**
+
+_\*\*Refer to [Workflow Pro Plans](https://help.gohighlevel.com/en/support/solutions/articles/155000003971) for bulk purchase of premium actions at a cheaper price_
+
+|     |     |     |
+| --- | --- | --- |
+| Workflow AI | Tools/Actions | Pricing |
+| Actions | Decision Maker | $0.01/execution |
+|  | Intent Detection | $0.01/execution |
+|  | Summarize Text | $0.01/execution |
+|  | Translate | $0.01/execution |
+| Builder | Let Workflow AI create Workflows for you<br>(Multi-language Support) with a simple prompt. | FREE |
+| External Models | Use OpenAI inside of a workflow using the GPT workflow action. | Refer to OpenAI for API Price |
+
+* * *
+
+## **Funnel & Website AI**
+
+Funnel & Website AI allows building and editing funnels/websites with the help of prompts.
+
+|     |     |     |
+| --- | --- | --- |
+| Funnel AI | Rate Limit | Pricing |
+| Build Funnels & Websites with AI | 1000 prompts per day<br>_(per sub-account)_ | FREE |
+
+* * *
+
+## **Content AI Pricing**
+
+|     |     |
+| --- | --- |
+| **Content Type** | **Pricing** |
+| Image | $0.063/Image |
+| Text | $0.0945/1000 Words |
+
+* * *
+
+## **Reviews AI Pricing**
+
+|     |     |
+| --- | --- |
+|  | Pricing |
+| Reviews AI | $0.01 / review |
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [AI Tools in HighLevel](https://help.gohighlevel.com/support/solutions/articles/155000002166-ai-tools-in-highlevel)
+- [AI Employee Overview](https://help.gohighlevel.com/support/solutions/articles/155000003906-ai-employee-overview)
+- [AI Product Pricing Update](https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing-update)
+- [Season of AI Promotion Ending Information & FAQ's](https://help.gohighlevel.com/support/solutions/articles/155000004420-season-of-ai-promotion-ending-information-faq-s)
+- [Introducing AI Build Hours](https://help.gohighlevel.com/support/solutions/articles/155000006137-introducing-ai-build-hours)
+
+## Related Articles
+
+- [Workflow Action - GPT Powered by OpenAI](https://help.gohighlevel.com/support/solutions/articles/155000000209-workflow-action-gpt-powered-by-openai)
+- [WhatsApp Pricing, Billing, and Rebilling Guide](https://help.gohighlevel.com/support/solutions/articles/155000001428-whatsapp-pricing-billing-and-rebilling-guide)
+- [AI Employee Overview](https://help.gohighlevel.com/support/solutions/articles/155000003906-ai-employee-overview)
+- [Conversations AI Bots can now Respond to Images](https://help.gohighlevel.com/support/solutions/articles/155000006537-conversations-ai-bots-can-now-respond-to-images)
+- [Listing Conversation AI and Voice AI Templates on the Marketplace](https://help.gohighlevel.com/support/solutions/articles/155000005412-listing-conversation-ai-and-voice-ai-templates-on-the-marketplace)
+- [HighLevel Pricing Guide](https://help.gohighlevel.com/support/solutions/articles/155000001156-highlevel-pricing-guide)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/155000006652)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/155000006652-ai-product-pricing-update/hit)

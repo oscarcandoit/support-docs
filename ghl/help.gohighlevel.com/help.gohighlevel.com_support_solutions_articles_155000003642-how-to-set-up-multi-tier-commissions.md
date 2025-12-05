@@ -1,0 +1,305 @@
+---
+url: "https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions"
+title: " How to Set Up Multi-Tier Commissions : HighLevel Support Portal "
+---
+
+[Skip to main content](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#fw-main-content)
+
+[![Freshworks Logo](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48024308683/logo/s7aCRjbTgZ5t0wA0EwvURVFjWacwx1uM_A.png)\\
+HighLevel Support Portal](https://help.gohighlevel.com/)
+
+- [Home](https://help.gohighlevel.com/support/home)
+- [Knowledge base](https://help.gohighlevel.com/support/solutions)
+
+- [Login](https://help.gohighlevel.com/support/login)
+- [Sign up](https://help.gohighlevel.com/support/signup)
+
+1. [Home](https://help.gohighlevel.com/support/home)
+2. [Knowledge base](https://help.gohighlevel.com/support/solutions)
+3. [Marketing](https://help.gohighlevel.com/support/solutions/48000449565)
+4. [Affiliate Campaigns](https://help.gohighlevel.com/support/solutions/folders/155000001222)
+5. [...](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#)   - [Knowledge base](https://help.gohighlevel.com/support/solutions)
+   - [Marketing](https://help.gohighlevel.com/support/solutions/48000449565)
+   - [Affiliate Campaigns](https://help.gohighlevel.com/support/solutions/folders/155000001222)
+6. How to Set Up Multi-Tier Commissions
+
+All
+
+Articles
+
+
+Recent Searches
+
+Clear all
+
+No recent searches
+
+Popular Articles
+
+* * *
+
+Articles
+
+[View all](https://help.gohighlevel.com/support/search/solutions)
+
+* * *
+
+Topics
+
+[View all](https://help.gohighlevel.com/support/search/topics)
+
+* * *
+
+Tickets
+
+[View all](https://help.gohighlevel.com/support/search/tickets)
+
+![no results](https://help.gohighlevel.com/assets/cdn/portal/images/no-results.png)
+
+Sorry! nothing found for
+
+# How to Set Up Multi-Tier Commissions
+
+Modified on: Tue, 1 Oct, 2024 at 5:17 AM
+
+Multi Tier Commissions
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+[Multi Tier Commissions](https://www.loom.com/share/a6c0623de55c4e31bb8e7990e200577e?source=embed_watch_on_loom_cta&t=0 "Multi Tier Commissions")
+
+5 min
+
+1.24K views
+
+1
+
+[Open video in Loom](https://www.loom.com/share/a6c0623de55c4e31bb8e7990e200577e?source=embed_watch_on_loom_cta&t=0 "Open video in Loom")
+
+1.2×
+
+5 min⚡️6 min 48 sec5 min 26 sec4 min 32 sec3 min 37 sec3 min 12 sec2 min 43 sec2 min 10 sec
+
+![](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:f5b089bd-904f-419e-a425-48137574dd7f/ecbd3e88-ab7c-4b42-939f-d41b72310505/128)
+
+Thank you, Support! 🙏
+
+![](https://cdn.loom.com/sessions/thumbnails/a6c0623de55c4e31bb8e7990e200577e-90078158886827ad.jpg)
+
+Your user agent does not support the HTML5 Video element.
+
+![](https://cdn.loom.com/avatars/1107763_cc7c9c6e81d508bef5a933c2ad26ace5_192.jpg)
+
+[Multi Tier Commissions](https://www.loom.com/share/a6c0623de55c4e31bb8e7990e200577e?source=embed_watch_on_loom_cta&t=0 "Multi Tier Commissions")
+
+5 min
+
+1.24K views
+
+1
+
+[Open video in Loom](https://www.loom.com/share/a6c0623de55c4e31bb8e7990e200577e?source=embed_watch_on_loom_cta&t=0 "Open video in Loom")
+
+1.2×
+
+5 min⚡️6 min 48 sec5 min 26 sec4 min 32 sec3 min 37 sec3 min 12 sec2 min 43 sec2 min 10 sec
+
+![](https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:f5b089bd-904f-419e-a425-48137574dd7f/ecbd3e88-ab7c-4b42-939f-d41b72310505/128)
+
+Thank you, Support! 🙏
+
+* * *
+
+**TABLE OF CONTENTS**
+
+- [Introduction to Multi-Tier Commissions](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#Introduction-to-Multi-Tier-Commissions)
+- [How Multi-Tier Commissions Work](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#How-Multi-Tier-Commissions-Work)
+  - [Example 1](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#Example-1)
+  - [Example 2](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#Example-2)
+- [Steps to Set Up Multi-Tier Commissions](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#Steps-to-Set-Up-Multi-Tier-Commissions)
+- [Conclusion](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions#Conclusion)
+
+## **Introduction to Multi-Tier Commissions**
+
+Multi-tier commissions, also known as multi-level marketing , allow you to reward not just the affiliate who makes a sale but also their network of sub-affiliates. This system encourages affiliates to recruit others, expanding their reach and creating a layered network of income opportunities. Our platform supports up to 7 tiers, enabling flexible and customizable commission structures for your campaigns.
+
+* * *
+
+## **How Multi-Tier Commissions Work**
+
+In a multi-tier commission structure, affiliates earn commissions not only on their direct sales but also on the sales generated by their sub-affiliates across multiple levels (tiers). Each tier can have a different commission rate, providing opportunities to incentivize both top-level and sub-level affiliates.
+
+### **Example 1**
+
+**Affiliate Chain Setup:**![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033782901/original/4Kdb3ysdSfJQfaWfg4EqYkKEBOBmHTRSbg.jpeg?1727691672)
+
+Let’s say your commission structure is set up as follows:
+
+- **1st Tier:** 20%
+- **2nd Tier:** 10%
+- **3rd Tier:** 5%
+- **4th Tier:** 3%
+- **5th Tier:** 2%
+
+In a setup like this, the commission distribution is simple. The first tier(where the sale happened) receives the largest share of the commission, and as the percentages decrease, the earnings are passed up to the referring affiliates in the higher tiers. For example:
+
+If Jan refers a $100 sale, then:
+
+1. **Jan** (1st tier affiliate) earns **$20**.
+2. **Toby** (Jan’s recruiter, 2nd tier) earns **$10**.
+3. **Ryan** (Toby’s recruiter, 3rd tier) earns **$5**.
+4. **Jim** (Ryan’s recruiter, 4th tier) earns **$3**.
+5. **Michael** (Jim’s recruiter, 5th tier) earns **$2**.
+
+**Total Paid to Affiliates:** $40
+
+($20 + $10 + $5 + $3 + $2)
+
+This tiered system ensures that as the network grows, the upper-level affiliates continue to benefit from the performance of their sub-affiliates.
+
+### **Example 2**
+
+**Affiliate Chain Setup:**
+
+Same setup as before but this time Stanley refers a $100 sale, then:
+
+1. **Stanley** (1st tier affiliate) earns **$20**.
+2. **Dwight** (Stanley's recruiter, 2nd tier) earns **$10**.
+3. **Michael** (Dwight's recruiter, 3rd tier) earns **$5**.
+
+**Total Paid to Affiliates:** $30
+
+($20 + $10 + $5 )
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033782900/original/fA9NjAkSgePQgIXGbbNe0cQPNbgzDDFM-Q.jpeg?1727691672)
+
+* * *
+
+## **Steps to Set Up Multi-Tier Commissions**
+
+1. **Create a New Affiliate Campaign:** Start by creating a new affiliate campaign. [Learn more here.](https://help.gohighlevel.com/en/support/solutions/articles/155000003641-how-to-create-an-affiliate-campaign)
+2. **Enable Multi-Tier Commissions:**
+   - Navigate to the **Advanced Commissions** settings.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033864274/original/rMCa1DCc-yUG5X3lbxsKOZhTBlNtCZ3jbQ.png?1727777739)
+   - Enable the **Multi-Tier Commissions** option.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033864331/original/sawNcnoS2HGf-n82v64lFvLejI2PbV0ovg.png?1727777781)
+   - Select the number of tiers you want to activate (up to 7).
+3. **Configure Tier-Specific Commissions:**
+   - Set the commission rates for each tier, either as default rates or specific to certain products. This helps motivate affiliates at different levels to continue promoting your products.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155033864405/original/Hk9AB5CAN9QH4mMyWgzHYIQalkVFzSFyqg.png?1727777827)
+4. **Review and Confirm Additional Settings:**
+   - Double-check all settings, including any optional features such as auto-enrollment of new customers as sub-affiliates, to ensure smooth operation.
+5. **Publish Your Campaign:** Once your multi-tier structure is set up and reviewed, publish the campaign to start tracking and rewarding your affiliates automatically.
+
+* * *
+
+## **Conclusion**
+
+A multi-tier commission structure allows you to build a strong, engaged network of affiliates and sub-affiliates, incentivizing both immediate sales and long-term growth. By setting up multiple tiers, you not only reward top sellers but also encourage them to grow their networks, helping boost your overall sales potential.
+
+* * *
+
+## **What's Next:**
+
+- [How to create an Affiliate Campaign](https://help.gohighlevel.com/en/support/solutions/articles/155000003641-how-to-create-an-affiliate-campaign)
+- [How to track leads from an Affiliate Campaign](https://help.gohighlevel.com/en/support/solutions/articles/155000003643-how-to-track-leads-from-an-affiliate-campaign)
+- [How to Set Up and Pay Affiliates for Generating Leads](https://help.gohighlevel.com/en/support/solutions/articles/155000003644-how-to-set-up-and-pay-affiliates-for-generating-leads)
+- [FAQs for Affiliate Campaigns](https://help.gohighlevel.com/en/support/solutions/articles/155000003645-faqs-for-affiliate-campaigns)
+
+* * *
+
+Was this article helpful?
+
+No
+Yes
+
+
+That’s Great!
+
+Thank you for your feedback
+
+Sorry! We couldn't be helpful
+
+Thank you for your feedback
+
+Your e-mail address
+
+\*
+
+Let us know how can we improve this article!\*
+
+Need more information
+
+
+
+
+Difficult to understand
+
+
+
+
+Inaccurate/irrelevant content
+
+
+
+
+Missing/broken link
+
+
+
+
+Select at least one of the reasons
+
+
+Please give your comments
+
+
+
+
+reCAPTCHA
+
+Recaptcha requires verification.
+
+I'm not a robot
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+reCAPTCHA
+
+CAPTCHA verification is required.
+
+
+Cancel
+
+
+Send
+
+
+Feedback sent
+
+We appreciate your effort and will try to fix the article
+
+Print
+
+## Articles in this Folder
+
+- [Prerequisite to Launch Your First Affiliate Campaign](https://help.gohighlevel.com/support/solutions/articles/155000003640-prerequisite-to-launch-your-first-affiliate-campaign)
+- [How to create an Affiliate Campaign](https://help.gohighlevel.com/support/solutions/articles/155000003641-how-to-create-an-affiliate-campaign)
+- [How to Set Up Multi-Tier Commissions](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions)
+- [How to track leads from an Affiliate Campaign](https://help.gohighlevel.com/support/solutions/articles/155000003643-how-to-track-leads-from-an-affiliate-campaign)
+- [How to Set Up and Pay Affiliates for Generating Leads](https://help.gohighlevel.com/support/solutions/articles/155000003644-how-to-set-up-and-pay-affiliates-for-generating-leads)
+- [FAQs for Affiliate Campaigns](https://help.gohighlevel.com/support/solutions/articles/155000003645-faqs-for-affiliate-campaigns)
+
+## Related Articles
+
+- [How to create an Affiliate Campaign](https://help.gohighlevel.com/support/solutions/articles/155000003641-how-to-create-an-affiliate-campaign)
+- [Glossary](https://help.gohighlevel.com/support/solutions/articles/155000003633-glossary)
+- [Affiliate Manager Walkthrough Videos](https://help.gohighlevel.com/support/solutions/articles/155000003636-affiliate-manager-walkthrough-videos)
+- [How to Set Up and Pay Affiliates for Generating Leads](https://help.gohighlevel.com/support/solutions/articles/155000003644-how-to-set-up-and-pay-affiliates-for-generating-leads)
+- [How to Add Sub-Affiliates in the Affiliate Manager](https://help.gohighlevel.com/support/solutions/articles/155000003648-how-to-add-sub-affiliates-in-the-affiliate-manager)
+- [How to Set Custom Affiliate Commissions](https://help.gohighlevel.com/support/solutions/articles/155000003652-how-to-set-custom-affiliate-commissions)
+
+**X**
+
+0 of 0 [Download image](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions)
+
+[Home](https://help.gohighlevel.com/support/home) [Knowledge base](https://help.gohighlevel.com/support/solutions)![Article views count](https://help.gohighlevel.com/support/solutions/articles/155000003642-how-to-set-up-multi-tier-commissions/hit)
