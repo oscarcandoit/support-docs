@@ -1,0 +1,120 @@
+{
+  "data": {
+    "markdown": "[Skip to main content](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/index.html#__docusaurus_skipToContent_fallback)\n\nOn this page\n\nCreate your own web widget\n\nHere's a short Loom on how to get started: [https://www.loom.com/share/ceaca6bf36e34be3bf6a648eb5f1e6a1](https://www.loom.com/share/ceaca6bf36e34be3bf6a648eb5f1e6a1)\n\n## Widget Development Overview [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/index.html\\#widget-development-overview \"Direct link to Widget Development Overview\")\n\nDeveloping a custom widget allows you to extend the marketplace with your own features and user experiences. The process involves designing your widget, implementing its functionality, and packaging it according to the platform's requirements. Once your widget is ready, you can register and publish it to make it available for others to use.\n\nFor step-by-step technical instructions and best practices, please refer to the following resources:\n\n- [Full Widget Creation Guide](https://doc.clickup.com/8631005/d/h/87cpx-164556/89848eaca8e15e3)\n- [Loom Video Walkthrough](https://www.loom.com/share/ceaca6bf36e34be3bf6a648eb5f1e6a1)\n\n- [Widget Development Overview](https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/index.html#widget-development-overview)",
+    "metadata": {
+      "docusaurus_tag": "docs-default-current",
+      "og:url": "https://marketplace.gohighlevel.com/docs",
+      "ogDescription": "Create your own web widget",
+      "docsearch:language": "en",
+      "ogLocale": "en",
+      "og:type": "website",
+      "docusaurus_locale": "en",
+      "twitter:description": "Complete REST API documentation for HighLevel CRM platform. Build integrations with contacts, conversations, payments, webhooks and more.",
+      "og:title": "Web Widgets | HighLevel API",
+      "description": "Create your own web widget",
+      "og:description": "Create your own web widget",
+      "twitter:title": "HighLevel API Documentation - Developer Portal",
+      "docsearch:docusaurus_tag": "docs-default-current",
+      "ogUrl": "https://marketplace.gohighlevel.com/docs",
+      "twitter:card": "summary_large_image",
+      "position": [
+        "1",
+        "2"
+      ],
+      "favicon": "https://marketplace.gohighlevel.com/docs/img/favicon.png",
+      "ogTitle": "Web Widgets | HighLevel API",
+      "generator": "Docusaurus v3.5.2",
+      "keywords": "HighLevel API, GHL API, GHL REST API documentation, API reference, developer documentation, HighLevel integration, CRM API, HighLevel Webhook, HighLevel OAuth API, HighLevel developer documentation",
+      "language": "en",
+      "og:locale": "en",
+      "application/ld+json": "{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"HighLevel API\",\"description\":\"Complete REST API documentation for HighLevel CRM platform\",\"url\":\"https://marketplace.gohighlevel.com/docs\",\"applicationCategory\":\"DeveloperApplication\",\"operatingSystem\":\"Any\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"}}",
+      "docsearch:version": "current",
+      "title": "Web Widgets | HighLevel API",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "docusaurus_version": "current",
+      "scrapeId": "0ffd4765-891a-4c11-9ae6-00b3d2fff78c",
+      "sourceURL": "marketplace.gohighlevel.com/docs/marketplace-modules/Widgets",
+      "url": "https://marketplace.gohighlevel.com/docs/marketplace-modules/Widgets/index.html",
+      "statusCode": 200,
+      "contentType": "text/html",
+      "proxyUsed": "basic",
+      "cacheState": "miss",
+      "creditsUsed": 1
+    }
+  },
+  "id": "hxYu4-MDM1FIKHYQoBowG",
+  "startedAt": "2025-08-26T15:27:23.317Z",
+  "endedAt": "2025-08-26T15:27:41.405Z",
+  "endpoint": "scrape",
+  "formState": {
+    "extractSetupCompleted": false,
+    "urls": [],
+    "extractSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_mission": {
+          "type": "string"
+        },
+        "supports_sso": {
+          "type": "boolean"
+        },
+        "is_open_source": {
+          "type": "boolean"
+        },
+        "is_in_yc": {
+          "type": "boolean"
+        }
+      }
+    },
+    "extractPrompt": "Extract the company details, following the schema.",
+    "enableWebSearch": false,
+    "options": {
+      "onlyMainContent": true,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {},
+    "url": "marketplace.gohighlevel.com/docs/marketplace-modules/Widgets",
+    "endpoint": "scrape"
+  },
+  "status": "success",
+  "version": "QCCXVeB4B6F71MlNUdln9"
+}

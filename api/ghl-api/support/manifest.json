@@ -1,0 +1,27 @@
+{
+  "scrapedAt": "2025-10-28T20:30:00.000Z",
+  "totalUrls": 522,
+  "successful": 503,
+  "failed": 19,
+  "skipped": 0,
+  "successRate": "96.4%",
+  "categories": {
+    "articles": 341,
+    "solutions": 17, 
+    "folders": 143,
+    "general": 2
+  },
+  "description": "GoHighLevel Support Documentation scraped from help.leadconnectorhq.com",
+  "structure": {
+    "articles/": "Support articles with step-by-step guides and tutorials",
+    "solutions/": "Solution categories and overview pages", 
+    "folders/": "Folder organization pages grouping related content",
+    "general/": "Main support homepage and general pages"
+  },
+  "notes": [
+    "503 out of 522 URLs successfully scraped (96.4% success rate)",
+    "19 URLs failed due to Firecrawl API credit limits",
+    "All content organized into logical categories",
+    "Each file includes metadata with source URL and scraping timestamp"
+  ]
+}

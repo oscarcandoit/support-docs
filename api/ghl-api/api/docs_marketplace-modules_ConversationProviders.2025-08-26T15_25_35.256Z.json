@@ -1,0 +1,120 @@
+{
+  "data": {
+    "markdown": "[Skip to main content](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#__docusaurus_skipToContent_fallback)\n\nOn this page\n\nHighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.\n\n## Setting up Custom Providers [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#setting-up-custom-providers \"Direct link to Setting up Custom Providers\")\n\n### Create a Marketplace Application [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#create-a-marketplace-application \"Direct link to Create a Marketplace Application\")\n\nFirst you'll need to create a marketplace application:\n\n1. Navigate to [https://marketplace.gohighlevel.com](https://marketplace.gohighlevel.com/)\n2. Go to the Auth section\n3. Add your scopes (see notes below)\n4. Add redirect, client keys, then click save\n\n### Scopes [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#scopes \"Direct link to Scopes\")\n\nBelow are the various scopes necessary to use custom conversation providers. Review all scope documentation here: [https://marketplace.gohighlevel.com/docs/oauth/Scopes](https://marketplace.gohighlevel.com/docs/oauth/Scopes)\n\n* * *\n\n| Scope | Purpose |\n| --- | --- |\n| conversations/message.write | Conversations Provider Outbound Message Webhook Events, Adding inbound messages. Add external outbound call logs. Upload attachments to conversations. Update message statuses. |\n| conversations.readonly | Query conversations APIs |\n| conversations.write | Create/Update/Delete conversation. One conversationId is maintained per contact. |\n| contacts.readonly, contacts.write | Create/Update contacts |\n| conversations/message.readonly | Recordings/Transcriptions and Outbound Message Webhook Event |\n\n* * *\n\n### Conversation Provider Configuration [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#conversation-provider-configuration \"Direct link to Conversation Provider Configuration\")\n\nAfter you create your provider you will have an \"ID\" which is the \"conversationProviderId\".\n\n#### SMS (Replace default SMS provider) [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#sms-replace-default-sms-provider \"Direct link to SMS (Replace default SMS provider)\")\n\nDescription: This enables a SMS provider to replace the default twilio/LC-Phone provider.\n\n1. Enter a Name\n2. Type: SMS\n3. Delivery URL - Sends webhook events to the Conversation Provider Outbound Webhook\n\n**NOTE:** Do not checkbox \"Is this a Custom Conversation Provider\"\n\nAdd Inbound Message API: Use type \"SMS\". \"conversationProviderId\" **is not required**.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message)\n\nEnable The Provider: Navigate to the sub-accounts Settings > Phone Numbers > Advanced Settings > SMS Provider. Click your provider and then click save to save it.\n\nWorkflows: Supports standard SMS modules.\n\nBulk Actions: Supported\n\n#### SMS (Add new conversation channel) [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#sms-add-new-conversation-channel \"Direct link to SMS (Add new conversation channel)\")\n\nDescription: This adds an additional SMS custom conversation provider.\n\n1. Enter a Name\n2. Type: SMS\n3. Delivery URL - Sends webhook events to the Conversation Provider Outbound Webhook\n4. Checkbox \"Is this a Custom Conversation Provider\"\n5. Conversations Tab - Optional - Checkbox \"Always show this Conversation Provider\" - If you want a tab in the conversations window to respond on the provider.\n6. Alias - Optional - Changes the name of the provider in the conversations tab\n7. Logo - Optional\n\nAdd Inbound Message API: Use type \"SMS\". \"conversationProviderId\" **is required**.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message)\n\nEnable The Provider: Enabled upon installation. Visit Settings > Conversation Providers to review installed providers.\n\nWorkflows: You can build premium workflow actions in your marketplace application. SMS module is not currently supported.\n\n#### Email Provider (default) [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#email-provider-default \"Direct link to Email Provider (default)\")\n\nDescription: This enables an Email provider to replace the default mailgun/LC-Email provider.\n\n1. Enter a Name\n2. Type: Email\n3. Delivery URL - Sends webhook events to the Conversation Provider Outbound Webhook\n\n**NOTE:** Do not checkbox \"Is this a Custom Conversation Provider\"\n\nAdd Inbound Message API: Use type \"Email\". \"emailMessageId\" in the response is the thread to respond to. \"conversationProviderId\" **is not required**.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message)\n\nEnable The Provider: Navigate to the sub-accounts Settings > Email Services > Click your provider and then click save to save it.\n\nWorkflows: Supports standard Email modules. Triggers are unsupported currently. Use premium workflow actions.\n\nBulk Actions: Supported\n\n#### Email Provider (extra) [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#email-provider-extra \"Direct link to Email Provider (extra)\")\n\nDescription: This adds an additional Email custom conversation provider.\n\n1. Enter a Name\n2. Type: Email\n3. Delivery URL - Sends webhook events to the Conversation Provider Outbound Webhook\n4. Checkbox \"Is this a Custom Conversation Provider\"\n5. Conversations Tab - Optional - Checkbox \"Always show this Conversation Provider\" - If you want a tab in the conversations window to respond on the provider.\n6. Alias - Optional - Changes the name of the provider in the conversations tab\n7. Logo - Optional\n\nAdd Inbound Message API: Use type \"Custom\". You can also set \"altId\". When you reply in the UI the conversation provider outbound payload will add \"replyToAltId\". \"conversationProviderId\" **is required**.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message)\n\nEnable The Provider: Enabled upon installation. Visit Settings > Conversation Providers to review installed providers.\n\nWorkflows: You can build premium workflow actions in your marketplace application. Triggers and Email modules are unsupported currently.\n\n#### Call Provider [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#call-provider \"Direct link to Call Provider\")\n\nDescription: This adds a call provider. It is specifically for adding call logs and can also add attachments like voicemails to a conversation. It is not used to replace the voice/SIP connection.\n\n1. Enter a Name\n2. Type: Call\n3. Delivery URL - Sends webhook events to the Conversation Provider Outbound Webhook\n\nAdd Inbound Message API: Use type \"Call\". Supply the call object payload and ensure the \"from\" phone matches an existing contact. Used for adding inbound call logs. \"conversationProviderId\" **is required**.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-inbound-message)\n\nAdd an External Outbound Call API: Used to add outbound direction logs. Ensure the \"to\" phone number matches an existing contact.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message](https://marketplace.gohighlevel.com/docs/ghl/conversations/add-an-outbound-message)\n\n### Webhook Events [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#webhook-events \"Direct link to Webhook Events\")\n\nConversations Provider Outbound Message Webhook Events\n[https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage](https://marketplace.gohighlevel.com/docs/webhook/ProviderOutboundMessage)\n\nPurpose: Outbound events that are distinct from the Outbound Message Event payload.\n\nOutbound Message Events\n[https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage](https://marketplace.gohighlevel.com/docs/webhook/OutboundMessage)\n\nPurpose: Monitors all outbound messages/channels\n\n## Additional Notes [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#additional-notes \"Direct link to Additional Notes\")\n\n### Using Providers [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#using-providers \"Direct link to Using Providers\")\n\n1. Conversations Screen - Navigate to the conversations screen to send/receive messages if a provider is set as the default or if you have enabled the ability to see the provider.\n\n2. Bulk Actions - Only supported on default providers at this time.\n\n3. Workflows - Review notes on currently supported modules.\n\n4. Mobile Application - Select your custom provider depending on type.\n\n\n### Update Message Status API [â€‹](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html\\#update-message-status-api \"Direct link to Update Message Status API\")\n\nMessage status updates are only able to be updated by the conversation provider marketplace application tokens. If you have additional marketplace applications installed in your account then they cannot update the message status.\n[https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status](https://marketplace.gohighlevel.com/docs/ghl/conversations/update-message-status)\n\n- [Setting up Custom Providers](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#setting-up-custom-providers)\n  - [Create a Marketplace Application](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#create-a-marketplace-application)\n  - [Scopes](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#scopes)\n  - [Conversation Provider Configuration](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#conversation-provider-configuration)\n  - [Webhook Events](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#webhook-events)\n- [Additional Notes](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#additional-notes)\n  - [Using Providers](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#using-providers)\n  - [Update Message Status API](https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html#update-message-status-api)",
+    "metadata": {
+      "docsearch:docusaurus_tag": "docs-default-current",
+      "generator": "Docusaurus v3.5.2",
+      "ogLocale": "en",
+      "language": "en",
+      "title": "Conversation Providers | HighLevel API",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "docsearch:language": "en",
+      "twitter:description": "Complete REST API documentation for HighLevel CRM platform. Build integrations with contacts, conversations, payments, webhooks and more.",
+      "application/ld+json": "{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"HighLevel API\",\"description\":\"Complete REST API documentation for HighLevel CRM platform\",\"url\":\"https://marketplace.gohighlevel.com/docs\",\"applicationCategory\":\"DeveloperApplication\",\"operatingSystem\":\"Any\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"}}",
+      "og:type": "website",
+      "docusaurus_version": "current",
+      "docusaurus_tag": "docs-default-current",
+      "ogUrl": "https://marketplace.gohighlevel.com/docs",
+      "og:title": "Conversation Providers | HighLevel API",
+      "ogTitle": "Conversation Providers | HighLevel API",
+      "description": "HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.",
+      "ogDescription": "HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.",
+      "position": [
+        "1",
+        "2"
+      ],
+      "twitter:title": "HighLevel API Documentation - Developer Portal",
+      "og:locale": "en",
+      "og:description": "HighLevel provides conversation providers in marketplace applications for creating custom SMS, Email, and Call providers.",
+      "twitter:card": "summary_large_image",
+      "docsearch:version": "current",
+      "favicon": "https://marketplace.gohighlevel.com/docs/img/favicon.png",
+      "docusaurus_locale": "en",
+      "og:url": "https://marketplace.gohighlevel.com/docs",
+      "keywords": "HighLevel API, GHL API, GHL REST API documentation, API reference, developer documentation, HighLevel integration, CRM API, HighLevel Webhook, HighLevel OAuth API, HighLevel developer documentation",
+      "scrapeId": "5a204191-5b68-4b2f-ab67-ecdfc1ffdd45",
+      "sourceURL": "marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders",
+      "url": "https://marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders/index.html",
+      "statusCode": 200,
+      "contentType": "text/html",
+      "proxyUsed": "basic",
+      "cacheState": "miss",
+      "creditsUsed": 1
+    }
+  },
+  "id": "PMVi6_6tN-yOV0HrwM9KH",
+  "startedAt": "2025-08-26T15:25:35.256Z",
+  "endedAt": "2025-08-26T15:25:39.816Z",
+  "endpoint": "scrape",
+  "formState": {
+    "extractSetupCompleted": false,
+    "urls": [],
+    "extractSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_mission": {
+          "type": "string"
+        },
+        "supports_sso": {
+          "type": "boolean"
+        },
+        "is_open_source": {
+          "type": "boolean"
+        },
+        "is_in_yc": {
+          "type": "boolean"
+        }
+      }
+    },
+    "extractPrompt": "Extract the company details, following the schema.",
+    "enableWebSearch": false,
+    "options": {
+      "onlyMainContent": true,
+      "parsePDF": true,
+      "stealthMode": false,
+      "excludeTags": [],
+      "includeTags": [],
+      "waitFor": "",
+      "timeout": "",
+      "maxAge": "2 days",
+      "ignoreSitemap": false,
+      "crawlEntireDomain": false,
+      "sitemap": "include",
+      "limit": "10",
+      "maxDepth": "",
+      "excludePaths": [],
+      "includePaths": [],
+      "includeSubdomains": false,
+      "search": "",
+      "scrapeContentFromSearchResults": true,
+      "timeBasedSearch": "",
+      "location": "",
+      "prompt": ""
+    },
+    "formats": [
+      "markdown"
+    ],
+    "sources": [
+      "web"
+    ],
+    "categories": [],
+    "jsonSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "company_name": {
+          "type": "string"
+        },
+        "company_description": {
+          "type": "string"
+        }
+      }
+    },
+    "agent": {},
+    "url": "marketplace.gohighlevel.com/docs/marketplace-modules/ConversationProviders",
+    "endpoint": "scrape"
+  },
+  "status": "success",
+  "version": "V7tpTLbhK3D8HuQ4-T-UH"
+}

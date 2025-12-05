@@ -1,0 +1,421 @@
+---
+source: https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities
+category: articles
+type: article
+scraped: 2025-10-28T16:02:25.720Z
+title:  How to Setup, Customize, and Manage Your Communities : LeadConnector 
+status_code: 200
+---
+
+#  How to Setup, Customize, and Manage Your Communities : LeadConnector 
+
+Enter your search term here...
+
+Search
+
+
+[Solution home](https://help.leadconnectorhq.com/support/solutions) [Membership and Communities](https://help.leadconnectorhq.com/support/solutions/155000000007) [Communities](https://help.leadconnectorhq.com/support/solutions/folders/155000000026)
+
+## How to Setup, Customize, and Manage Your Communities  [Print](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\# "Print this Article")
+
+Modified on: Wed, 16 Aug, 2023 at 7:58 AM
+
+* * *
+
+Communities is an interactive, centralized platform that combines various educational resources, allowing members to create, connect, and engage in groups based on specific interests. It facilitates interactive discussions and knowledge sharing among members by offering features such as domain setup, group creation, customization, and user management. This versatile platform effectively blends learning, networking, and community building into a seamless user experience.
+
+```
+Communities can be enabled for sub-accounts under Labs
+```
+
+#### **Covered in this Article**
+
+- #### [What is the Communities feature?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#What-is-the-Communities-feature?)
+
+
+  - #### [Key Components of the Communities Feature:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Key-Components-of-the-Communities-Feature%3A)
+
+  - #### [Usage Cases:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Usage-Cases%3A)
+- #### [How to set up and configure the Communities feature in your sub-account?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#How-to-set-up-and-configure-the-Communities-feature-in-your-sub-account?)
+
+
+  - #### [Step 1: Setting up your Communities Domain](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Step-1%3A-Setting-up-your-Communities-Domain)
+
+  - #### [Step 2: Setting up Groups](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Step-2%3A-Setting-up-Groups)
+
+  - #### [Step 3: How do members get added to the group?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Step-3%3A-How-do-members-get-added-to-the-group?)
+
+  - #### [Step 4: Customizing your Groups](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Step-4%3A-Customizing-your-Groups)
+
+
+    - #### [Details:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Details%3A)
+
+    - #### [Branding:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Branding%3A)
+
+    - #### [Promotional Links:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Promotional-Links%3A)
+
+    - #### [Activate or Deactivate your groups:](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Activate-or-Deactivate-your-groups%3A)
+  - #### [Step 5: Sub Account Users Inside community groups](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Step-5%3A-Sub-Account-Users-Inside-community-groups)
+
+  - #### [FAQs](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#FAQs)
+
+
+    - #### [Q: Can I integrate my existing website with my Communities platform?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Q%3A-Can-I-integrate-my-existing-website-with-my-Communities-platform?)
+
+    - #### [Q: Is there a limit to the number of groups I can create within my Community?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Q%3A-Is-there-a-limit-to-the-number-of-groups-I-can-create-within-my-Community?)
+
+    - #### [Q: What happens if I change the URL of my community group?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Q%3A-What-happens-if-I-change-the-URL-of-my-community-group?)
+
+    - #### [Q: Can I monitor the activities within my community groups?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Q%3A-Can-I-monitor-the-activities-within-my-community-groups?)
+
+    - #### [Q: How can I promote active engagement in my community groups?](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities\#Q%3A-How-can-I-promote-active-engagement-in-my-community-groups?)
+
+* * *
+
+## **What is the Communities feature?![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002161517/original/zPreBNzfR9sslr_a4hFble0EBTzt8CQ-zA.gif?1688384126)**
+
+The Communities feature is a comprehensive tool provided by the CRM platform that enables the creation and management of online communities. It is a hub for discussion, learning, networking, and knowledge-sharing.
+
+### **Key Components of the Communities Feature:**
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002162783/original/nTbGudlrXdaBvsegk0XMd9-lDuLtelaW6Q.png?1688384777)
+
+**Group Creation:**
+
+Users can create multiple groups based on specific interests, topics, or industries, including the option to soft delete and restore groups for better control. These groups serve as sub-communities where members can engage in focused discussions, share insights, and collaborate on projects.
+
+**Domain Setup:**
+
+The platform allows users to set up their custom domain or use a pre-configured subdomain, providing a personalized experience for community members.
+
+**Community Customization:**
+
+Users can customize their communities, including group name, description, URL, branding (colors, logos, cover images), promotional links, and the ability to toggle the visibility of phone numbers and email addresses under the Social Media section. This allows users to create a unique and branded experience for their community members.
+
+**Group Management:**
+
+The person who creates a group becomes the owner and assumes administrative responsibilities and privileges. This feature offers different roles for group management, including admins, moderators, and members, each with its permissions and responsibilities. Enhanced filtering options enable users to sort by user status and roles, and security measures are in place to protect email visibility.
+
+**Membership Management:**
+
+Potential members can join a group by creating a community profile and signing up via the group's unique URL. Once they sign up, they can participate in any available community groups. Additional features include easy search for members and direct access to profiles from the View Members page.
+
+**Learning and Networking Opportunities:**
+
+The communities provide a platform for users to learn from various courses, participate in discussions and events, vote in polls, and connect with like-minded individuals.
+
+### **Usage Cases:**
+
+**E-Learning Platforms:**
+
+An organization offering various online courses could use the Communities feature to set up different groups for each course or subject. This allows learners to engage in focused discussions, share insights, ask questions, and collaborate on projects about their course. Instructors can share resources, answer questions, and facilitate discussions.
+
+**Corporate Communication:**
+
+The Communities feature could allow various departments to collaborate in a large corporation. Each department could have its group, enabling focused discussions, announcements, document sharing, and project collaboration. It could also be used for company-wide announcements and discussions.
+
+**Product Development:**
+
+Tech companies could use Communities to set up groups for beta testers of their new products. These users can share their feedback, report bugs, and suggest improvements, while the company can provide updates, answer questions, and gather valuable user insight for product enhancement.
+
+**Customer Support:**
+
+Companies can create a community where customers can join groups based on their product or service. Within these groups, customers can ask questions, share tips and tricks, and provide product feedback. On the other hand, companies can offer support, share product updates, and engage with their user base.
+
+**Professional Associations:**
+
+Associations or clubs could use the Communities feature to engage their members. They could have different groups for various activities or interests, allowing members to join the ones they are interested in. These groups can be used for sharing information, planning events, and having discussions.
+
+**Marketing Agencies:**
+
+Agencies could set up communities for their clients, with separate groups for different services or campaigns. This allows for efficient coordination and communication about project updates, performance metrics, and other relevant discussions.
+
+* * *
+
+# **How to set up and configure the Communities feature in your sub-account?**
+
+## **Step 1: Setting up your Communities Domain**
+
+**Please Note:**
+
+```
+If you have already configured a domain for your ClientPortal, you will not need to do so again for your Communities portal as Communities uses the same domain as the Client Portal.
+```
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002189444/original/Wf1RGa1tHWUcQcHzBwWxYfdr6uyPYOxn-w.gif?1688400059)
+
+To configure your domain for communities, follow these steps:
+
+Start by accessing the " **Communities**" section within the **Memberships** area in the sidebar.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002189887/original/fLFHQZ3k3mNYyK3sb63aTjAQb8VhwMfJkA.png?1688400389)
+
+Head to **Settings![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002190012/original/Z-WRBg_u0nSUjHVFm8uVhf2737s1uyBehg.png?1688400486)**
+
+It will automatically navigate you to **Client Portal's Domain Settings**, as both features use the same domain.
+
+**Please Note:**
+
+```
+At this point, you have two options available to you:
+
+Option 1: Utilize a pre-configured subdomain under "clientclub.net". This subdomain is already set up and ready to be used immediately. Simply select this option if it suits your needs. You will still need to scroll down and hit Update Domain to get this to work.
+
+Option 2: Set up your own custom domain. If you prefer to use a domain that you own, follow the next steps.
+```
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002190667/original/c70P1b7GyM0cNBQqa9rFFvAMsnkzr88Ryw.png?1688400993)
+
+To configure a custom domain for your client portal, follow these steps:
+
+1. Using the left sidebar, navigate to the **Sites** tab then the **Client Portal** section. Proceed to the **"Domain Setup."** area.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155001322192/original/Td94GZjenSgFsO6IoEZOtqujmsbtrR8kaQ.png?1687182770)
+
+
+3. Click on the option for a Custom domain and input your desired domain name. ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155001323808/original/waKWI4CeOu8GF9ko2JYH4yVoTGab3L396g.png?1687183733)
+
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002194248/original/1b4YH1UUv--g7Fug1T-aYWO4HMOYtsK5bQ.png?1688403807)
+
+Before you can successfully set up an A or CNAME record, you must ensure that you have already configured your domain registrar to point to the specific IP address or server provided to you. This is an essential step in ensuring that your domain correctly refers to your server, enabling it to function properly.
+
+A Record, also known as an Address Record, maps your domain to an individual server IP address. On the other hand, a CNAME record, or Canonical Name record, is used to map your domain (or subdomain) to another domain name.
+
+Here's a step-by-step guide on how to add A records and CNAME records:
+
+- Login to your Domain Registrar's dashboard.
+- Navigate to the DNS settings.
+- Here, you will find an option to add a new record.
+- Select the type of record you want to add (A or CNAME).
+- Enter the details - for an A record, this would be the IP address **34.136.231.88**
+- ; for a CNAME record, this would be the target domain **preview.clientclub.net**
+- Save your changes.
+
+Different registrars might have slight variations in the procedure, so here are some specific guides for popular registrars:
+
+[GoDaddy](https://www.godaddy.com/help/add-an-a-record-19238)
+
+[NameCheap](https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain/)
+
+[Bluehost](https://www.bluehost.com/help/article/dns-management-adding-an-a-record)
+
+[HostGator](https://www.hostgator.com/help/article/how-to-manage-dns-records)
+
+[Google Domains](https://support.google.com/domains/answer/3290350)
+
+**Please note:**
+
+```
+It's important to replace the "designated IP address or server" placeholder with your actual IP address or server information in the record. Make sure to fill out this field accurately, as it's essential to correctly configure your domain settings.
+```
+
+Once you have entered the DNS records in your Domain registrar, give it a reasonable time to propagate them (depending on your domain registrar), and hit **Update Domain.**
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002194359/original/U4mvBT_4NGPmvVWz7o4MuO9Ngqxz9gW3bQ.png?1688403918)
+
+**Please note:**
+
+```
+While the following resources provide a good general overview, the exact time of DNS propagation can vary due to several factors, such as the TTL set for the DNS record, your ISP's update frequency, and geographical factors. Typically, it is suggested to allow between 24 to 48 hours for DNS propagation.
+
+Siteground:  ["Understand DNS Propagation & Why it Takes so Long"](https://world.siteground.com/dns-propagation/)
+GoDaddy:  ["What factors affect DNS propagation time? \| Domains"](https://www.godaddy.com/help/what-factors-affect-dns-propagation-time-668)
+HostGator:  ["Propagation Times \| HostGator Support"](https://www.hostgator.com/help/article/dns-propagation-times)
+DomainKing.NG:  ["DNS Propagation – how long does it take?"](https://www.domainking.ng/kb/faq/17/dns-propagation--how-long-does-it-take)
+AccuWeb Hosting:  ["How long Nameservers propagation could take after ..."](https://manage.accuwebhosting.com/knowledgebase/2437/How-long-Nameservers-propagation-could-take-after-changing-them.html)
+Namecheap:  ["DNS Propagation – Explained - Domains"](https://www.namecheap.com/support/knowledgebase/article.aspx/9622/10/dns-propagation-explained/)
+Webcentral:  ["What is the standard DNS propagation period?"](https://support.webcentral.com.au/article/what-is-the-standard-dns-propagation-period/)
+```
+
+* * *
+
+## **Step 2: Setting up Groups**
+
+After setting up your domain, you will have the ability to create groups within a community. Please note that the domain setup process is separate from creating community groups. With enhanced features, you can create, delete, and restore groups, allowing for more robust management.
+
+In communities, groups refer to specific spaces or subdomains where members can connect.
+
+Each subaccount can create multiple groups, allowing for more focused discussions and collaboration within specific areas of interest.
+
+To initiate the creation of a group, access the **"Communities"** section of the platform. Head to " **Groups".**
+
+Locate and click the **"Create Group"** option.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002195145/original/Y9uvm-n26y9l2NKhtA2q4uGgH3ohuuZYpQ.png?1688404982)
+
+Here, you will be presented with a form or settings page to fill in the necessary details for your group.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002195227/original/4rTJ_dLGZgwFRreMgET33R5T4pclnxWq6w.png?1688405125)
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002195229/original/TPyS1NSYzPe1ObLU9U2qKwPoXpJLR-A36g.png?1688405133)
+
+**Group Name:** This field is where you provide a unique name for your group, which will serve as the main identifier for your community. This should be related to the group's purpose or topic. For example, if you're creating a group about digital marketing, you might name it "Digital Marketing Enthusiasts."
+
+**Group URL (Group Slug):** This is the unique web address where your group will be located. It should be easy to remember and share. Typically, it might be a simplified or abbreviated version of your group name, such as "digital-marketing," if your group name is "Digital Marketing Enthusiasts."
+
+**Group Description:** This section should briefly outline what your group is about, the kind of discussions that will take place, and what members can expect from being a part of the group. For instance, you might describe the Digital Marketing Enthusiasts group as "A community for digital marketing professionals and enthusiasts to share strategies, tools, and trends in the industry."
+
+**Brand Color:** Choose a color that represents your group or your brand. This color will be used in your group's design to provide a consistent look and feel.
+
+**Favicon:** This small icon will appear in the browser tab when someone is viewing your group. Ideally, It should be a small version of your logo or a symbol representing your group.
+
+**Cover Image:** The main image will appear at the top of your group's page. It should be visually appealing and relevant to your group's topic. The recommended aspect ratio is 16:9, and the image should be clear at a resolution of 200x200 pixels.
+
+**Logo:** This is the main logo for your group, which will appear in various places, such as the group switcher. It should ideally be square, with a 1:1 aspect ratio, and clear at a resolution of 200x200 pixels.
+
+Once you have filled in the required details, create the group using the provided options or buttons.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002195264/original/xf6bJKvUvy9DQbh64tgyrF-MK5AlFDhbDg.png?1688405199)
+
+**Please Note:**
+
+```
+The individual who initiates the group creation process automatically becomes the owner of that group, assuming administrative responsibilities and privileges within the group.
+```
+
+* * *
+
+## **Step 3: How do members get added to the group?**
+
+To enable members to join your group, you must provide them with a unique URL specific to the group within your community. This URL will direct them to a customized page where they can sign up and create a profile shared across all the groups within the community. Here's a detailed version of the process:
+
+**Invite Potential Members:** You can send personalized invitations via email, SMS, or other communication platforms, providing potential members with the group's unique URL.
+
+**Joining the Group:** Members can click on the provided URL, leading them to a dedicated page where they can join the group.
+
+**Please Note**
+
+```
+Members can join multiple groups within the community based on their interests, preferences, or professional needs, fostering a more dynamic and interactive community experience.
+```
+
+Send an email or SMS to potential members, providing them with the group's URL and inviting them to join.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196007/original/f7XJ8frBpyiASNLYr5VaLn9P9EBq0TqMHw.png?1688406112)
+
+Members can click on the provided URL, leading them to a page where they can join the group.
+
+Upon clicking "Join Group," they will be prompted to sign up for the client portal.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196087/original/v3JkUKhr4--n1uNSWVPzd1KxpRXg-98OiA.png?1688406208)
+
+Once they sign up or log in, they gain access to the client portal and can choose to participate in any of the available groups within the community.
+
+Members can join multiple groups within the community based on their interests or preferences.
+
+* * *
+
+## **Step 4: Customizing your Groups**
+
+You can customize your community groups to align with your brand and community objectives. The initial customization you performed in Step 2 sets the default for your group, but additional options are available to refine your group's appearance and functionality further. Here's a comprehensive guide:
+
+### **Details:**
+
+**Group Name and Description:**
+
+You can choose a suitable name for your group that aligns with its purpose.
+
+Add a descriptive group description to provide information and context to potential members.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196401/original/-vyMQwC9owqRxIjN2xLXT12N2lUeU28H_A.png?1688406497)
+
+**Group URL:**
+
+Customize the group's URL to make it more relevant or memorable for your audience.
+
+Each Community Group is initially assigned a default URL, but you can personalize it according to your preferences.
+
+**Please Note:**
+
+```
+You can only modify the group URL once, so it's crucial to double-check your desired URL before saving the changes.
+```
+
+- Access the group settings by clicking on the settings icon at the top of the page.
+- In the left menu, locate and click on the "Details" section.
+- You will find the option to change the group URL within the Details section.
+- Once you have made the necessary adjustments, save the changes.
+- Congratulations! Your group now has a customized URL. To confirm the update, you can revisit the settings modal and ensure that your current URL reflects the newly set one.
+
+By following these steps, you can customize your Community group's URL. Please review your changes before finalizing them, as there is a one-time limitation on modifying the group URL.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196410/original/cj-cJv82IUZ0T0MWElObWf5f_ip0pdB4zg.png?1688406523)
+
+### **Branding**:
+
+**Primary Color:** Choose a color that mirrors your brand, providing consistency throughout the group.
+
+**Group Logo:** Upload a logo that will appear in the group switcher for easy identification.
+
+**Cover Image:** Add a visually appealing image that resonates with your group's theme or branding.
+
+**Favicon:** Include a small icon for browser tabs, reinforcing your group's visual identity.
+
+Select a primary color that represents your brand identity. This color will be reflected throughout your group, creating a cohesive visual experience.
+
+Upload a group logo in the group switcher, allowing members to identify and navigate to your group easily.
+
+Add a cover image to personalize the group's appearance and showcase relevant visuals or branding elements.
+
+Include a favicon, a small icon displayed in the browser tab, to further enhance your group's branding.![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196430/original/hDvI654bGp3hy992sKX9E6hJVrybrTpQPA.png?1688406575)
+
+### **Promotional Links:**
+
+**Integration:** Incorporate promotional links within your group, adding a title and corresponding URL.
+
+**Visibility:** These links can be seen by your community members, facilitating the sharing of relevant resources or announcements.
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155002196501/original/31Kk3H1dJflNxpY-k1scDlCX5DctDgJ4og.png?1688406673)
+
+By leveraging these customization options, you can tailor your community group to create a unique and branded experience for your members.
+
+### **Activate or Deactivate your groups:**
+
+You can delete and restore groups easily, giving you better control over group management.
+
+Head over to Memberships> Communities> Status tab for your desired group:
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005330533/original/NCzk4AIcj4jzbeD6DfCop4A2D08JgvZ15Q.png?1692190286)
+
+You can switch it to **Active** to activate your group or **Inactive** to Deactivate your group.
+
+You can filter your list of visible groups by whether they are Active or Inactive by clicking on this filter:
+
+![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/155005330832/original/Isfs6pZJPyV2gMAlzsYegXVnn5bpkO6-vg.png?1692190400)
+
+* * *
+
+## **Step 5: Sub Account Users Inside community groups**
+
+- **Creation of Community Group:** All user levels, including account users, admins, agency users, and agency admins, can create a community group.
+- **Ownership:** Upon creating a group, the user becomes the owner of that particular group. It's crucial to note that once ownership is established, it cannot be transferred to another individual.
+- **Admin Privileges:** Sub-account and agency admins are automatically granted admin rights within the community when they access it via the platform. These privileges enable them to oversee and manage various aspects of the community group.
+- **Moderator Role:** In contrast, sub-account and agency users are assigned the role of group moderators when they log in from the builder platform. This role permits them to handle day-to-day moderation tasks within the group.
+- **Effective Management:** This hierarchy and distinction of roles ensure that the community group is effectively managed and moderated. Admins have broader control, while moderators focus on maintaining a positive community environment.
+- **User Participation:** Through these role assignments, sub-account admins, agency admins, sub-account users, and agency users can all actively engage in and oversee the community groups within the platform, each according to their specific permissions and responsibilities.
+
+* * *
+
+## **FAQs**
+
+### **Q: Can I integrate my existing website with my Communities platform?**
+
+A: Direct integration of your existing website with the Communities platform is unavailable. However, a connection between the two can be established by sharing links to your Community groups on your website and, likewise, placing website links within your Community. This approach ensures seamless navigation for users between both platforms.
+
+### **Q: Is there a limit to the number of groups I can create within my Community?**
+
+A: As of the current phase, there are no restrictions on the number of groups or users within the groups you can create in a Community. It's important to be aware that this may be subject to change in the future, so staying updated with the platform's policies and guidelines is advisable.
+
+### **Q: What happens if I change the URL of my community group?**
+
+A: Modifying a community group's URL has significant implications on its accessibility. Any previously distributed links containing the old URL will become inactive. Users will need to utilize the newly updated URL to gain access to the group. Careful consideration and communication of such changes are essential to avoid confusion.
+
+### **Q: Can I monitor the activities within my community groups?**
+
+A: Monitoring capabilities are provided for admins and group owners within community groups. These roles have access to oversee discussions, handle membership, and if necessary, intervene to ensure a conducive and engaging community atmosphere.
+
+### **Q: How can I promote active engagement in my community groups?**
+
+A: Fostering active participation within community groups can be accomplished through various methods. Regularly disseminating compelling content, posing intriguing questions, organizing events or challenges, and stimulating members to exchange views and ideas are all effective ways to invigorate engagement. It is the continuous interaction and encouragement that creates a lively and interactive community environment.
+
+* * *
+
+Did you find it helpful?
+Yes
+No
+
+Send feedback
+
+Sorry we couldn't be helpful. Help us improve this article with your feedback.
+
+![Article views count](https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities/hit)
+
+---
+
+*Scraped from GoHighLevel Support: https://help.leadconnectorhq.com/support/solutions/articles/155000000282-how-to-setup-customize-and-manage-your-communities*  
+*Generated on: 2025-10-28T16:02:25.720Z*

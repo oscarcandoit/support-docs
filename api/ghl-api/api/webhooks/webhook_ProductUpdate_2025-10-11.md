@@ -1,0 +1,139 @@
+---
+source: https://marketplace.gohighlevel.com/docs/webhook/ProductUpdate/index.html
+category: webhooks
+scraped: 2025-10-11T23:13:46.937Z
+title: Price | HighLevel API
+---
+
+[Skip to main content](https://marketplace.gohighlevel.com/docs/webhook/PriceDelete/index.html#__docusaurus_skipToContent_fallback)
+
+On this page
+
+Called whenever a price is deleted
+
+#### Schema [​](https://marketplace.gohighlevel.com/docs/webhook/PriceDelete/index.html\#schema "Direct link to Schema")
+
+```codeBlockLines_e6Vv
+{
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string"
+    },
+    "membershipOffers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "variantOptionIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "locationId": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "recurring": {
+      "type": "object",
+      "properties": {
+        "interval": {
+          "type": "string"
+        },
+        "intervalCount": {
+          "type": "number"
+        }
+      }
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "compareAtPrice": {
+      "type": "number"
+    },
+    "trackInventory": {
+      "type": "null"
+    },
+    "availableQuantity": {
+      "type": "number"
+    },
+    "allowOutOfStockPurchases": {
+      "type": "boolean"
+    }
+  }
+}
+
+```
+
+#### Example [​](https://marketplace.gohighlevel.com/docs/webhook/PriceDelete/index.html\#example "Direct link to Example")
+
+```codeBlockLines_e6Vv
+  "_id": "655b33aa2209e60b6adb87a7",
+  "membershipOffers": [\
+    {\
+      "label": "top_50",\
+      "value": "50",\
+      "_id": "655b33aa2209e60b6adb87a7"\
+    }\
+  ],
+  "variantOptionIds": [\
+    "h4z7u0im2q8",\
+    "h3nst2ltsnn"\
+  ],
+  "locationId": "3SwdhCsvxI8Au3KsPJt6",
+  "product": "655b33a82209e60b6adb87a5",
+  "userId": "6YAtzfzpmHAdj0e8GkKp",
+  "name": "Red / S",
+  "type": "one_time",
+  "currency": "INR",
+  "amount": 199999,
+  "recurring": {
+    "interval": "day",
+    "intervalCount": 1
+  },
+  "createdAt": "2023-11-20T10:23:38.645Z",
+  "updatedAt": "2024-01-23T09:57:04.852Z",
+  "compareAtPrice": 2000000,
+  "trackInventory": null,
+  "availableQuantity": 5,
+  "allowOutOfStockPurchases": true
+}
+
+```
+
+## Share your feedback
+
+★★★★★
