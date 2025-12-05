@@ -1,0 +1,106 @@
+---
+url: "https://docs.gravityforms.com/category/developers/hooks/actions/"
+title: "Gravity Forms Actions - Gravity Forms Documentation"
+---
+
+[![Gravity Forms Documentation](https://docs.gravityforms.com/wp-content/uploads/2023/09/logo.svg)](https://docs.gravityforms.com/) [![Gravity Forms Documentation](https://docs.gravityforms.com/wp-content/uploads/2024/08/gf-print_logo.svg)](https://docs.gravityforms.com/)
+
+- [User Guides](https://docs.gravityforms.com/category/user-guides/)
+- [Developer](https://docs.gravityforms.com/category/developers/)
+- [Blog](https://www.gravityforms.com/blog/)
+- [Changelog](https://docs.gravityforms.com/gravityforms-change-log/)
+
+```
+
+```
+
+Toggle Menu
+
+- [Getting Started](https://docs.gravityforms.com/category/getting-started/)
+- [Your Gravity Forms Account](https://docs.gravityforms.com/category/your-gravity-forms-account/)
+- [User Guides](https://docs.gravityforms.com/category/user-guides/)
+- [Gravity Forms 2.9](https://docs.gravityforms.com/category/gravity-forms-2-9/)
+- [Gravity Forms 2.8](https://docs.gravityforms.com/category/gravity-forms-2-8/)
+- [Add-Ons](https://docs.gravityforms.com/category/add-ons-gravity-forms/)
+- [Developers](https://docs.gravityforms.com/category/developers/)  - [Theme Framework](https://docs.gravityforms.com/category/developers/theme-framework/)
+  - [Hooks](https://docs.gravityforms.com/category/developers/hooks/)    - [Actions](https://docs.gravityforms.com/category/developers/hooks/actions/)      - [Add-On Framework Actions](https://docs.gravityforms.com/category/developers/hooks/actions/addon-framework-actions/)
+      - [Confirmations Actions](https://docs.gravityforms.com/category/developers/hooks/actions/confirmations-actions/)
+      - [Editor Actions](https://docs.gravityforms.com/category/developers/hooks/actions/editor-actions/)
+      - [Email Actions](https://docs.gravityforms.com/category/developers/hooks/actions/email-actions/)
+      - [Entry Actions](https://docs.gravityforms.com/category/developers/hooks/actions/entry-actions/)
+      - [Entry Change Actions](https://docs.gravityforms.com/category/developers/hooks/actions/entry-change-actions/)
+      - [Entry Detail Actions](https://docs.gravityforms.com/category/developers/hooks/actions/entry-detail-actions/)
+      - [Entry List Actions](https://docs.gravityforms.com/category/developers/hooks/actions/entry-list-actions/)
+      - [Entry Printing Actions](https://docs.gravityforms.com/category/developers/hooks/actions/entry-printing-actions/)
+      - [Field Framework Actions](https://docs.gravityforms.com/category/developers/hooks/actions/field-framework-actions/)
+      - [Field Actions](https://docs.gravityforms.com/category/developers/hooks/actions/field-actions/)
+      - [Gravity Forms Core Actions](https://docs.gravityforms.com/category/developers/hooks/actions/gravity-forms-core-actions/)
+      - [Gravity Forms Settings Actions](https://docs.gravityforms.com/category/developers/hooks/actions/gravity-forms-settings-actions/)
+      - [Form Actions](https://docs.gravityforms.com/category/developers/hooks/actions/form-actions/)
+      - [Form Activity Actions](https://docs.gravityforms.com/category/developers/hooks/actions/form-activity-actions/)
+      - [Form Settings Actions](https://docs.gravityforms.com/category/developers/hooks/actions/form-settings-actions/)
+      - [Import/Export Actions](https://docs.gravityforms.com/category/developers/hooks/actions/importexport-actions/)
+      - [Notifications Actions](https://docs.gravityforms.com/category/developers/hooks/actions/notifications-actions/)
+      - [Payment Actions](https://docs.gravityforms.com/category/developers/hooks/actions/payment-actions/)
+      - [Post Field Actions](https://docs.gravityforms.com/category/developers/hooks/actions/post-fields-actions/)
+      - [Script/Style Actions](https://docs.gravityforms.com/category/developers/hooks/actions/scriptstyle-actions/)
+      - [Submission Actions](https://docs.gravityforms.com/category/developers/hooks/actions/submission-actions/)
+      - [System Status Actions](https://docs.gravityforms.com/category/developers/hooks/actions/system-status-actions/)
+    - [Filters](https://docs.gravityforms.com/category/developers/hooks/filters/)
+    - [JavaScript](https://docs.gravityforms.com/category/developers/hooks/javascript/)
+    - [Deprecated](https://docs.gravityforms.com/category/developers/hooks/deprecated/)
+  - [Data Objects](https://docs.gravityforms.com/category/developers/data-objects/)
+  - [PHP API](https://docs.gravityforms.com/category/developers/php-api/)
+  - [Database](https://docs.gravityforms.com/category/developers/database/)
+  - [Developer Snippets](https://docs.gravityforms.com/category/developers/tutorials/)
+  - [REST API](https://docs.gravityforms.com/category/developers/rest-api/)
+- [Knowledge Base](https://docs.gravityforms.com/category/knowledge-base/)
+
+# Actions
+
+[**Add-On Framework Actions** \\
+This section of documentation lists the action hooks available to the Add-On Framework in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/addon-framework-actions/) [**Confirmations Actions** \\
+In this document section, you will find articles related to action hooks available for use with confirmations in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/confirmations-actions/) [**Editor Actions** \\
+In this documentation section, you will find action hooks which may be used to impact the Form Editor page in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/editor-actions/) [**Email Actions** \\
+In this documentation section, you will find a listing of action hooks available for use when events occur surrounding emails.](https://docs.gravityforms.com/category/developers/hooks/actions/email-actions/) [**Entry Actions** \\
+In this documentation section, you will find action hooks that may be used to modify entry information or perform actions after an event has completed.](https://docs.gravityforms.com/category/developers/hooks/actions/entry-actions/) [**Entry Change Actions** \\
+In this documentation section, you will find action hooks that are triggered after changes are made to entries in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/entry-change-actions/) [**Entry Detail Actions** \\
+In this section of documentation, you will find hooks related to Entry Details, such as controlling the layout of the entry details page.](https://docs.gravityforms.com/category/developers/hooks/actions/entry-detail-actions/) [**Entry List Actions** \\
+In this documentation section, you will find action hooks related to Entry Lists, such as gform\_entries\_first\_column and gform\_print\_entry\_content.](https://docs.gravityforms.com/category/developers/hooks/actions/entry-list-actions/) [**Entry Printing Actions** \\
+In this documentation section, you will find action hooks that may be used on the print entry screen.](https://docs.gravityforms.com/category/developers/hooks/actions/entry-printing-actions/) [**Field Framework Actions** \\
+In this section of documentation, you will find action hooks in Gravity Forms related to the Field Framework.](https://docs.gravityforms.com/category/developers/hooks/actions/field-framework-actions/) [**Field Actions** \\
+In this section of documentation, you will find action hooks that may be used on Fields, such as ones that fire before and after field deletion.](https://docs.gravityforms.com/category/developers/hooks/actions/field-actions/) [**Gravity Forms Core Actions** \\
+In this section of documentation, you will find action hooks related to Gravity Forms Core operations, such as loading the form.](https://docs.gravityforms.com/category/developers/hooks/actions/gravity-forms-core-actions/) [**Gravity Forms Settings Actions** \\
+A list of action hooks related to the Gravity Forms Settings page, such as the currency setting.](https://docs.gravityforms.com/category/developers/hooks/actions/gravity-forms-settings-actions/) [**Form Actions** \\
+In this section of documentation, you will find action hooks related to the Form display itself, such as paging and viewing the form.](https://docs.gravityforms.com/category/developers/hooks/actions/form-actions/) [**Form Activity Actions** \\
+In this section of documentation, you will find action hooks that fire with Form activity, such as forms trashed, restored, duplicated, or saved.](https://docs.gravityforms.com/category/developers/hooks/actions/form-activity-actions/) [**Form Settings Actions** \\
+A list of action hooks related to the Form Settings page in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/form-settings-actions/) [**Import/Export Actions** \\
+In this section of documentation, you will find action hooks related to importing forms and exporting entries.](https://docs.gravityforms.com/category/developers/hooks/actions/importexport-actions/) [**Notifications Actions** \\
+In this section of documentation, you will find action hooks related to sending, deactivating, deleting, and activating Notifications.](https://docs.gravityforms.com/category/developers/hooks/actions/notifications-actions/) [**Payment Actions** \\
+In this documentation section, you will find a listing of action hooks available in Gravity Forms for use with payment add-ons.](https://docs.gravityforms.com/category/developers/hooks/actions/payment-actions/) [**Post Field Actions** \\
+In this section of documentation, you will find action hooks related to Post Fields used in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/post-fields-actions/) [**Script/Style Actions** \\
+In this section of documentation, you will find action hooks used when interacting with scripts or styles in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/scriptstyle-actions/) [**Submission Actions** \\
+In this section of documentation, you will find action hooks used with the submission of a form in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/submission-actions/) [**System Status Actions** \\
+In this section of documentation, you will find action hooks related to the system status page and form updates in Gravity Forms.](https://docs.gravityforms.com/category/developers/hooks/actions/system-status-actions/)
+
+## Articles
+
+[**gform\_{$SHORT\_SLUG}\_error** \\
+This action hook can be used to perform a custom action when an Add-On Framework based add-on experiences an error when processing a feed.](https://docs.gravityforms.com/gform_slug_error/ "gform_{$SHORT_SLUG}_error") [**gform\_action\_pre\_payment\_callback** \\
+Runs a function after payment, before the callback occurs.](https://docs.gravityforms.com/gform_action_pre_payment_callback/ "gform_action_pre_payment_callback") [**gform\_addon\_app\_PAGE\_TAB** \\
+This action fires when a page and tab is accessed within Gravity Forms. It is typically used to add content to custom settings tabs.](https://docs.gravityforms.com/gform_addon_app_page_tab/ "gform_addon_app_PAGE_TAB") [**gform\_after\_check\_update** \\
+Runs a function after Gravity Forms has checked for an update.](https://docs.gravityforms.com/gform_after_check_update/ "gform_after_check_update") [**gform\_after\_create\_post** \\
+This action hook is executed after the post has been created. It only applies to forms that have Post Fields.](https://docs.gravityforms.com/gform_after_create_post/ "gform_after_create_post") [**gform\_after\_delete\_field** \\
+Use this action hook to perform actions right after a field is deleted from a form.](https://docs.gravityforms.com/gform_after_delete_field/ "gform_after_delete_field") [**gform\_after\_delete\_form** \\
+Use this action hook to perform actions right after a form is deleted.](https://docs.gravityforms.com/gform_after_delete_form/ "gform_after_delete_form") [**gform\_after\_email** \\
+Use this hook to perform actions after a user or admin notification has been sent.](https://docs.gravityforms.com/gform_after_email/ "gform_after_email") [**gform\_after\_save\_form** \\
+Use this action hook to perform actions right after a form is created or updated.](https://docs.gravityforms.com/gform_after_save_form/ "gform_after_save_form") [**gform\_after\_submission** \\
+Use this hook to perform actions after the entry has been created (i.e. feed data to third party applications).](https://docs.gravityforms.com/gform_after_submission/ "gform_after_submission") 1 [2](https://docs.gravityforms.com/category/developers/hooks/actions/page/2/) [3](https://docs.gravityforms.com/category/developers/hooks/actions/page/3/)… [12](https://docs.gravityforms.com/category/developers/hooks/actions/page/12/) [Next](https://docs.gravityforms.com/category/developers/hooks/actions/page/2/)
+
+© Copyright 2008 - 2025 Rocketgenius, Inc
+
+[Return to Gravity Forms](https://www.gravityforms.com/)
+
+[Algolia](https://docs.gravityforms.com/category/developers/hooks/actions/# "Algolia")
+
+![](https://docs.gravityforms.com/wp-content/plugins/wpfront-scroll-top/includes/assets/icons/1.png)

@@ -1,0 +1,131 @@
+---
+url: "https://docs.gravityforms.com/post-category/"
+title: "Post Category - Gravity Forms Documentation"
+---
+
+[![Gravity Forms Documentation](https://docs.gravityforms.com/wp-content/uploads/2023/09/logo.svg)](https://docs.gravityforms.com/) [![Gravity Forms Documentation](https://docs.gravityforms.com/wp-content/uploads/2024/08/gf-print_logo.svg)](https://docs.gravityforms.com/)
+
+- [User Guides](https://docs.gravityforms.com/category/user-guides/)
+- [Developer](https://docs.gravityforms.com/category/developers/)
+- [Blog](https://www.gravityforms.com/blog/)
+- [Changelog](https://docs.gravityforms.com/gravityforms-change-log/)
+
+```
+
+```
+
+Toggle Menu
+
+- [Getting Started](https://docs.gravityforms.com/category/getting-started/)
+- [Your Gravity Forms Account](https://docs.gravityforms.com/category/your-gravity-forms-account/)
+- [User Guides](https://docs.gravityforms.com/category/user-guides/)  - [Standard Fields](https://docs.gravityforms.com/category/user-guides/standard-fields/)
+  - [Advanced Fields](https://docs.gravityforms.com/category/user-guides/advanced-fields/)
+  - [Pricing Fields](https://docs.gravityforms.com/category/user-guides/pricing-fields/)
+  - [Post Fields](https://docs.gravityforms.com/category/user-guides/post-fields/)    - [Post Body](https://docs.gravityforms.com/post-body/ "Post Body")
+    - [Post Category](https://docs.gravityforms.com/post-category/ "Post Category")
+    - [Post Custom Field](https://docs.gravityforms.com/post-custom/ "Post Custom Field")
+    - [Post Excerpt](https://docs.gravityforms.com/post-excerpt/ "Post Excerpt")
+    - [Post Image](https://docs.gravityforms.com/post-image/ "Post Image")
+    - [Post Tags](https://docs.gravityforms.com/post-tags/ "Post Tags")
+    - [Post Title](https://docs.gravityforms.com/post-title/ "Post Title")
+  - [Field Settings](https://docs.gravityforms.com/category/user-guides/field-settings-guide/)
+  - [Entries](https://docs.gravityforms.com/category/user-guides/form-entries/)
+  - [Conditional Logic](https://docs.gravityforms.com/category/user-guides/conditional-logic/)
+  - [Merge Tags](https://docs.gravityforms.com/category/user-guides/merge-tags-getting-started/)
+  - [Confirmations](https://docs.gravityforms.com/category/user-guides/confirmations/)
+  - [Notifications](https://docs.gravityforms.com/category/user-guides/notifications/)
+  - [Design and Layout](https://docs.gravityforms.com/category/user-guides/design-and-layout/)
+  - [Settings Reference](https://docs.gravityforms.com/category/user-guides/settings-reference/)
+- [Gravity Forms 2.9](https://docs.gravityforms.com/category/gravity-forms-2-9/)
+- [Gravity Forms 2.8](https://docs.gravityforms.com/category/gravity-forms-2-8/)
+- [Add-Ons](https://docs.gravityforms.com/category/add-ons-gravity-forms/)
+- [Developers](https://docs.gravityforms.com/category/developers/)
+- [Knowledge Base](https://docs.gravityforms.com/category/knowledge-base/)
+
+# Post Category
+
+- [Summary](https://docs.gravityforms.com/post-category/#h-summary)
+- [Common Settings](https://docs.gravityforms.com/post-category/#h-common-settings)
+- [General Settings](https://docs.gravityforms.com/post-category/#h-general-settings)
+- [Advanced Settings](https://docs.gravityforms.com/post-category/#h-advanced-settings)
+- [Merge Tags](https://docs.gravityforms.com/post-category/#h-merge-tags)
+- [Usage](https://docs.gravityforms.com/post-category/#h-usage)
+- [Modifiers](https://docs.gravityforms.com/post-category/#h-modifiers)
+
+**Note:** This field cannot be used with the [Advanced Post Creation Add-On](https://docs.gravityforms.com/category/add-ons-gravity-forms/advanced-post-creation-add-on/). If utilizing that plugin for post creation, use a [standard field type](https://docs.gravityforms.com/category/user-guides/standard-fields/) instead.
+
+**Note:** Using any of the [Post Fields](https://docs.gravityforms.com/category/user-guides/post-fields/) in a form to collect information without configuring the field will create Untitled draft posts after the form is submitted.
+
+## Summary
+
+The **Post Category** field allows the user to select a category for the post they are creating. This field works in tandem with the other Post fields to allow you to create a form that can generate post data from a user submission. It is available under the Post Fields section within the form editor.
+
+[![GForms Post Category Field Icon](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.28.49@2x.png)](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.28.49@2x.png)
+
+Post Category field as displayed in the [Field Library](https://docs.gravityforms.com/form-editor/#h-the-field-library)
+
+[![GForms Post Category Field](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.28.44@2x.png)](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.28.44@2x.png)
+
+Post Category field as displayed in the [Form Editor](https://docs.gravityforms.com/form-editor/#h-the-layout-space).
+
+## Common Settings
+
+This field uses only common field settings for the Appearance settings. For a description of each of the common field settings, [refer to this article](https://docs.gravityforms.com/common-field-settings/). Below you will find description of specialty settings that are particular to this field.
+
+## General Settings
+
+[![GForms Post Category Field General Settings](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.29.18@2x.png)](https://docs.gravityforms.com/wp-content/uploads/2014/06/CleanShot-2021-05-12-at-11.29.18@2x.png)
+
+| Setting | Description |
+| --- | --- |
+| **Field Type** | Select the type of field from the available form fields. |
+| **Category** | Select which categories are displayed. You can choose to display all of them or select individual ones. |
+| **Display Placeholder** | Check this option to enable a default instructional option as the first option rather than having the first option default to a category. |
+
+## Advanced Settings
+
+| Setting | Description |
+| --- | --- |
+| **Visibility** | Select the visibility for this field. Field visibility set to Everyone will be visible by the user submitting the form. Form field visibility set to Admin Only will only be visible within the Gravity Forms administration tool. Setting a field to Admin Only is useful for creating fields that can be used to set a status or priority level on submitted entries. See **Note**. |
+
+**Note:** This is especially useful for the Category field as it allows the admin to specify a default category for posts created through this form without this field being visible to users.
+
+## Merge Tags
+
+For more information on the use of merge tags, refer to [these articles](https://docs.gravityforms.com/category/user-guides/merge-tags-getting-started/).
+
+### Usage
+
+```
+{Field Name:2}
+```
+
+### Modifiers
+
+This merge tag does not have any modifiers.
+
+- Name
+
+
+This field is for validation purposes and should be left unchanged.
+
+- Was this article helpful?
+
+- How we can improve it?
+
+- Please [open a support ticket](https://www.gravityforms.com/open-support-ticket/) if you need technical support or want to report a bug. Product feedback, feature and integration requests, and other functionality ideas can be submitted on our [Product Roadmap page](https://www.gravityforms.com/gravity-forms-roadmap/?c=submit-idea).
+
+
+Δ
+
+Last modified: August 28, 2024
+
+© Copyright 2008 - 2025 Rocketgenius, Inc
+
+[Return to Gravity Forms](https://www.gravityforms.com/)
+
+Notifications
+
+[Algolia](https://docs.gravityforms.com/post-category/# "Algolia")
+
+![](https://docs.gravityforms.com/wp-content/plugins/wpfront-scroll-top/includes/assets/icons/1.png)
