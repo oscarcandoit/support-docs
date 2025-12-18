@@ -1,0 +1,1497 @@
+---
+url: "https://platform.openai.com/docs/api-reference/conversations?lang=node"
+title: "Conversations | OpenAI API Reference"
+---
+
+[DocsDocs](https://platform.openai.com/docs) [API referenceAPI](https://platform.openai.com/docs/api-reference/introduction)
+
+Log in [Sign up](https://platform.openai.com/signup)
+
+Search`` `K`
+
+API Reference
+
+[Introduction](https://platform.openai.com/docs/api-reference/introduction?lang=node)
+
+[Authentication](https://platform.openai.com/docs/api-reference/authentication?lang=node)
+
+[Debugging requests](https://platform.openai.com/docs/api-reference/debugging-requests?lang=node)
+
+[Backward compatibility](https://platform.openai.com/docs/api-reference/backward-compatibility?lang=node)
+
+Responses API
+
+[Responses](https://platform.openai.com/docs/api-reference/responses?lang=node)
+
+[Conversations](https://platform.openai.com/docs/api-reference/conversations?lang=node)
+
+[Create a conversation](https://platform.openai.com/docs/api-reference/conversations/create?lang=node)
+
+[Retrieve a conversation](https://platform.openai.com/docs/api-reference/conversations/retrieve?lang=node)
+
+[Update a conversation](https://platform.openai.com/docs/api-reference/conversations/update?lang=node)
+
+[Delete a conversation](https://platform.openai.com/docs/api-reference/conversations/delete?lang=node)
+
+[List items](https://platform.openai.com/docs/api-reference/conversations/list-items?lang=node)
+
+[Create items](https://platform.openai.com/docs/api-reference/conversations/create-items?lang=node)
+
+[Retrieve an item](https://platform.openai.com/docs/api-reference/conversations/get-item?lang=node)
+
+[Delete an item](https://platform.openai.com/docs/api-reference/conversations/delete-item?lang=node)
+
+[The conversation object](https://platform.openai.com/docs/api-reference/conversations/object?lang=node)
+
+[The item list](https://platform.openai.com/docs/api-reference/conversations/list-items-object?lang=node)
+
+[Streaming events](https://platform.openai.com/docs/api-reference/responses-streaming?lang=node)
+
+Webhooks
+
+[Webhook Events](https://platform.openai.com/docs/api-reference/webhook-events?lang=node)
+
+Platform APIs
+
+[Audio](https://platform.openai.com/docs/api-reference/audio?lang=node)
+
+[Videos](https://platform.openai.com/docs/api-reference/videos?lang=node)
+
+[Images](https://platform.openai.com/docs/api-reference/images?lang=node)
+
+[Image Streaming](https://platform.openai.com/docs/api-reference/images-streaming?lang=node)
+
+[Embeddings](https://platform.openai.com/docs/api-reference/embeddings?lang=node)
+
+[Evals](https://platform.openai.com/docs/api-reference/evals?lang=node)
+
+[Fine-tuning](https://platform.openai.com/docs/api-reference/fine-tuning?lang=node)
+
+[Graders](https://platform.openai.com/docs/api-reference/graders?lang=node)
+
+[Batch](https://platform.openai.com/docs/api-reference/batch?lang=node)
+
+[Files](https://platform.openai.com/docs/api-reference/files?lang=node)
+
+[Uploads](https://platform.openai.com/docs/api-reference/uploads?lang=node)
+
+[Models](https://platform.openai.com/docs/api-reference/models?lang=node)
+
+[Moderations](https://platform.openai.com/docs/api-reference/moderations?lang=node)
+
+Vector stores
+
+[Vector stores](https://platform.openai.com/docs/api-reference/vector-stores?lang=node)
+
+[Vector store files](https://platform.openai.com/docs/api-reference/vector-stores-files?lang=node)
+
+[Vector store file batches](https://platform.openai.com/docs/api-reference/vector-stores-file-batches?lang=node)
+
+ChatKit
+
+Beta
+
+[ChatKit](https://platform.openai.com/docs/api-reference/chatkit?lang=node)
+
+Containers
+
+[Containers](https://platform.openai.com/docs/api-reference/containers?lang=node)
+
+[Container Files](https://platform.openai.com/docs/api-reference/container-files?lang=node)
+
+Realtime
+
+[Realtime](https://platform.openai.com/docs/api-reference/realtime?lang=node)
+
+[Client secrets](https://platform.openai.com/docs/api-reference/realtime-sessions?lang=node)
+
+[Calls](https://platform.openai.com/docs/api-reference/realtime-calls?lang=node)
+
+[Client events](https://platform.openai.com/docs/api-reference/realtime-client-events?lang=node)
+
+[Server events](https://platform.openai.com/docs/api-reference/realtime-server-events?lang=node)
+
+Chat Completions
+
+[Chat Completions](https://platform.openai.com/docs/api-reference/chat?lang=node)
+
+[Streaming](https://platform.openai.com/docs/api-reference/chat-streaming?lang=node)
+
+Assistants
+
+Beta
+
+[Assistants](https://platform.openai.com/docs/api-reference/assistants?lang=node)
+
+[Threads](https://platform.openai.com/docs/api-reference/threads?lang=node)
+
+[Messages](https://platform.openai.com/docs/api-reference/messages?lang=node)
+
+[Runs](https://platform.openai.com/docs/api-reference/runs?lang=node)
+
+[Run steps](https://platform.openai.com/docs/api-reference/run-steps?lang=node)
+
+[Streaming](https://platform.openai.com/docs/api-reference/assistants-streaming?lang=node)
+
+Administration
+
+[Administration](https://platform.openai.com/docs/api-reference/administration?lang=node)
+
+[Admin API Keys](https://platform.openai.com/docs/api-reference/admin-api-keys?lang=node)
+
+[Invites](https://platform.openai.com/docs/api-reference/invite?lang=node)
+
+[Users](https://platform.openai.com/docs/api-reference/users?lang=node)
+
+[Groups](https://platform.openai.com/docs/api-reference/groups?lang=node)
+
+[Roles](https://platform.openai.com/docs/api-reference/roles?lang=node)
+
+[Role assignments](https://platform.openai.com/docs/api-reference/role-assignments?lang=node)
+
+[Projects](https://platform.openai.com/docs/api-reference/projects?lang=node)
+
+[Project users](https://platform.openai.com/docs/api-reference/project-users?lang=node)
+
+[Project groups](https://platform.openai.com/docs/api-reference/project-groups?lang=node)
+
+[Project service accounts](https://platform.openai.com/docs/api-reference/project-service-accounts?lang=node)
+
+[Project API keys](https://platform.openai.com/docs/api-reference/project-api-keys?lang=node)
+
+[Project rate limits](https://platform.openai.com/docs/api-reference/project-rate-limits?lang=node)
+
+[Audit logs](https://platform.openai.com/docs/api-reference/audit-logs?lang=node)
+
+[Usage](https://platform.openai.com/docs/api-reference/usage?lang=node)
+
+[Certificates](https://platform.openai.com/docs/api-reference/certificates?lang=node)
+
+Legacy
+
+[Completions](https://platform.openai.com/docs/api-reference/completions?lang=node)
+
+[Realtime Beta](https://platform.openai.com/docs/api-reference/realtime_beta?lang=node)
+
+[Realtime Beta session tokens](https://platform.openai.com/docs/api-reference/realtime-beta-sessions?lang=node)
+
+[Realtime Beta client events](https://platform.openai.com/docs/api-reference/realtime-beta-client-events?lang=node)
+
+[Realtime Beta server events](https://platform.openai.com/docs/api-reference/realtime-beta-server-events?lang=node)
+
+[Cookbook](https://cookbook.openai.com/) [Forum](https://community.openai.com/categories)
+
+## Conversations
+
+Create and manage conversations to store and retrieve conversation state across Response API calls.
+
+## Create a conversation
+
+posthttps://api.openai.com/v1/conversations
+
+Create a conversation.
+
+#### Request body
+
+items
+
+array
+
+Optional
+
+Initial items to include in the conversation context. You may add up to 20 items at a time.
+
+Show possible types
+
+metadata
+
+object or null
+
+Optional
+
+Set of 16 key-value pairs that can be attached to an object. This can be useful for storing additional information about the object in a structured format, and querying for objects via API or the dashboard.
+Keys are strings with a maximum length of 64 characters. Values are strings with a maximum length of 512 characters.
+
+#### Returns
+
+Returns a [Conversation](https://platform.openai.com/docs/api-reference/conversations/object) object.
+
+Example request
+
+curl
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+curl https://api.openai.com/v1/conversations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "metadata": {"topic": "demo"},
+    "items": [\
+      {\
+        "type": "message",\
+        "role": "user",\
+        "content": "Hello!"\
+      }\
+    ]
+  }'
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const conversation = await client.conversations.create({
+  metadata: { topic: "demo" },
+  items: [\
+    { type: "message", role: "user", content: "Hello!" }\
+  ],
+});
+console.log(conversation);
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+from openai import OpenAI
+client = OpenAI()
+
+conversation = client.conversations.create(
+  metadata={"topic": "demo"},
+  items=[\
+    {"type": "message", "role": "user", "content": "Hello!"}\
+  ]
+)
+print(conversation)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+using System;
+using System.Collections.Generic;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+Conversation conversation = client.CreateConversation(
+    new CreateConversationOptions
+    {
+        Metadata = new Dictionary<string, string>
+        {
+            { "topic", "demo" }
+        },
+        Items =
+        {
+            new ConversationMessageInput
+            {
+                Role = "user",
+                Content = "Hello!",
+            }
+        }
+    }
+);
+Console.WriteLine(conversation.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+{
+  "id": "conv_123",
+  "object": "conversation",
+  "created_at": 1741900000,
+  "metadata": {"topic": "demo"}
+}
+```
+
+## Retrieve a conversation
+
+gethttps://api.openai.com/v1/conversations/{conversation\_id}
+
+Get a conversation
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation to retrieve.
+
+#### Returns
+
+Returns a [Conversation](https://platform.openai.com/docs/api-reference/conversations/object) object.
+
+Example request
+
+curl
+
+```
+1
+2
+curl https://api.openai.com/v1/conversations/conv_123 \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+```
+
+```
+1
+2
+3
+4
+5
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const conversation = await client.conversations.retrieve("conv_123");
+console.log(conversation);
+```
+
+```
+1
+2
+3
+4
+5
+from openai import OpenAI
+client = OpenAI()
+
+conversation = client.conversations.retrieve("conv_123")
+print(conversation)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+using System;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+Conversation conversation = client.GetConversation("conv_123");
+Console.WriteLine(conversation.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+{
+  "id": "conv_123",
+  "object": "conversation",
+  "created_at": 1741900000,
+  "metadata": {"topic": "demo"}
+}
+```
+
+## Update a conversation
+
+posthttps://api.openai.com/v1/conversations/{conversation\_id}
+
+Update a conversation
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation to update.
+
+#### Request body
+
+metadata
+
+map
+
+Required
+
+Set of 16 key-value pairs that can be attached to an object. This can be
+useful for storing additional information about the object in a structured
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+#### Returns
+
+Returns the updated [Conversation](https://platform.openai.com/docs/api-reference/conversations/object) object.
+
+Example request
+
+curl
+
+```
+1
+2
+3
+4
+5
+6
+curl https://api.openai.com/v1/conversations/conv_123 \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "metadata": {"topic": "project-x"}
+  }'
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const updated = await client.conversations.update(
+  "conv_123",
+  { metadata: { topic: "project-x" } }
+);
+console.log(updated);
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+from openai import OpenAI
+client = OpenAI()
+
+updated = client.conversations.update(
+  "conv_123",
+  metadata={"topic": "project-x"}
+)
+print(updated)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+using System;
+using System.Collections.Generic;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+Conversation updated = client.UpdateConversation(
+    conversationId: "conv_123",
+    new UpdateConversationOptions
+    {
+        Metadata = new Dictionary<string, string>
+        {
+            { "topic", "project-x" }
+        }
+    }
+);
+Console.WriteLine(updated.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+{
+  "id": "conv_123",
+  "object": "conversation",
+  "created_at": 1741900000,
+  "metadata": {"topic": "project-x"}
+}
+```
+
+## Delete a conversation
+
+deletehttps://api.openai.com/v1/conversations/{conversation\_id}
+
+Delete a conversation. Items in the conversation will not be deleted.
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation to delete.
+
+#### Returns
+
+A success message.
+
+Example request
+
+curl
+
+```
+1
+2
+curl -X DELETE https://api.openai.com/v1/conversations/conv_123 \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+```
+
+```
+1
+2
+3
+4
+5
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const deleted = await client.conversations.delete("conv_123");
+console.log(deleted);
+```
+
+```
+1
+2
+3
+4
+5
+from openai import OpenAI
+client = OpenAI()
+
+deleted = client.conversations.delete("conv_123")
+print(deleted)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+using System;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+DeletedConversation deleted = client.DeleteConversation("conv_123");
+Console.WriteLine(deleted.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+{
+  "id": "conv_123",
+  "object": "conversation.deleted",
+  "deleted": true
+}
+```
+
+## List items
+
+gethttps://api.openai.com/v1/conversations/{conversation\_id}/items
+
+List all items for a conversation with the given ID.
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation to list items for.
+
+#### Query parameters
+
+after
+
+string
+
+Optional
+
+An item ID to list items after, used in pagination.
+
+include
+
+array
+
+Optional
+
+Specify additional output data to include in the model response. Currently supported values are:
+
+- `web_search_call.action.sources`: Include the sources of the web search tool call.
+- `code_interpreter_call.outputs`: Includes the outputs of python code execution in code interpreter tool call items.
+- `computer_call_output.output.image_url`: Include image urls from the computer call output.
+- `file_search_call.results`: Include the search results of the file search tool call.
+- `message.input_image.image_url`: Include image urls from the input message.
+- `message.output_text.logprobs`: Include logprobs with assistant messages.
+- `reasoning.encrypted_content`: Includes an encrypted version of reasoning tokens in reasoning item outputs. This enables reasoning items to be used in multi-turn conversations when using the Responses API statelessly (like when the `store` parameter is set to `false`, or when an organization is enrolled in the zero data retention program).
+
+limit
+
+integer
+
+Optional
+
+Defaults to 20
+
+A limit on the number of objects to be returned. Limit can range between
+1 and 100, and the default is 20.
+
+order
+
+string
+
+Optional
+
+The order to return the input items in. Default is `desc`.
+
+- `asc`: Return the input items in ascending order.
+- `desc`: Return the input items in descending order.
+
+#### Returns
+
+Returns a [list object](https://platform.openai.com/docs/api-reference/conversations/list-items-object) containing Conversation items.
+
+Example request
+
+curl
+
+```
+1
+2
+curl "https://api.openai.com/v1/conversations/conv_123/items?limit=10" \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+```
+
+```
+1
+2
+3
+4
+5
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const items = await client.conversations.items.list("conv_123", { limit: 10 });
+console.log(items.data);
+```
+
+```
+1
+2
+3
+4
+5
+from openai import OpenAI
+client = OpenAI()
+
+items = client.conversations.items.list("conv_123", limit=10)
+print(items.data)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+using System;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+ConversationItemList items = client.ConversationItems.List(
+    conversationId: "conv_123",
+    new ListConversationItemsOptions { Limit = 10 }
+);
+Console.WriteLine(items.Data.Count);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+{
+  "object": "list",
+  "data": [\
+    {\
+      "type": "message",\
+      "id": "msg_abc",\
+      "status": "completed",\
+      "role": "user",\
+      "content": [\
+        {"type": "input_text", "text": "Hello!"}\
+      ]\
+    }\
+  ],
+  "first_id": "msg_abc",
+  "last_id": "msg_abc",
+  "has_more": false
+}
+```
+
+## Create items
+
+posthttps://api.openai.com/v1/conversations/{conversation\_id}/items
+
+Create items in a conversation with the given ID.
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation to add the item to.
+
+#### Query parameters
+
+include
+
+array
+
+Optional
+
+Additional fields to include in the response. See the `include`
+parameter for [listing Conversation items above](https://platform.openai.com/docs/api-reference/conversations/list-items#conversations_list_items-include) for more information.
+
+#### Request body
+
+items
+
+array
+
+Required
+
+The items to add to the conversation. You may add up to 20 items at a time.
+
+Show possible types
+
+#### Returns
+
+Returns the list of added [items](https://platform.openai.com/docs/api-reference/conversations/list-items-object).
+
+Example request
+
+curl
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+curl https://api.openai.com/v1/conversations/conv_123/items \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "items": [\
+      {\
+        "type": "message",\
+        "role": "user",\
+        "content": [\
+          {"type": "input_text", "text": "Hello!"}\
+        ]\
+      },\
+      {\
+        "type": "message",\
+        "role": "user",\
+        "content": [\
+          {"type": "input_text", "text": "How are you?"}\
+        ]\
+      }\
+    ]
+  }'
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const items = await client.conversations.items.create(
+  "conv_123",
+  {
+    items: [\
+      {\
+        type: "message",\
+        role: "user",\
+        content: [{ type: "input_text", text: "Hello!" }],\
+      },\
+      {\
+        type: "message",\
+        role: "user",\
+        content: [{ type: "input_text", text: "How are you?" }],\
+      },\
+    ],
+  }
+);
+console.log(items.data);
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+from openai import OpenAI
+client = OpenAI()
+
+items = client.conversations.items.create(
+  "conv_123",
+  items=[\
+    {\
+      "type": "message",\
+      "role": "user",\
+      "content": [{"type": "input_text", "text": "Hello!"}],\
+    },\
+    {\
+      "type": "message",\
+      "role": "user",\
+      "content": [{"type": "input_text", "text": "How are you?"}],\
+    }\
+  ],
+)
+print(items.data)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+using System;
+using System.Collections.Generic;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+ConversationItemList created = client.ConversationItems.Create(
+    conversationId: "conv_123",
+    new CreateConversationItemsOptions
+    {
+        Items = new List<ConversationItem>
+        {
+            new ConversationMessage
+            {
+                Role = "user",
+                Content =
+                {
+                    new ConversationInputText { Text = "Hello!" }
+                }
+            },
+            new ConversationMessage
+            {
+                Role = "user",
+                Content =
+                {
+                    new ConversationInputText { Text = "How are you?" }
+                }
+            }
+        }
+    }
+);
+Console.WriteLine(created.Data.Count);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+{
+  "object": "list",
+  "data": [\
+    {\
+      "type": "message",\
+      "id": "msg_abc",\
+      "status": "completed",\
+      "role": "user",\
+      "content": [\
+        {"type": "input_text", "text": "Hello!"}\
+      ]\
+    },\
+    {\
+      "type": "message",\
+      "id": "msg_def",\
+      "status": "completed",\
+      "role": "user",\
+      "content": [\
+        {"type": "input_text", "text": "How are you?"}\
+      ]\
+    }\
+  ],
+  "first_id": "msg_abc",
+  "last_id": "msg_def",
+  "has_more": false
+}
+```
+
+## Retrieve an item
+
+gethttps://api.openai.com/v1/conversations/{conversation\_id}/items/{item\_id}
+
+Get a single item from a conversation with the given IDs.
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation that contains the item.
+
+item\_id
+
+string
+
+Required
+
+The ID of the item to retrieve.
+
+#### Query parameters
+
+include
+
+array
+
+Optional
+
+Additional fields to include in the response. See the `include`
+parameter for [listing Conversation items above](https://platform.openai.com/docs/api-reference/conversations/list-items#conversations_list_items-include) for more information.
+
+#### Returns
+
+Returns a [Conversation Item](https://platform.openai.com/docs/api-reference/conversations/item-object).
+
+Example request
+
+curl
+
+```
+1
+2
+curl https://api.openai.com/v1/conversations/conv_123/items/msg_abc \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const item = await client.conversations.items.retrieve(
+  "conv_123",
+  "msg_abc"
+);
+console.log(item);
+```
+
+```
+1
+2
+3
+4
+5
+from openai import OpenAI
+client = OpenAI()
+
+item = client.conversations.items.retrieve("conv_123", "msg_abc")
+print(item)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+using System;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+ConversationItem item = client.ConversationItems.Get(
+    conversationId: "conv_123",
+    itemId: "msg_abc"
+);
+Console.WriteLine(item.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+{
+  "type": "message",
+  "id": "msg_abc",
+  "status": "completed",
+  "role": "user",
+  "content": [\
+    {"type": "input_text", "text": "Hello!"}\
+  ]
+}
+```
+
+## Delete an item
+
+deletehttps://api.openai.com/v1/conversations/{conversation\_id}/items/{item\_id}
+
+Delete an item from a conversation with the given IDs.
+
+#### Path parameters
+
+conversation\_id
+
+string
+
+Required
+
+The ID of the conversation that contains the item.
+
+item\_id
+
+string
+
+Required
+
+The ID of the item to delete.
+
+#### Returns
+
+Returns the updated [Conversation](https://platform.openai.com/docs/api-reference/conversations/object) object.
+
+Example request
+
+curl
+
+```
+1
+2
+curl -X DELETE https://api.openai.com/v1/conversations/conv_123/items/msg_abc \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+import OpenAI from "openai";
+const client = new OpenAI();
+
+const conversation = await client.conversations.items.delete(
+  "conv_123",
+  "msg_abc"
+);
+console.log(conversation);
+```
+
+```
+1
+2
+3
+4
+5
+from openai import OpenAI
+client = OpenAI()
+
+conversation = client.conversations.items.delete("conv_123", "msg_abc")
+print(conversation)
+```
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+using System;
+using OpenAI.Conversations;
+
+OpenAIConversationClient client = new(
+    apiKey: Environment.GetEnvironmentVariable("OPENAI_API_KEY")
+);
+
+Conversation conversation = client.ConversationItems.Delete(
+    conversationId: "conv_123",
+    itemId: "msg_abc"
+);
+Console.WriteLine(conversation.Id);
+```
+
+Response
+
+```
+1
+2
+3
+4
+5
+6
+{
+  "id": "conv_123",
+  "object": "conversation",
+  "created_at": 1741900000,
+  "metadata": {"topic": "demo"}
+}
+```
+
+## The conversation object
+
+created\_at
+
+integer
+
+The time at which the conversation was created, measured in seconds since the Unix epoch.
+
+id
+
+string
+
+The unique ID of the conversation.
+
+metadata
+
+Set of 16 key-value pairs that can be attached to an object. This can be useful for storing additional information about the object in a structured format, and querying for objects via API or the dashboard.
+Keys are strings with a maximum length of 64 characters. Values are strings with a maximum length of 512 characters.
+
+object
+
+string
+
+The object type, which is always `conversation`.
+
+## The item list
+
+A list of Conversation items.
+
+data
+
+array
+
+A list of conversation items.
+
+Show possible types
+
+first\_id
+
+string
+
+The ID of the first item in the list.
+
+has\_more
+
+boolean
+
+Whether there are more items available.
+
+last\_id
+
+string
+
+The ID of the last item in the list.
+
+object
+
+string
+
+The type of object returned, must be `list`.
+
+[PreviousResponses](https://platform.openai.com/docs/api-reference/responses?lang=node) [NextStreaming events](https://platform.openai.com/docs/api-reference/responses-streaming?lang=node)
+
+We use cookies and similar technologies to deliver, maintain, improve our services and for security purposes. Check our [Cookie Policy](https://openai.com/policies/cookie-policy) for details. Click 'Accept all' to let OpenAI and partners use cookies for these purposes. Click 'Reject all' to say no to cookies, except those that are strictly necessary. Choose 'Manage Cookies' to pick specific cookies you're okay with or to change your preferences.
+
+Reject allAccept all
