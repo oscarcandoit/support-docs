@@ -1,0 +1,1611 @@
+---
+url: "https://platform.claude.com/docs/en/api/java/beta/messages/batches/results"
+title: "Retrieve Message Batch results - Claude API Reference"
+---
+
+[Claude Documentation Home](https://platform.claude.com/docs/en/home)
+
+- [Developer Guide](https://platform.claude.com/docs/en/intro)
+- [API Reference](https://platform.claude.com/docs/en/api/overview)
+- [MCP](https://modelcontextprotocol.io/)
+- [Resources](https://platform.claude.com/docs/en/resources/overview)
+- [Release Notes](https://platform.claude.com/docs/en/release-notes/overview)
+
+English
+
+[Log in](https://platform.claude.com/login?returnTo=%2Fdocs%2Fen%2Fapi%2Fjava%2Fbeta%2Fmessages%2Fbatches%2Fresults)
+
+Search...
+
+⌘K
+
+Using the API
+
+[Features overview](https://platform.claude.com/docs/en/api/overview) [Client SDKs](https://platform.claude.com/docs/en/api/client-sdks) [Beta headers](https://platform.claude.com/docs/en/api/beta-headers) [Errors](https://platform.claude.com/docs/en/api/errors)
+
+[Messages](https://platform.claude.com/docs/en/api/messages)
+
+[Create a Message](https://platform.claude.com/docs/en/api/messages/create) [Count tokens in a Message](https://platform.claude.com/docs/en/api/messages/count_tokens)
+
+Batches
+
+[Models](https://platform.claude.com/docs/en/api/models)
+
+[List Models](https://platform.claude.com/docs/en/api/models/list) [Get a Model](https://platform.claude.com/docs/en/api/models/retrieve)
+
+[Beta](https://platform.claude.com/docs/en/api/beta)
+
+Models
+
+Messages
+
+[Create a Message](https://platform.claude.com/docs/en/api/beta/messages/create) [Count tokens in a Message](https://platform.claude.com/docs/en/api/beta/messages/count_tokens)
+
+Batches
+
+[Create a Message Batch](https://platform.claude.com/docs/en/api/beta/messages/batches/create) [Retrieve a Message Batch](https://platform.claude.com/docs/en/api/beta/messages/batches/retrieve) [List Message Batches](https://platform.claude.com/docs/en/api/beta/messages/batches/list) [Cancel a Message Batch](https://platform.claude.com/docs/en/api/beta/messages/batches/cancel) [Delete a Message Batch](https://platform.claude.com/docs/en/api/beta/messages/batches/delete) [Retrieve Message Batch results](https://platform.claude.com/docs/en/api/beta/messages/batches/results)
+
+Files
+
+Skills
+
+[Admin](https://platform.claude.com/docs/en/api/admin)
+
+Organizations
+
+Invites
+
+Users
+
+Workspaces
+
+API Keys
+
+Usage Report
+
+Cost Report
+
+[Completions](https://platform.claude.com/docs/en/api/completions)
+
+[Create a Text Completion](https://platform.claude.com/docs/en/api/completions/create)
+
+Support & configuration
+
+[Rate limits](https://platform.claude.com/docs/en/api/rate-limits) [Service tiers](https://platform.claude.com/docs/en/api/service-tiers) [Versions](https://platform.claude.com/docs/en/api/versioning) [IP addresses](https://platform.claude.com/docs/en/api/ip-addresses) [Supported regions](https://platform.claude.com/docs/en/api/supported-regions) [OpenAI SDK compatibility](https://platform.claude.com/docs/en/api/openai-sdk)
+
+[Console](https://platform.claude.com/)
+
+[Log in](https://platform.claude.com/login)
+
+Batches
+
+Results
+
+Copy page
+
+Java
+
+# Retrieve Message Batch results
+
+[BetaMessageBatchIndividualResponse](https://platform.claude.com/docs/en/api/beta#beta_message_batch_individual_response)beta().messages().batches().resultsStreaming(BatchResultsParamsparams=BatchResultsParams.none(), RequestOptionsrequestOptions=RequestOptions.none())
+
+get/v1/messages/batches/{message\_batch\_id}/results
+
+Streams the results of a Message Batch as a `.jsonl` file.
+
+Each line in the file is a JSON object containing the result of a single request in the Message Batch. Results are not guaranteed to be in the same order as requests. Use the `custom_id` field to match results to requests.
+
+Learn more about the Message Batches API in our [user guide](https://docs.claude.com/en/docs/build-with-claude/batch-processing)
+
+##### ParametersExpand Collapse
+
+BatchResultsParamsparams
+
+Optional<String>messageBatchId
+
+ID of the Message Batch.
+
+Optional<List<AnthropicBeta>>betas
+
+Optional header to specify the beta version(s) you want to use.
+
+MESSAGE\_BATCHES\_2024\_09\_24("message-batches-2024-09-24")
+
+PROMPT\_CACHING\_2024\_07\_31("prompt-caching-2024-07-31")
+
+COMPUTER\_USE\_2024\_10\_22("computer-use-2024-10-22")
+
+COMPUTER\_USE\_2025\_01\_24("computer-use-2025-01-24")
+
+PDFS\_2024\_09\_25("pdfs-2024-09-25")
+
+TOKEN\_COUNTING\_2024\_11\_01("token-counting-2024-11-01")
+
+TOKEN\_EFFICIENT\_TOOLS\_2025\_02\_19("token-efficient-tools-2025-02-19")
+
+OUTPUT\_128K\_2025\_02\_19("output-128k-2025-02-19")
+
+FILES\_API\_2025\_04\_14("files-api-2025-04-14")
+
+MCP\_CLIENT\_2025\_04\_04("mcp-client-2025-04-04")
+
+MCP\_CLIENT\_2025\_11\_20("mcp-client-2025-11-20")
+
+DEV\_FULL\_THINKING\_2025\_05\_14("dev-full-thinking-2025-05-14")
+
+INTERLEAVED\_THINKING\_2025\_05\_14("interleaved-thinking-2025-05-14")
+
+CODE\_EXECUTION\_2025\_05\_22("code-execution-2025-05-22")
+
+EXTENDED\_CACHE\_TTL\_2025\_04\_11("extended-cache-ttl-2025-04-11")
+
+CONTEXT\_1M\_2025\_08\_07("context-1m-2025-08-07")
+
+CONTEXT\_MANAGEMENT\_2025\_06\_27("context-management-2025-06-27")
+
+MODEL\_CONTEXT\_WINDOW\_EXCEEDED\_2025\_08\_26("model-context-window-exceeded-2025-08-26")
+
+SKILLS\_2025\_10\_02("skills-2025-10-02")
+
+##### ReturnsExpand Collapse
+
+classBetaMessageBatchIndividualResponse:
+
+This is a single line in the response `.jsonl` file and does not represent the response as a whole.
+
+StringcustomId
+
+Developer-provided ID created for each request in a Message Batch. Useful for matching results to requests, as results may be given out of request order.
+
+Must be unique for each request within the Message Batch.
+
+[BetaMessageBatchResult](https://platform.claude.com/docs/en/api/beta#beta_message_batch_result)result
+
+Processing result for this request.
+
+Contains a Message output if processing was successful, an error response if processing failed, or the reason why processing was not attempted, such as cancellation or expiration.
+
+Accepts one of the following:
+
+classBetaMessageBatchSucceededResult:
+
+[BetaMessage](https://platform.claude.com/docs/en/api/beta#beta_message)message
+
+Stringid
+
+Unique object identifier.
+
+The format and length of IDs may change over time.
+
+Optional<[BetaContainer](https://platform.claude.com/docs/en/api/beta#beta_container)>container
+
+Information about the container used in the request (for the code execution tool)
+
+Stringid
+
+Identifier for the container used in this request
+
+LocalDateTimeexpiresAt
+
+The time at which the container will expire.
+
+formatdate-time
+
+Optional<List<[BetaSkill](https://platform.claude.com/docs/en/api/beta#beta_skill)>>skills
+
+Skills loaded in the container
+
+StringskillId
+
+Skill ID
+
+maxLength64
+
+minLength1
+
+Typetype
+
+Type of skill - either 'anthropic' (built-in) or 'custom' (user-defined)
+
+Accepts one of the following:
+
+ANTHROPIC("anthropic")
+
+CUSTOM("custom")
+
+Stringversion
+
+Skill version or 'latest' for most recent version
+
+maxLength64
+
+minLength1
+
+List<[BetaContentBlock](https://platform.claude.com/docs/en/api/beta#beta_content_block)>content
+
+Content generated by the model.
+
+This is an array of content blocks, each of which has a `type` that determines its shape.
+
+Example:
+
+```
+[{"type": "text", "text": "Hi, I'm Claude."}]
+```
+
+If the request input `messages` ended with an `assistant` turn, then the response `content` will continue directly from that last turn. You can use this to constrain the model's output.
+
+For example, if the input `messages` were:
+
+```
+[\
+  {"role": "user", "content": "What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun"},\
+  {"role": "assistant", "content": "The best answer is ("}\
+]
+```
+
+Then the response `content` might be:
+
+```
+[{"type": "text", "text": "B)"}]
+```
+
+Accepts one of the following:
+
+classBetaTextBlock:
+
+Optional<List<[BetaTextCitation](https://platform.claude.com/docs/en/api/beta#beta_text_citation)>>citations
+
+Citations supporting the text block.
+
+The type of citation returned will depend on the type of document being cited. Citing a PDF results in `page_location`, plain text results in `char_location`, and content document results in `content_block_location`.
+
+Accepts one of the following:
+
+classBetaCitationCharLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendCharIndex
+
+Optional<String>fileId
+
+longstartCharIndex
+
+JsonValue;type"char\_location"constant"char\_location"constant
+
+Accepts one of the following:
+
+CHAR\_LOCATION("char\_location")
+
+classBetaCitationPageLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendPageNumber
+
+Optional<String>fileId
+
+longstartPageNumber
+
+JsonValue;type"page\_location"constant"page\_location"constant
+
+Accepts one of the following:
+
+PAGE\_LOCATION("page\_location")
+
+classBetaCitationContentBlockLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendBlockIndex
+
+Optional<String>fileId
+
+longstartBlockIndex
+
+JsonValue;type"content\_block\_location"constant"content\_block\_location"constant
+
+Accepts one of the following:
+
+CONTENT\_BLOCK\_LOCATION("content\_block\_location")
+
+classBetaCitationsWebSearchResultLocation:
+
+StringcitedText
+
+StringencryptedIndex
+
+Optional<String>title
+
+JsonValue;type"web\_search\_result\_location"constant"web\_search\_result\_location"constant
+
+Accepts one of the following:
+
+WEB\_SEARCH\_RESULT\_LOCATION("web\_search\_result\_location")
+
+Stringurl
+
+classBetaCitationSearchResultLocation:
+
+StringcitedText
+
+longendBlockIndex
+
+longsearchResultIndex
+
+Stringsource
+
+longstartBlockIndex
+
+Optional<String>title
+
+JsonValue;type"search\_result\_location"constant"search\_result\_location"constant
+
+Accepts one of the following:
+
+SEARCH\_RESULT\_LOCATION("search\_result\_location")
+
+Stringtext
+
+JsonValue;type"text"constant"text"constant
+
+Accepts one of the following:
+
+TEXT("text")
+
+classBetaThinkingBlock:
+
+Stringsignature
+
+Stringthinking
+
+JsonValue;type"thinking"constant"thinking"constant
+
+Accepts one of the following:
+
+THINKING("thinking")
+
+classBetaRedactedThinkingBlock:
+
+Stringdata
+
+JsonValue;type"redacted\_thinking"constant"redacted\_thinking"constant
+
+Accepts one of the following:
+
+REDACTED\_THINKING("redacted\_thinking")
+
+classBetaToolUseBlock:
+
+Stringid
+
+Inputinput
+
+Stringname
+
+JsonValue;type"tool\_use"constant"tool\_use"constant
+
+Accepts one of the following:
+
+TOOL\_USE("tool\_use")
+
+Optional<Caller>caller
+
+Tool invocation directly from the model.
+
+Accepts one of the following:
+
+classBetaDirectCaller:
+
+Tool invocation directly from the model.
+
+JsonValue;type"direct"constant"direct"constant
+
+Accepts one of the following:
+
+DIRECT("direct")
+
+classBetaServerToolCaller:
+
+Tool invocation generated by a server-side tool.
+
+StringtoolId
+
+JsonValue;type"code\_execution\_20250825"constant"code\_execution\_20250825"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_20250825("code\_execution\_20250825")
+
+classBetaServerToolUseBlock:
+
+Stringid
+
+Callercaller
+
+Tool invocation directly from the model.
+
+Accepts one of the following:
+
+classBetaDirectCaller:
+
+Tool invocation directly from the model.
+
+JsonValue;type"direct"constant"direct"constant
+
+Accepts one of the following:
+
+DIRECT("direct")
+
+classBetaServerToolCaller:
+
+Tool invocation generated by a server-side tool.
+
+StringtoolId
+
+JsonValue;type"code\_execution\_20250825"constant"code\_execution\_20250825"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_20250825("code\_execution\_20250825")
+
+Inputinput
+
+Namename
+
+Accepts one of the following:
+
+WEB\_SEARCH("web\_search")
+
+WEB\_FETCH("web\_fetch")
+
+CODE\_EXECUTION("code\_execution")
+
+BASH\_CODE\_EXECUTION("bash\_code\_execution")
+
+TEXT\_EDITOR\_CODE\_EXECUTION("text\_editor\_code\_execution")
+
+TOOL\_SEARCH\_TOOL\_REGEX("tool\_search\_tool\_regex")
+
+TOOL\_SEARCH\_TOOL\_BM25("tool\_search\_tool\_bm25")
+
+JsonValue;type"server\_tool\_use"constant"server\_tool\_use"constant
+
+Accepts one of the following:
+
+SERVER\_TOOL\_USE("server\_tool\_use")
+
+classBetaWebSearchToolResultBlock:
+
+[BetaWebSearchToolResultBlockContent](https://platform.claude.com/docs/en/api/beta#beta_web_search_tool_result_block_content)content
+
+Accepts one of the following:
+
+classBetaWebSearchToolResultError:
+
+[BetaWebSearchToolResultErrorCode](https://platform.claude.com/docs/en/api/beta#beta_web_search_tool_result_error_code)errorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+UNAVAILABLE("unavailable")
+
+MAX\_USES\_EXCEEDED("max\_uses\_exceeded")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+QUERY\_TOO\_LONG("query\_too\_long")
+
+JsonValue;type"web\_search\_tool\_result\_error"constant"web\_search\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+WEB\_SEARCH\_TOOL\_RESULT\_ERROR("web\_search\_tool\_result\_error")
+
+List<[BetaWebSearchResultBlock](https://platform.claude.com/docs/en/api/beta#beta_web_search_result_block)>
+
+StringencryptedContent
+
+Optional<String>pageAge
+
+Stringtitle
+
+JsonValue;type"web\_search\_result"constant"web\_search\_result"constant
+
+Accepts one of the following:
+
+WEB\_SEARCH\_RESULT("web\_search\_result")
+
+Stringurl
+
+StringtoolUseId
+
+JsonValue;type"web\_search\_tool\_result"constant"web\_search\_tool\_result"constant
+
+Accepts one of the following:
+
+WEB\_SEARCH\_TOOL\_RESULT("web\_search\_tool\_result")
+
+classBetaWebFetchToolResultBlock:
+
+Contentcontent
+
+Accepts one of the following:
+
+classBetaWebFetchToolResultErrorBlock:
+
+[BetaWebFetchToolResultErrorCode](https://platform.claude.com/docs/en/api/beta#beta_web_fetch_tool_result_error_code)errorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+URL\_TOO\_LONG("url\_too\_long")
+
+URL\_NOT\_ALLOWED("url\_not\_allowed")
+
+URL\_NOT\_ACCESSIBLE("url\_not\_accessible")
+
+UNSUPPORTED\_CONTENT\_TYPE("unsupported\_content\_type")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+MAX\_USES\_EXCEEDED("max\_uses\_exceeded")
+
+UNAVAILABLE("unavailable")
+
+JsonValue;type"web\_fetch\_tool\_result\_error"constant"web\_fetch\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+WEB\_FETCH\_TOOL\_RESULT\_ERROR("web\_fetch\_tool\_result\_error")
+
+classBetaWebFetchBlock:
+
+[BetaDocumentBlock](https://platform.claude.com/docs/en/api/beta#beta_document_block)content
+
+Optional<[BetaCitationConfig](https://platform.claude.com/docs/en/api/beta#beta_citation_config)>citations
+
+Citation configuration for the document
+
+booleanenabled
+
+Sourcesource
+
+Accepts one of the following:
+
+classBetaBase64PdfSource:
+
+Stringdata
+
+JsonValue;mediaType"application/pdf"constant"application/pdf"constant
+
+Accepts one of the following:
+
+APPLICATION\_PDF("application/pdf")
+
+JsonValue;type"base64"constant"base64"constant
+
+Accepts one of the following:
+
+BASE64("base64")
+
+classBetaPlainTextSource:
+
+Stringdata
+
+JsonValue;mediaType"text/plain"constant"text/plain"constant
+
+Accepts one of the following:
+
+TEXT\_PLAIN("text/plain")
+
+JsonValue;type"text"constant"text"constant
+
+Accepts one of the following:
+
+TEXT("text")
+
+Optional<String>title
+
+The title of the document
+
+JsonValue;type"document"constant"document"constant
+
+Accepts one of the following:
+
+DOCUMENT("document")
+
+Optional<String>retrievedAt
+
+ISO 8601 timestamp when the content was retrieved
+
+JsonValue;type"web\_fetch\_result"constant"web\_fetch\_result"constant
+
+Accepts one of the following:
+
+WEB\_FETCH\_RESULT("web\_fetch\_result")
+
+Stringurl
+
+Fetched content URL
+
+StringtoolUseId
+
+JsonValue;type"web\_fetch\_tool\_result"constant"web\_fetch\_tool\_result"constant
+
+Accepts one of the following:
+
+WEB\_FETCH\_TOOL\_RESULT("web\_fetch\_tool\_result")
+
+classBetaCodeExecutionToolResultBlock:
+
+[BetaCodeExecutionToolResultBlockContent](https://platform.claude.com/docs/en/api/beta#beta_code_execution_tool_result_block_content)content
+
+Accepts one of the following:
+
+classBetaCodeExecutionToolResultError:
+
+[BetaCodeExecutionToolResultErrorCode](https://platform.claude.com/docs/en/api/beta#beta_code_execution_tool_result_error_code)errorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+UNAVAILABLE("unavailable")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+EXECUTION\_TIME\_EXCEEDED("execution\_time\_exceeded")
+
+JsonValue;type"code\_execution\_tool\_result\_error"constant"code\_execution\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_TOOL\_RESULT\_ERROR("code\_execution\_tool\_result\_error")
+
+classBetaCodeExecutionResultBlock:
+
+List<[BetaCodeExecutionOutputBlock](https://platform.claude.com/docs/en/api/beta#beta_code_execution_output_block)>content
+
+StringfileId
+
+JsonValue;type"code\_execution\_output"constant"code\_execution\_output"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_OUTPUT("code\_execution\_output")
+
+longreturnCode
+
+Stringstderr
+
+Stringstdout
+
+JsonValue;type"code\_execution\_result"constant"code\_execution\_result"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_RESULT("code\_execution\_result")
+
+StringtoolUseId
+
+JsonValue;type"code\_execution\_tool\_result"constant"code\_execution\_tool\_result"constant
+
+Accepts one of the following:
+
+CODE\_EXECUTION\_TOOL\_RESULT("code\_execution\_tool\_result")
+
+classBetaBashCodeExecutionToolResultBlock:
+
+Contentcontent
+
+Accepts one of the following:
+
+classBetaBashCodeExecutionToolResultError:
+
+ErrorCodeerrorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+UNAVAILABLE("unavailable")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+EXECUTION\_TIME\_EXCEEDED("execution\_time\_exceeded")
+
+OUTPUT\_FILE\_TOO\_LARGE("output\_file\_too\_large")
+
+JsonValue;type"bash\_code\_execution\_tool\_result\_error"constant"bash\_code\_execution\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+BASH\_CODE\_EXECUTION\_TOOL\_RESULT\_ERROR("bash\_code\_execution\_tool\_result\_error")
+
+classBetaBashCodeExecutionResultBlock:
+
+List<[BetaBashCodeExecutionOutputBlock](https://platform.claude.com/docs/en/api/beta#beta_bash_code_execution_output_block)>content
+
+StringfileId
+
+JsonValue;type"bash\_code\_execution\_output"constant"bash\_code\_execution\_output"constant
+
+Accepts one of the following:
+
+BASH\_CODE\_EXECUTION\_OUTPUT("bash\_code\_execution\_output")
+
+longreturnCode
+
+Stringstderr
+
+Stringstdout
+
+JsonValue;type"bash\_code\_execution\_result"constant"bash\_code\_execution\_result"constant
+
+Accepts one of the following:
+
+BASH\_CODE\_EXECUTION\_RESULT("bash\_code\_execution\_result")
+
+StringtoolUseId
+
+JsonValue;type"bash\_code\_execution\_tool\_result"constant"bash\_code\_execution\_tool\_result"constant
+
+Accepts one of the following:
+
+BASH\_CODE\_EXECUTION\_TOOL\_RESULT("bash\_code\_execution\_tool\_result")
+
+classBetaTextEditorCodeExecutionToolResultBlock:
+
+Contentcontent
+
+Accepts one of the following:
+
+classBetaTextEditorCodeExecutionToolResultError:
+
+ErrorCodeerrorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+UNAVAILABLE("unavailable")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+EXECUTION\_TIME\_EXCEEDED("execution\_time\_exceeded")
+
+FILE\_NOT\_FOUND("file\_not\_found")
+
+Optional<String>errorMessage
+
+JsonValue;type"text\_editor\_code\_execution\_tool\_result\_error"constant"text\_editor\_code\_execution\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+TEXT\_EDITOR\_CODE\_EXECUTION\_TOOL\_RESULT\_ERROR("text\_editor\_code\_execution\_tool\_result\_error")
+
+classBetaTextEditorCodeExecutionViewResultBlock:
+
+Stringcontent
+
+FileTypefileType
+
+Accepts one of the following:
+
+TEXT("text")
+
+IMAGE("image")
+
+PDF("pdf")
+
+Optional<Long>numLines
+
+Optional<Long>startLine
+
+Optional<Long>totalLines
+
+JsonValue;type"text\_editor\_code\_execution\_view\_result"constant"text\_editor\_code\_execution\_view\_result"constant
+
+Accepts one of the following:
+
+TEXT\_EDITOR\_CODE\_EXECUTION\_VIEW\_RESULT("text\_editor\_code\_execution\_view\_result")
+
+classBetaTextEditorCodeExecutionCreateResultBlock:
+
+booleanisFileUpdate
+
+JsonValue;type"text\_editor\_code\_execution\_create\_result"constant"text\_editor\_code\_execution\_create\_result"constant
+
+Accepts one of the following:
+
+TEXT\_EDITOR\_CODE\_EXECUTION\_CREATE\_RESULT("text\_editor\_code\_execution\_create\_result")
+
+classBetaTextEditorCodeExecutionStrReplaceResultBlock:
+
+Optional<List<String>>lines
+
+Optional<Long>newLines
+
+Optional<Long>newStart
+
+Optional<Long>oldLines
+
+Optional<Long>oldStart
+
+JsonValue;type"text\_editor\_code\_execution\_str\_replace\_result"constant"text\_editor\_code\_execution\_str\_replace\_result"constant
+
+Accepts one of the following:
+
+TEXT\_EDITOR\_CODE\_EXECUTION\_STR\_REPLACE\_RESULT("text\_editor\_code\_execution\_str\_replace\_result")
+
+StringtoolUseId
+
+JsonValue;type"text\_editor\_code\_execution\_tool\_result"constant"text\_editor\_code\_execution\_tool\_result"constant
+
+Accepts one of the following:
+
+TEXT\_EDITOR\_CODE\_EXECUTION\_TOOL\_RESULT("text\_editor\_code\_execution\_tool\_result")
+
+classBetaToolSearchToolResultBlock:
+
+Contentcontent
+
+Accepts one of the following:
+
+classBetaToolSearchToolResultError:
+
+ErrorCodeerrorCode
+
+Accepts one of the following:
+
+INVALID\_TOOL\_INPUT("invalid\_tool\_input")
+
+UNAVAILABLE("unavailable")
+
+TOO\_MANY\_REQUESTS("too\_many\_requests")
+
+EXECUTION\_TIME\_EXCEEDED("execution\_time\_exceeded")
+
+Optional<String>errorMessage
+
+JsonValue;type"tool\_search\_tool\_result\_error"constant"tool\_search\_tool\_result\_error"constant
+
+Accepts one of the following:
+
+TOOL\_SEARCH\_TOOL\_RESULT\_ERROR("tool\_search\_tool\_result\_error")
+
+classBetaToolSearchToolSearchResultBlock:
+
+List<[BetaToolReferenceBlock](https://platform.claude.com/docs/en/api/beta#beta_tool_reference_block)>toolReferences
+
+StringtoolName
+
+JsonValue;type"tool\_reference"constant"tool\_reference"constant
+
+Accepts one of the following:
+
+TOOL\_REFERENCE("tool\_reference")
+
+JsonValue;type"tool\_search\_tool\_search\_result"constant"tool\_search\_tool\_search\_result"constant
+
+Accepts one of the following:
+
+TOOL\_SEARCH\_TOOL\_SEARCH\_RESULT("tool\_search\_tool\_search\_result")
+
+StringtoolUseId
+
+JsonValue;type"tool\_search\_tool\_result"constant"tool\_search\_tool\_result"constant
+
+Accepts one of the following:
+
+TOOL\_SEARCH\_TOOL\_RESULT("tool\_search\_tool\_result")
+
+classBetaMcpToolUseBlock:
+
+Stringid
+
+Inputinput
+
+Stringname
+
+The name of the MCP tool
+
+StringserverName
+
+The name of the MCP server
+
+JsonValue;type"mcp\_tool\_use"constant"mcp\_tool\_use"constant
+
+Accepts one of the following:
+
+MCP\_TOOL\_USE("mcp\_tool\_use")
+
+classBetaMcpToolResultBlock:
+
+Contentcontent
+
+Accepts one of the following:
+
+String
+
+List<[BetaTextBlock](https://platform.claude.com/docs/en/api/beta#beta_text_block)>
+
+Optional<List<[BetaTextCitation](https://platform.claude.com/docs/en/api/beta#beta_text_citation)>>citations
+
+Citations supporting the text block.
+
+The type of citation returned will depend on the type of document being cited. Citing a PDF results in `page_location`, plain text results in `char_location`, and content document results in `content_block_location`.
+
+Accepts one of the following:
+
+classBetaCitationCharLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendCharIndex
+
+Optional<String>fileId
+
+longstartCharIndex
+
+JsonValue;type"char\_location"constant"char\_location"constant
+
+Accepts one of the following:
+
+CHAR\_LOCATION("char\_location")
+
+classBetaCitationPageLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendPageNumber
+
+Optional<String>fileId
+
+longstartPageNumber
+
+JsonValue;type"page\_location"constant"page\_location"constant
+
+Accepts one of the following:
+
+PAGE\_LOCATION("page\_location")
+
+classBetaCitationContentBlockLocation:
+
+StringcitedText
+
+longdocumentIndex
+
+Optional<String>documentTitle
+
+longendBlockIndex
+
+Optional<String>fileId
+
+longstartBlockIndex
+
+JsonValue;type"content\_block\_location"constant"content\_block\_location"constant
+
+Accepts one of the following:
+
+CONTENT\_BLOCK\_LOCATION("content\_block\_location")
+
+classBetaCitationsWebSearchResultLocation:
+
+StringcitedText
+
+StringencryptedIndex
+
+Optional<String>title
+
+JsonValue;type"web\_search\_result\_location"constant"web\_search\_result\_location"constant
+
+Accepts one of the following:
+
+WEB\_SEARCH\_RESULT\_LOCATION("web\_search\_result\_location")
+
+Stringurl
+
+classBetaCitationSearchResultLocation:
+
+StringcitedText
+
+longendBlockIndex
+
+longsearchResultIndex
+
+Stringsource
+
+longstartBlockIndex
+
+Optional<String>title
+
+JsonValue;type"search\_result\_location"constant"search\_result\_location"constant
+
+Accepts one of the following:
+
+SEARCH\_RESULT\_LOCATION("search\_result\_location")
+
+Stringtext
+
+JsonValue;type"text"constant"text"constant
+
+Accepts one of the following:
+
+TEXT("text")
+
+booleanisError
+
+StringtoolUseId
+
+JsonValue;type"mcp\_tool\_result"constant"mcp\_tool\_result"constant
+
+Accepts one of the following:
+
+MCP\_TOOL\_RESULT("mcp\_tool\_result")
+
+classBetaContainerUploadBlock:
+
+Response model for a file uploaded to the container.
+
+StringfileId
+
+JsonValue;type"container\_upload"constant"container\_upload"constant
+
+Accepts one of the following:
+
+CONTAINER\_UPLOAD("container\_upload")
+
+Optional<[BetaContextManagementResponse](https://platform.claude.com/docs/en/api/beta#beta_context_management_response)>contextManagement
+
+Context management response.
+
+Information about context management strategies applied during the request.
+
+List<AppliedEdit>appliedEdits
+
+List of context management edits that were applied.
+
+Accepts one of the following:
+
+classBetaClearToolUses20250919EditResponse:
+
+longclearedInputTokens
+
+Number of input tokens cleared by this edit.
+
+minimum0
+
+longclearedToolUses
+
+Number of tool uses that were cleared.
+
+minimum0
+
+JsonValue;type"clear\_tool\_uses\_20250919"constant"clear\_tool\_uses\_20250919"constant
+
+The type of context management edit applied.
+
+Accepts one of the following:
+
+CLEAR\_TOOL\_USES\_20250919("clear\_tool\_uses\_20250919")
+
+classBetaClearThinking20251015EditResponse:
+
+longclearedInputTokens
+
+Number of input tokens cleared by this edit.
+
+minimum0
+
+longclearedThinkingTurns
+
+Number of thinking turns that were cleared.
+
+minimum0
+
+JsonValue;type"clear\_thinking\_20251015"constant"clear\_thinking\_20251015"constant
+
+The type of context management edit applied.
+
+Accepts one of the following:
+
+CLEAR\_THINKING\_20251015("clear\_thinking\_20251015")
+
+Modelmodel
+
+The model that will complete your prompt.
+
+See [models](https://docs.anthropic.com/en/docs/models-overview) for additional details and options.
+
+Accepts one of the following:
+
+CLAUDE\_OPUS\_4\_5\_20251101("claude-opus-4-5-20251101")
+
+Premium model combining maximum intelligence with practical performance
+
+CLAUDE\_OPUS\_4\_5("claude-opus-4-5")
+
+Premium model combining maximum intelligence with practical performance
+
+CLAUDE\_3\_7\_SONNET\_LATEST("claude-3-7-sonnet-latest")
+
+High-performance model with early extended thinking
+
+CLAUDE\_3\_7\_SONNET\_20250219("claude-3-7-sonnet-20250219")
+
+High-performance model with early extended thinking
+
+CLAUDE\_3\_5\_HAIKU\_LATEST("claude-3-5-haiku-latest")
+
+Fastest and most compact model for near-instant responsiveness
+
+CLAUDE\_3\_5\_HAIKU\_20241022("claude-3-5-haiku-20241022")
+
+Our fastest model
+
+CLAUDE\_HAIKU\_4\_5("claude-haiku-4-5")
+
+Hybrid model, capable of near-instant responses and extended thinking
+
+CLAUDE\_HAIKU\_4\_5\_20251001("claude-haiku-4-5-20251001")
+
+Hybrid model, capable of near-instant responses and extended thinking
+
+CLAUDE\_SONNET\_4\_20250514("claude-sonnet-4-20250514")
+
+High-performance model with extended thinking
+
+CLAUDE\_SONNET\_4\_0("claude-sonnet-4-0")
+
+High-performance model with extended thinking
+
+CLAUDE\_4\_SONNET\_20250514("claude-4-sonnet-20250514")
+
+High-performance model with extended thinking
+
+CLAUDE\_SONNET\_4\_5("claude-sonnet-4-5")
+
+Our best model for real-world agents and coding
+
+CLAUDE\_SONNET\_4\_5\_20250929("claude-sonnet-4-5-20250929")
+
+Our best model for real-world agents and coding
+
+CLAUDE\_OPUS\_4\_0("claude-opus-4-0")
+
+Our most capable model
+
+CLAUDE\_OPUS\_4\_20250514("claude-opus-4-20250514")
+
+Our most capable model
+
+CLAUDE\_4\_OPUS\_20250514("claude-4-opus-20250514")
+
+Our most capable model
+
+CLAUDE\_OPUS\_4\_1\_20250805("claude-opus-4-1-20250805")
+
+Our most capable model
+
+CLAUDE\_3\_OPUS\_LATEST("claude-3-opus-latest")
+
+Excels at writing and complex tasks
+
+CLAUDE\_3\_OPUS\_20240229("claude-3-opus-20240229")
+
+Excels at writing and complex tasks
+
+CLAUDE\_3\_HAIKU\_20240307("claude-3-haiku-20240307")
+
+Our previous most fast and cost-effective
+
+JsonValue;role"assistant"constant"assistant"constant
+
+Conversational role of the generated message.
+
+This will always be `"assistant"`.
+
+Accepts one of the following:
+
+ASSISTANT("assistant")
+
+Optional<[BetaStopReason](https://platform.claude.com/docs/en/api/beta#beta_stop_reason)>stopReason
+
+The reason that we stopped.
+
+This may be one the following values:
+
+- `"end_turn"`: the model reached a natural stopping point
+- `"max_tokens"`: we exceeded the requested `max_tokens` or the model's maximum
+- `"stop_sequence"`: one of your provided custom `stop_sequences` was generated
+- `"tool_use"`: the model invoked one or more tools
+- `"pause_turn"`: we paused a long-running turn. You may provide the response back as-is in a subsequent request to let the model continue.
+- `"refusal"`: when streaming classifiers intervene to handle potential policy violations
+
+In non-streaming mode this value is always non-null. In streaming mode, it is null in the `message_start` event and non-null otherwise.
+
+Accepts one of the following:
+
+END\_TURN("end\_turn")
+
+MAX\_TOKENS("max\_tokens")
+
+STOP\_SEQUENCE("stop\_sequence")
+
+TOOL\_USE("tool\_use")
+
+PAUSE\_TURN("pause\_turn")
+
+REFUSAL("refusal")
+
+MODEL\_CONTEXT\_WINDOW\_EXCEEDED("model\_context\_window\_exceeded")
+
+Optional<String>stopSequence
+
+Which custom stop sequence was generated, if any.
+
+This value will be a non-null string if one of your custom stop sequences was generated.
+
+JsonValue;type"message"constant"message"constant
+
+Object type.
+
+For Messages, this is always `"message"`.
+
+Accepts one of the following:
+
+MESSAGE("message")
+
+[BetaUsage](https://platform.claude.com/docs/en/api/beta#beta_usage)usage
+
+Billing and rate-limit usage.
+
+Anthropic's API bills and rate-limits by token counts, as tokens represent the underlying cost to our systems.
+
+Under the hood, the API transforms requests into a format suitable for the model. The model's output then goes through a parsing stage before becoming an API response. As a result, the token counts in `usage` will not match one-to-one with the exact visible content of an API request or response.
+
+For example, `output_tokens` will be non-zero, even for an empty string response from Claude.
+
+Total input tokens in a request is the summation of `input_tokens`, `cache_creation_input_tokens`, and `cache_read_input_tokens`.
+
+Optional<[BetaCacheCreation](https://platform.claude.com/docs/en/api/beta#beta_cache_creation)>cacheCreation
+
+Breakdown of cached tokens by TTL
+
+longephemeral1hInputTokens
+
+The number of input tokens used to create the 1 hour cache entry.
+
+minimum0
+
+longephemeral5mInputTokens
+
+The number of input tokens used to create the 5 minute cache entry.
+
+minimum0
+
+Optional<Long>cacheCreationInputTokens
+
+The number of input tokens used to create the cache entry.
+
+minimum0
+
+Optional<Long>cacheReadInputTokens
+
+The number of input tokens read from the cache.
+
+minimum0
+
+longinputTokens
+
+The number of input tokens which were used.
+
+minimum0
+
+longoutputTokens
+
+The number of output tokens which were used.
+
+minimum0
+
+Optional<[BetaServerToolUsage](https://platform.claude.com/docs/en/api/beta#beta_server_tool_usage)>serverToolUse
+
+The number of server tool requests.
+
+longwebFetchRequests
+
+The number of web fetch tool requests.
+
+minimum0
+
+longwebSearchRequests
+
+The number of web search tool requests.
+
+minimum0
+
+Optional<ServiceTier>serviceTier
+
+If the request used the priority, standard, or batch tier.
+
+Accepts one of the following:
+
+STANDARD("standard")
+
+PRIORITY("priority")
+
+BATCH("batch")
+
+JsonValue;type"succeeded"constant"succeeded"constant
+
+Accepts one of the following:
+
+SUCCEEDED("succeeded")
+
+classBetaMessageBatchErroredResult:
+
+[BetaErrorResponse](https://platform.claude.com/docs/en/api/beta#beta_error_response)error
+
+[BetaError](https://platform.claude.com/docs/en/api/beta#beta_error)error
+
+Accepts one of the following:
+
+classBetaInvalidRequestError:
+
+Stringmessage
+
+JsonValue;type"invalid\_request\_error"constant"invalid\_request\_error"constant
+
+Accepts one of the following:
+
+INVALID\_REQUEST\_ERROR("invalid\_request\_error")
+
+classBetaAuthenticationError:
+
+Stringmessage
+
+JsonValue;type"authentication\_error"constant"authentication\_error"constant
+
+Accepts one of the following:
+
+AUTHENTICATION\_ERROR("authentication\_error")
+
+classBetaBillingError:
+
+Stringmessage
+
+JsonValue;type"billing\_error"constant"billing\_error"constant
+
+Accepts one of the following:
+
+BILLING\_ERROR("billing\_error")
+
+classBetaPermissionError:
+
+Stringmessage
+
+JsonValue;type"permission\_error"constant"permission\_error"constant
+
+Accepts one of the following:
+
+PERMISSION\_ERROR("permission\_error")
+
+classBetaNotFoundError:
+
+Stringmessage
+
+JsonValue;type"not\_found\_error"constant"not\_found\_error"constant
+
+Accepts one of the following:
+
+NOT\_FOUND\_ERROR("not\_found\_error")
+
+classBetaRateLimitError:
+
+Stringmessage
+
+JsonValue;type"rate\_limit\_error"constant"rate\_limit\_error"constant
+
+Accepts one of the following:
+
+RATE\_LIMIT\_ERROR("rate\_limit\_error")
+
+classBetaGatewayTimeoutError:
+
+Stringmessage
+
+JsonValue;type"timeout\_error"constant"timeout\_error"constant
+
+Accepts one of the following:
+
+TIMEOUT\_ERROR("timeout\_error")
+
+classBetaApiError:
+
+Stringmessage
+
+JsonValue;type"api\_error"constant"api\_error"constant
+
+Accepts one of the following:
+
+API\_ERROR("api\_error")
+
+classBetaOverloadedError:
+
+Stringmessage
+
+JsonValue;type"overloaded\_error"constant"overloaded\_error"constant
+
+Accepts one of the following:
+
+OVERLOADED\_ERROR("overloaded\_error")
+
+Optional<String>requestId
+
+JsonValue;type"error"constant"error"constant
+
+Accepts one of the following:
+
+ERROR("error")
+
+JsonValue;type"errored"constant"errored"constant
+
+Accepts one of the following:
+
+ERRORED("errored")
+
+classBetaMessageBatchCanceledResult:
+
+JsonValue;type"canceled"constant"canceled"constant
+
+Accepts one of the following:
+
+CANCELED("canceled")
+
+classBetaMessageBatchExpiredResult:
+
+JsonValue;type"expired"constant"expired"constant
+
+Accepts one of the following:
+
+EXPIRED("expired")
+
+Retrieve Message Batch results
+
+Java
+
+```
+package com.anthropic.example;
+
+import com.anthropic.client.AnthropicClient;
+import com.anthropic.client.okhttp.AnthropicOkHttpClient;
+import com.anthropic.core.http.StreamResponse;
+import com.anthropic.models.beta.messages.batches.BatchResultsParams;
+import com.anthropic.models.beta.messages.batches.BetaMessageBatchIndividualResponse;
+
+public final class Main {
+    private Main() {}
+
+    public static void main(String[] args) {
+        AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+
+        StreamResponse<BetaMessageBatchIndividualResponse> betaMessageBatchIndividualResponse = client.beta().messages().batches().resultsStreaming("message_batch_id");
+    }
+}
+```
+
+##### Returns Examples
+
+[Claude Docs home page](https://platform.claude.com/docs)
+
+[X (Twitter)](https://x.com/claudeai)[LinkedIn](https://www.linkedin.com/showcase/claude)[Instagram](https://instagram.com/claudeai)
+
+### Solutions
+
+- [AI agents](https://claude.com/solutions/agents)
+- [Code modernization](https://claude.com/solutions/code-modernization)
+- [Coding](https://claude.com/solutions/coding)
+- [Customer support](https://claude.com/solutions/customer-support)
+- [Education](https://claude.com/solutions/education)
+- [Financial services](https://claude.com/solutions/financial-services)
+- [Government](https://claude.com/solutions/government)
+- [Life sciences](https://claude.com/solutions/life-sciences)
+
+### Partners
+
+- [Amazon Bedrock](https://claude.com/partners/amazon-bedrock)
+- [Google Cloud's Vertex AI](https://claude.com/partners/google-cloud-vertex-ai)
+
+### Learn
+
+- [Blog](https://claude.com/blog)
+- [Catalog](https://claude.ai/catalog/artifacts)
+- [Courses](https://www.anthropic.com/learn)
+- [Use cases](https://claude.com/resources/use-cases)
+- [Connectors](https://claude.com/partners/mcp)
+- [Customer stories](https://claude.com/customers)
+- [Engineering at Anthropic](https://www.anthropic.com/engineering)
+- [Events](https://www.anthropic.com/events)
+- [Powered by Claude](https://claude.com/partners/powered-by-claude)
+- [Service partners](https://claude.com/partners/services)
+- [Startups program](https://claude.com/programs/startups)
+
+### Company
+
+- [Anthropic](https://www.anthropic.com/company)
+- [Careers](https://www.anthropic.com/careers)
+- [Economic Futures](https://www.anthropic.com/economic-futures)
+- [Research](https://www.anthropic.com/research)
+- [News](https://www.anthropic.com/news)
+- [Responsible Scaling Policy](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy)
+- [Security and compliance](https://trust.anthropic.com/)
+- [Transparency](https://www.anthropic.com/transparency)
+
+### Learn
+
+- [Blog](https://claude.com/blog)
+- [Catalog](https://claude.ai/catalog/artifacts)
+- [Courses](https://www.anthropic.com/learn)
+- [Use cases](https://claude.com/resources/use-cases)
+- [Connectors](https://claude.com/partners/mcp)
+- [Customer stories](https://claude.com/customers)
+- [Engineering at Anthropic](https://www.anthropic.com/engineering)
+- [Events](https://www.anthropic.com/events)
+- [Powered by Claude](https://claude.com/partners/powered-by-claude)
+- [Service partners](https://claude.com/partners/services)
+- [Startups program](https://claude.com/programs/startups)
+
+### Help and security
+
+- [Availability](https://www.anthropic.com/supported-countries)
+- [Status](https://status.anthropic.com/)
+- [Support](https://support.claude.com/)
+- [Discord](https://www.anthropic.com/discord)
+
+### Terms and policies
+
+- [Privacy policy](https://www.anthropic.com/legal/privacy)
+- [Responsible disclosure policy](https://www.anthropic.com/responsible-disclosure-policy)
+- [Terms of service: Commercial](https://www.anthropic.com/legal/commercial-terms)
+- [Terms of service: Consumer](https://www.anthropic.com/legal/consumer-terms)
+- [Usage policy](https://www.anthropic.com/legal/aup)
+
+Ask Docs
+![Chat avatar](https://platform.claude.com/docs/images/book-icon-light.svg)
+
+a.claude.ai
+
+# a.claude.ai is blocked
+
+**a.claude.ai** refused to connect.
+
+ERR\_BLOCKED\_BY\_RESPONSE
+
+**a.claude.ai** refused to connect.
+
+![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)

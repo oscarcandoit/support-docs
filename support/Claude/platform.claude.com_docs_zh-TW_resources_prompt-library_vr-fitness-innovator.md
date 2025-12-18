@@ -1,0 +1,233 @@
+---
+url: "https://platform.claude.com/docs/zh-TW/resources/prompt-library/vr-fitness-innovator"
+title: "VR 健身創新者 - Claude Docs"
+---
+
+[Claude Documentation Home](https://platform.claude.com/docs/zh-TW/home)
+
+- [開發者指南](https://platform.claude.com/docs/zh-TW/intro)
+- [API 參考](https://platform.claude.com/docs/zh-TW/api/overview)
+- [MCP](https://modelcontextprotocol.io/)
+- [資源](https://platform.claude.com/docs/zh-TW/resources/overview)
+- [發行說明](https://platform.claude.com/docs/zh-TW/release-notes/overview)
+
+繁體中文
+
+[Log in](https://platform.claude.com/login?returnTo=%2Fdocs%2Fzh-TW%2Fresources%2Fprompt-library%2Fvr-fitness-innovator)
+
+Search...
+
+⌘K
+
+資源
+
+[概覽](https://platform.claude.com/docs/zh-TW/resources/overview) [詞彙表](https://platform.claude.com/docs/zh-TW/about-claude/glossary) [系統提示詞](https://platform.claude.com/docs/zh-TW/release-notes/system-prompts)
+
+使用案例
+
+提示詞庫
+
+[提示詞庫](https://platform.claude.com/docs/zh-TW/resources/prompt-library/library) [Cosmic Keystrokes](https://platform.claude.com/docs/zh-TW/resources/prompt-library/cosmic-keystrokes) [Corporate clairvoyant](https://platform.claude.com/docs/zh-TW/resources/prompt-library/corporate-clairvoyant) [Website wizard](https://platform.claude.com/docs/zh-TW/resources/prompt-library/website-wizard) [Excel formula expert](https://platform.claude.com/docs/zh-TW/resources/prompt-library/excel-formula-expert) [Google Apps 指令碼編寫者](https://platform.claude.com/docs/zh-TW/resources/prompt-library/google-apps-scripter) [Python bug buster](https://platform.claude.com/docs/zh-TW/resources/prompt-library/python-bug-buster) [Time travel consultant](https://platform.claude.com/docs/zh-TW/resources/prompt-library/time-travel-consultant) [Storytelling sidekick](https://platform.claude.com/docs/zh-TW/resources/prompt-library/storytelling-sidekick) [引用您的來源](https://platform.claude.com/docs/zh-TW/resources/prompt-library/cite-your-sources) [SQL sorcerer](https://platform.claude.com/docs/zh-TW/resources/prompt-library/sql-sorcerer) [Dream interpreter](https://platform.claude.com/docs/zh-TW/resources/prompt-library/dream-interpreter) [Pun-dit](https://platform.claude.com/docs/zh-TW/resources/prompt-library/pun-dit) [Culinary creator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/culinary-creator) [混合詞詩人](https://platform.claude.com/docs/zh-TW/resources/prompt-library/portmanteau-poet) [Hal the humorous helper](https://platform.claude.com/docs/zh-TW/resources/prompt-library/hal-the-humorous-helper) [LaTeX legend](https://platform.claude.com/docs/zh-TW/resources/prompt-library/latex-legend) [Mood colorizer](https://platform.claude.com/docs/zh-TW/resources/prompt-library/mood-colorizer) [Git gud](https://platform.claude.com/docs/zh-TW/resources/prompt-library/git-gud) [Simile savant](https://platform.claude.com/docs/zh-TW/resources/prompt-library/simile-savant) [Ethical dilemma navigator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/ethical-dilemma-navigator) [Meeting scribe](https://platform.claude.com/docs/zh-TW/resources/prompt-library/meeting-scribe) [Idiom illuminator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/idiom-illuminator) [程式碼顧問](https://platform.claude.com/docs/zh-TW/resources/prompt-library/code-consultant) [Function fabricator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/function-fabricator) [Neologism creator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/neologism-creator) [CSV converter](https://platform.claude.com/docs/zh-TW/resources/prompt-library/csv-converter) [Emoji encoder](https://platform.claude.com/docs/zh-TW/resources/prompt-library/emoji-encoder) [Prose polisher](https://platform.claude.com/docs/zh-TW/resources/prompt-library/prose-polisher) [Perspectives ponderer](https://platform.claude.com/docs/zh-TW/resources/prompt-library/perspectives-ponderer) [Trivia generator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/trivia-generator) [Mindfulness mentor](https://platform.claude.com/docs/zh-TW/resources/prompt-library/mindfulness-mentor) [Second-grade simplifier](https://platform.claude.com/docs/zh-TW/resources/prompt-library/second-grade-simplifier) [VR fitness innovator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/vr-fitness-innovator) [PII 淨化器](https://platform.claude.com/docs/zh-TW/resources/prompt-library/pii-purifier) [Memo maestro](https://platform.claude.com/docs/zh-TW/resources/prompt-library/memo-maestro) [Career coach](https://platform.claude.com/docs/zh-TW/resources/prompt-library/career-coach) [Grading guru](https://platform.claude.com/docs/zh-TW/resources/prompt-library/grading-guru) [Tongue twister](https://platform.claude.com/docs/zh-TW/resources/prompt-library/tongue-twister) [Interview question crafter](https://platform.claude.com/docs/zh-TW/resources/prompt-library/interview-question-crafter) [Grammar genie](https://platform.claude.com/docs/zh-TW/resources/prompt-library/grammar-genie) [謎語我這個](https://platform.claude.com/docs/zh-TW/resources/prompt-library/riddle-me-this) [程式碼澄清器](https://platform.claude.com/docs/zh-TW/resources/prompt-library/code-clarifier) [Alien anthropologist](https://platform.claude.com/docs/zh-TW/resources/prompt-library/alien-anthropologist) [資料組織者](https://platform.claude.com/docs/zh-TW/resources/prompt-library/data-organizer) [品牌建立者](https://platform.claude.com/docs/zh-TW/resources/prompt-library/brand-builder) [Efficiency estimator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/efficiency-estimator) [Review classifier](https://platform.claude.com/docs/zh-TW/resources/prompt-library/review-classifier) [Direction decoder](https://platform.claude.com/docs/zh-TW/resources/prompt-library/direction-decoder) [Motivational muse](https://platform.claude.com/docs/zh-TW/resources/prompt-library/motivational-muse) [Email extractor](https://platform.claude.com/docs/zh-TW/resources/prompt-library/email-extractor) [Master moderator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/master-moderator) [Lesson planner](https://platform.claude.com/docs/zh-TW/resources/prompt-library/lesson-planner) [Socratic sage](https://platform.claude.com/docs/zh-TW/resources/prompt-library/socratic-sage) [Alliteration alchemist](https://platform.claude.com/docs/zh-TW/resources/prompt-library/alliteration-alchemist) [Futuristic fashion advisor](https://platform.claude.com/docs/zh-TW/resources/prompt-library/futuristic-fashion-advisor) [Polyglot superpowers](https://platform.claude.com/docs/zh-TW/resources/prompt-library/polyglot-superpowers) [Product naming pro](https://platform.claude.com/docs/zh-TW/resources/prompt-library/product-naming-pro) [Philosophical musings](https://platform.claude.com/docs/zh-TW/resources/prompt-library/philosophical-musings) [Spreadsheet sorcerer](https://platform.claude.com/docs/zh-TW/resources/prompt-library/spreadsheet-sorcerer) [Sci-fi scenario simulator](https://platform.claude.com/docs/zh-TW/resources/prompt-library/sci-fi-scenario-simulator) [Adaptive editor](https://platform.claude.com/docs/zh-TW/resources/prompt-library/adaptive-editor) [Babel's broadcasts](https://platform.claude.com/docs/zh-TW/resources/prompt-library/babels-broadcasts) [Tweet tone detector](https://platform.claude.com/docs/zh-TW/resources/prompt-library/tweet-tone-detector) [Airport code analyst](https://platform.claude.com/docs/zh-TW/resources/prompt-library/airport-code-analyst)
+
+[Console](https://platform.claude.com/)
+
+[Log in](https://platform.claude.com/login)
+
+提示詞庫
+
+VR fitness innovator
+
+提示詞庫
+
+# VR 健身創新者
+
+Copy page
+
+為虛擬實境健身遊戲腦力激盪創意想法。
+
+Copy page
+
+> 將此提示複製到我們的開發者 [Console](https://platform.claude.com/dashboard) 中親自試試看！
+
+| 角色 | 內容 |
+| --- | --- |
+| 使用者 | 您的任務是為虛擬實境（VR）健身遊戲產生一份創新且引人入勝的想法清單。考慮各種遊戲類型、獨特的遊戲機制、沉浸式環境，以及融入體能運動和動作的創意方式。這些想法應該吸引廣泛的健身愛好者和遊戲玩家，鼓勵他們在 VR 中運動時保持活躍並享受樂趣。對於每個想法，請提供遊戲概念的簡要描述、主要特色，以及它如何促進健身。 |
+
+## 範例輸出
+
+1. 想法：VR 跑酷冒險
+
+描述：玩家在動態城市環境中導航，跑步、跳躍、攀爬，並執行跑酷特技來克服障礙並達成目標。遊戲會適應玩家的動作，在探索虛擬城市的同時提供強烈的全身鍛鍊。
+
+主要特色：逼真的跑酷機制、程序生成環境、多人競賽和挑戰。
+
+健身方面：有氧運動、敏捷性、協調性和下肢力量。
+2. 想法：節奏拳擊
+
+描述：一款配合流行音樂節拍的高能量拳擊遊戲。玩家必須與節奏同步地出拳、閃避和格擋來得分，並通過越來越具挑戰性的關卡。遊戲提供各種拳擊風格和訓練模式。
+
+主要特色：授權音樂、可自訂拳擊手、線上多人遊戲，以及多樣化的拳擊技巧。
+
+健身方面：有氧運動、上肢力量、反應力和耐力。
+3. 想法：VR 健身 RPG
+
+描述：一款沉浸式角色扮演遊戲，玩家創建自己的角色並踏上拯救奇幻世界的任務。遊戲結合傳統 RPG 元素與健身挑戰，要求玩家執行體能運動來施放法術、擊敗敵人並提升角色等級。
+
+主要特色：角色自訂、技能樹、史詩級頭目戰鬥，以及力量、有氧和柔韌性運動的組合。
+
+健身方面：全身鍛鍊、力量訓練、有氧運動和柔韌性。
+
+* * *
+
+## API 請求
+
+Python
+
+Python
+
+TypeScript
+
+TypeScript
+
+AWS Bedrock Python
+
+AWS Bedrock Python
+
+AWS Bedrock TypeScript
+
+AWS Bedrock TypeScript
+
+Vertex AI Python
+
+Vertex AI Python
+
+Vertex AI TypeScript
+
+Vertex AI TypeScript
+
+```
+import anthropic
+
+client = anthropic.Anthropic(
+  # defaults to os.environ.get("ANTHROPIC_API_KEY")
+  api_key="my_api_key",
+)
+message = client.messages.create(
+  model="claude-sonnet-4-5",
+  max_tokens=1000,
+  temperature=1,
+  messages=[\
+    {\
+      "role": "user",\
+      "content": [\
+        {\
+          "type": "text",\
+          "text": "您的任務是為虛擬實境（VR）健身遊戲產生一份創新且引人入勝的想法清單。考慮各種遊戲類型、獨特的遊戲機制、沉浸式環境，以及融入體能運動和動作的創意方式。這些想法應該吸引廣泛的健身愛好者和遊戲玩家，鼓勵他們在 VR 中運動時保持活躍並享受樂趣。對於每個想法，請提供遊戲概念的簡要描述、主要特色，以及它如何促進健身。"\
+        }\
+      ]\
+    }\
+  ]
+)
+print(message.content)
+```
+
+- [API 請求](https://platform.claude.com/docs/zh-TW/resources/prompt-library/vr-fitness-innovator#api)
+
+[Claude Docs home page](https://platform.claude.com/docs)
+
+[X (Twitter)](https://x.com/claudeai)[LinkedIn](https://www.linkedin.com/showcase/claude)[Instagram](https://instagram.com/claudeai)
+
+### Solutions
+
+- [AI agents](https://claude.com/solutions/agents)
+- [Code modernization](https://claude.com/solutions/code-modernization)
+- [Coding](https://claude.com/solutions/coding)
+- [Customer support](https://claude.com/solutions/customer-support)
+- [Education](https://claude.com/solutions/education)
+- [Financial services](https://claude.com/solutions/financial-services)
+- [Government](https://claude.com/solutions/government)
+- [Life sciences](https://claude.com/solutions/life-sciences)
+
+### Partners
+
+- [Amazon Bedrock](https://claude.com/partners/amazon-bedrock)
+- [Google Cloud's Vertex AI](https://claude.com/partners/google-cloud-vertex-ai)
+
+### Learn
+
+- [Blog](https://claude.com/blog)
+- [Catalog](https://claude.ai/catalog/artifacts)
+- [Courses](https://www.anthropic.com/learn)
+- [Use cases](https://claude.com/resources/use-cases)
+- [Connectors](https://claude.com/partners/mcp)
+- [Customer stories](https://claude.com/customers)
+- [Engineering at Anthropic](https://www.anthropic.com/engineering)
+- [Events](https://www.anthropic.com/events)
+- [Powered by Claude](https://claude.com/partners/powered-by-claude)
+- [Service partners](https://claude.com/partners/services)
+- [Startups program](https://claude.com/programs/startups)
+
+### Company
+
+- [Anthropic](https://www.anthropic.com/company)
+- [Careers](https://www.anthropic.com/careers)
+- [Economic Futures](https://www.anthropic.com/economic-futures)
+- [Research](https://www.anthropic.com/research)
+- [News](https://www.anthropic.com/news)
+- [Responsible Scaling Policy](https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy)
+- [Security and compliance](https://trust.anthropic.com/)
+- [Transparency](https://www.anthropic.com/transparency)
+
+### Learn
+
+- [Blog](https://claude.com/blog)
+- [Catalog](https://claude.ai/catalog/artifacts)
+- [Courses](https://www.anthropic.com/learn)
+- [Use cases](https://claude.com/resources/use-cases)
+- [Connectors](https://claude.com/partners/mcp)
+- [Customer stories](https://claude.com/customers)
+- [Engineering at Anthropic](https://www.anthropic.com/engineering)
+- [Events](https://www.anthropic.com/events)
+- [Powered by Claude](https://claude.com/partners/powered-by-claude)
+- [Service partners](https://claude.com/partners/services)
+- [Startups program](https://claude.com/programs/startups)
+
+### Help and security
+
+- [Availability](https://www.anthropic.com/supported-countries)
+- [Status](https://status.anthropic.com/)
+- [Support](https://support.claude.com/)
+- [Discord](https://www.anthropic.com/discord)
+
+### Terms and policies
+
+- [Privacy policy](https://www.anthropic.com/legal/privacy)
+- [Responsible disclosure policy](https://www.anthropic.com/responsible-disclosure-policy)
+- [Terms of service: Commercial](https://www.anthropic.com/legal/commercial-terms)
+- [Terms of service: Consumer](https://www.anthropic.com/legal/consumer-terms)
+- [Usage policy](https://www.anthropic.com/legal/aup)
+
+Ask Docs
+![Chat avatar](https://platform.claude.com/docs/images/book-icon-light.svg)
+
+a.claude.ai
+
+# a.claude.ai is blocked
+
+**a.claude.ai** refused to connect.
+
+ERR\_BLOCKED\_BY\_RESPONSE
+
+**a.claude.ai** refused to connect.
+
+![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)
+
+Invalid domain for site key.
+
+ERROR for site owner:
+
+Invalid domain for site key
+
+reCAPTCHA
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
