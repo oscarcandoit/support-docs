@@ -1,0 +1,18 @@
+<!-- Source: https://www.remotion.dev/docs/captions/ensure-max-characters-per-line -->
+
+# Ensure Max Characters Per Line
+
+---
+image: /generated/articles-docs-captions-ensure-max-characters-per-line.png
+title: ensureMaxCharactersPerLine()
+crumb: '@remotion/captions'
+---
+
+# ensureMaxCharactersPerLine()<AvailableFrom v="4.0.216"/>
+
+This is an internal, undocumented API for now.
+
+## See also
+
+- [Source code for this function](https://github.com/remotion-dev/remotion/blob/main/packages/captions/src/ensure-max-characters-per-line.ts)
+- [`@remotion/captions`](/docs/captions/api)
