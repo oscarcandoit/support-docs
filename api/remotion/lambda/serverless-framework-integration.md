@@ -414,7 +414,7 @@ curl --location --request GET 'https://xxxxxxxx.execute-api.ap-southeast-2.amazo
         "type": "success",
         "url": "https://s3.ap-southeast-2.amazonaws.com/remotionlambda-apsoutheast2-xxxxxxxx/renders/i9xnfrgXXXX/out.mp4"
     },
-    "mediaUrl": "https://remotionlambda-apsoutheast2-xxxxxxxx.s3.ap-southeast-2.amazonaws.com/renders/i9xnfrgXXXX/out.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZ3B4C6O75ZTGPMJ4%2F20230128%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20230128T073123Z&X-Amz-Expires=900&X-Amz-Security-Token=IQXXXXXXXXV%2BWIoTQ5CvZXcljmGUIOkllDRsnmrRGNYvY8IVn8FRQmt%2Bc8%2BJQdiG0ShI0y82jB2s%2BbkaPf%2FJNDrSjO5tBo8%2FXwtaP2z9PewUIND1yMm4TkOUMXXXXXn6j&X-Amz-Signature=0881241614cd6c778b1XXXXXX42941c&X-Amz-SignedHeaders=host&x-id=GetObject"
+    "mediaUrl": "https://remotionlambda-apsoutheast2-xxxxxxxx.s3.ap-southeast-2.amazonaws.com/renders/i9xnfrgXXXX/out.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=EXAMPLE_CREDENTIAL_ID%2F20230128%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Date=20230128T073123Z&X-Amz-Expires=900&X-Amz-Security-Token=EXAMPLE_SECURITY_TOKEN&X-Amz-Signature=EXAMPLE_SIGNATURE&X-Amz-SignedHeaders=host&x-id=GetObject"
 }
 ```
 
