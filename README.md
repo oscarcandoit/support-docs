@@ -80,6 +80,7 @@ API references, endpoints, and integration guides for external services.
 
 - **`api/ghl-api/`** - GoHighLevel API documentation (1,285+ files)
 - **`api/servicetitan/`** - ServiceTitan API documentation (35+ files)
+- **`api/remotion/`** - Remotion video generation documentation (766 files) - **NEW!**
 
 ## Usage
 
@@ -106,10 +107,39 @@ This repository contains comprehensive documentation for troubleshooting, integr
 **API References:**
 - [GoHighLevel API](api/ghl-api/)
 - [ServiceTitan API](api/servicetitan/)
+- [Remotion Video API](api/remotion/)
 
-## Total Files: 24,178+ documentation files
+## Tools & Automation
+
+This repository includes tools for maintaining and updating documentation.
+
+- **[TOOLS.md](TOOLS.md)** - Complete guide to automation tools
+  - Documentation scraper (Python) - Scrape any docs site to markdown
+  - GitHub Actions workflows - Automated updates
+  - Templates for creating new scrapers
+
+### Available Scrapers
+
+| Site | Script | Action | Output |
+|------|--------|--------|--------|
+| Remotion | `scrape_remotion_docs.py` | [Run Workflow](../../actions/workflows/scrape-remotion-docs.yml) | `api/remotion/` |
+
+### Running Scrapers
+
+**Via GitHub Actions (Recommended):**
+1. Go to [Actions](../../actions)
+2. Select the scraper workflow
+3. Click "Run workflow"
+
+**Locally:**
+```bash
+pip3 install requests beautifulsoup4 html2text
+python3 scrape_remotion_docs.py
+```
+
+## Total Files: 24,944+ documentation files
 - Support Documentation: 22,859+ files (includes 2,543 Claude docs)
-- API Documentation: 1,326+ files
+- API Documentation: 2,086+ files (includes 766 Remotion docs)
 
 ## Token Permissions
 
@@ -128,5 +158,4 @@ When adding new documentation:
 3. Update this README if adding new major sections
 4. Ensure files are properly organized and named
 
-Last Updated: December 18, 2025
-EOF < /dev/null
+Last Updated: January 26, 2026
